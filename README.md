@@ -5,10 +5,10 @@ It is designed to run QMK firmware. https://github.com/qmk/qmk_firmware
 
 ## Parts
 * 16x Cherry-style mechanical switches
-* 2x 10KOhm resistors (thru-hole)
-* 16x 1n4148 diodes
+* 2x 10KOhm resistors (0.3" thru hole)
+* 16x 1n4148 diodes (thru hole)
 * 1x Pro Micro ATmega32u4
-* 1x EC11 rotary encoder
+* 1x EC11 rotary encoder (7-pin)
 * (optional) 1x 6mm tactile switch (to reset MCU)
 
 ## Making the PCB
