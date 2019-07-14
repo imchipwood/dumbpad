@@ -148,8 +148,8 @@
 <wire x1="0" y1="80" x2="0" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="0" x2="98" y2="0" width="0.1524" layer="20"/>
 <wire x1="98" y1="0" x2="98" y2="80" width="0.1524" layer="20"/>
-<text x="4" y="42" size="1.778" layer="25" rot="SR270">dumbpad v0.2</text>
-<text x="1.5" y="42" size="1.778" layer="25" rot="SR270">imchipwood@gmail.com</text>
+<text x="4" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.2</text>
+<text x="1.5" y="40" size="1.778" layer="25" rot="SR270">imchipwood@gmail.com</text>
 <wire x1="2.5" y1="76" x2="7.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="7.5" y1="76" x2="15.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="15.5" y1="76" x2="20.5" y2="76" width="0.1524" layer="21"/>
