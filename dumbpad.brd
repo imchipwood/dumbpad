@@ -163,11 +163,29 @@ github.com/imchipwood</text>
 <text x="1.5" y="16" size="1.778" layer="26" rot="SMR90">dumbpad v0.2
 github.com/imchipwood</text>
 <text x="17.5" y="69.5" size="0.75" layer="21" align="center-right">GND</text>
-<text x="17.5" y="72" size="0.75" layer="21" align="center-right">RAW</text>
-<text x="17.5" y="67" size="0.75" layer="21" align="center-right">RST</text>
+<text x="17.5" y="72.25" size="0.75" layer="21" align="center-right">RAW</text>
+<text x="17.5" y="67.1" size="0.75" layer="21" align="center-right">RST</text>
 <text x="17.5" y="64.5" size="0.75" layer="21" align="center-right">VCC</text>
-<text x="5.5" y="67" size="0.75" layer="21" align="center-left">GND</text>
+<text x="5.5" y="67.1" size="0.75" layer="21" align="center-left">GND</text>
 <text x="5.5" y="64.5" size="0.75" layer="21" align="center-left">GND</text>
+<text x="5.5" y="72.25" size="0.75" layer="21" align="center-left">D3</text>
+<text x="5.5" y="69.5" size="0.75" layer="21" align="center-left">D2</text>
+<text x="5.5" y="62" size="0.75" layer="21" align="center-left">D1</text>
+<text x="5.5" y="59.5" size="0.75" layer="21" align="center-left">D0</text>
+<text x="5.5" y="57" size="0.75" layer="21" align="center-left">D4</text>
+<text x="5.5" y="54.5" size="0.75" layer="21" align="center-left">C6</text>
+<text x="5.5" y="51.85" size="0.75" layer="21" align="center-left">D7</text>
+<text x="5.5" y="49.4" size="0.75" layer="21" align="center-left">E6</text>
+<text x="5.5" y="46.9" size="0.75" layer="21" align="center-left">B4</text>
+<text x="5.5" y="44.25" size="0.75" layer="21" align="center-left">B5</text>
+<text x="17.5" y="62" size="0.75" layer="21" align="center-right">F4</text>
+<text x="17.5" y="59.5" size="0.75" layer="21" align="center-right">F5</text>
+<text x="17.5" y="57" size="0.75" layer="21" align="center-right">F6</text>
+<text x="17.5" y="54.5" size="0.75" layer="21" align="center-right">F7</text>
+<text x="17.5" y="51.85" size="0.75" layer="21" align="center-right">B1</text>
+<text x="17.5" y="49.4" size="0.75" layer="21" align="center-right">B3</text>
+<text x="17.5" y="46.9" size="0.75" layer="21" align="center-right">B2</text>
+<text x="17.5" y="44.25" size="0.75" layer="21" align="center-right">B6</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
