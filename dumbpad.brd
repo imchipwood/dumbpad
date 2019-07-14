@@ -30,7 +30,7 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
@@ -148,8 +148,8 @@
 <wire x1="0" y1="80" x2="0" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="0" x2="98" y2="0" width="0.1524" layer="20"/>
 <wire x1="98" y1="0" x2="98" y2="80" width="0.1524" layer="20"/>
-<text x="4" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.2</text>
-<text x="1.5" y="40" size="1.778" layer="25" rot="SR270">imchipwood@gmail.com</text>
+<text x="1.5" y="42" size="1.778" layer="25" rot="SR270">dumbpad v0.2
+github.com/imchipwood</text>
 <wire x1="2.5" y1="76" x2="7.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="7.5" y1="76" x2="15.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="15.5" y1="76" x2="20.5" y2="76" width="0.1524" layer="21"/>
@@ -160,6 +160,14 @@
 <wire x1="7.5" y1="77.5" x2="15.5" y2="77.5" width="0.1524" layer="21"/>
 <wire x1="15.5" y1="77.5" x2="15.5" y2="76" width="0.1524" layer="21"/>
 <text x="11.5" y="73.5" size="1.778" layer="21" align="bottom-center">pro micro</text>
+<text x="1.5" y="16" size="1.778" layer="26" rot="SMR90">dumbpad v0.2
+github.com/imchipwood</text>
+<text x="17.5" y="69.5" size="0.75" layer="21" align="center-right">GND</text>
+<text x="17.5" y="72" size="0.75" layer="21" align="center-right">RAW</text>
+<text x="17.5" y="67" size="0.75" layer="21" align="center-right">RST</text>
+<text x="17.5" y="64.5" size="0.75" layer="21" align="center-right">VCC</text>
+<text x="5.5" y="67" size="0.75" layer="21" align="center-left">GND</text>
+<text x="5.5" y="64.5" size="0.75" layer="21" align="center-left">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -1257,6 +1265,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
