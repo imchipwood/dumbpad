@@ -1,4 +1,7 @@
 # dumbpad
+
+[dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+
 dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro.
 
 It is designed to run QMK firmware. https://github.com/qmk/qmk_firmware
