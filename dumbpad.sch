@@ -1832,9 +1832,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="314.96" y1="172.72" x2="0" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="0" y1="172.72" x2="0" y2="0" width="0.1524" layer="97"/>
 <text x="307.34" y="2.54" size="1.778" layer="97">Rev:
-0.2</text>
+0.4</text>
 <text x="279.4" y="2.54" size="1.778" layer="97">Date:
-July 14, 2019</text>
+July 28, 2019</text>
 <text x="279.4" y="10.16" size="1.778" layer="97">Design By:
 github.com/imchipwood</text>
 <text x="279.4" y="17.78" size="1.778" layer="97">Title:
