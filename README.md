@@ -1,10 +1,10 @@
 # dumbpad
 
-[dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
 
-dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro.
+dumbpad is a simple 4x4 macro/numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro running [QMK firmware](https://github.com/qmk/qmk_firmware).
 
-It is designed to run QMK firmware. https://github.com/qmk/qmk_firmware
+The EC11 rotary encoder used has a push-button, which technically makes this a 17-switch macro/numpad. The default behavior of the rotary encoder is to move the mouse left/right - the intention is to be used on slider-type controls such as brightness, RGB values, etc. found in video/photo editing software.
 
 ## Parts
 * 16x Cherry-style mechanical switches
