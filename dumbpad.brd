@@ -832,6 +832,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="10.5" y="34.484" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PROD_ID" value="RES-8371" x="10.5" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="24" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
