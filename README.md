@@ -14,6 +14,7 @@ v0.5 introduces 2 LEDs for indicating which layer you're on. The QMK firmware ha
 * 17x 1n4148 diodes (thru hole)
 * 1x Pro Micro ATmega32u4
 * 1x EC11 rotary encoder (7-pin)
+* (optional) 1x 6mm tactile switch (to reset MCU - not needed most of the time as QMK has a RESET keycode)
 * (optional) 2x 3mm LEDs (whatever color)
 * (optional) 2x 220ohm or similar resistors for the LEDS (not needed if not adding LEDs)
 
