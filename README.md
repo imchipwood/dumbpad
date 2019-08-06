@@ -16,6 +16,7 @@ The EC11 rotary encoder used has a push-button, which technically makes this a 1
 * 1x Pro Micro ATmega32u4
 * 1x EC11 rotary encoder (7-pin)
 * 1x IS31FL3731 I2C LED driver (SSOP package)
+* 16x 3mm or 5mm LEDs (thru hole)
 * (optional) 1x 6mm tactile switch (to reset MCU - QMK reset keycode or bootmagic can be used instead)
 
 ## Making the PCB
