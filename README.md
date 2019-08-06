@@ -9,10 +9,16 @@ The EC11 rotary encoder used has a push-button, which technically makes this a 1
 
 ## Parts
 * 16x Cherry-style mechanical switches
-* 17x 1n4148 diodes (thru hole)
+* 17x diodes (SOD-123 package)
+* 6x 20Kohm resistors (0603 package)
+* 2x 0.1uF capacitors (0603 package)
+* 1x 1.0uF capacitor (0603 package)
 * 1x Pro Micro ATmega32u4
 * 1x EC11 rotary encoder (7-pin)
-* (optional) 1x 6mm tactile switch (to reset MCU - not needed most of the time as QMK has a RESET keycode)
+* 1x IS31FL3731 I2C LED driver (SSOP package)
+* (optional) 1x 6mm tactile switch (to reset MCU - QMK reset keycode or bootmagic can be used instead)
 
 ## Making the PCB
 https://www.oshpark.com is the recommended service for creating PCBs. 3x PCBs is roughly $60 from them. Simply upload the .brd file to create the project and order.
+
+All capacitors, resistors, diodes, and the LED driver in this version are surface mount - it isn't too difficult to solder them by hand but reflow soldering is easy if you have an oven (making one out of an old toaster oven is pretty easy). Order a stencil through [OSH Stencils](https://www.oshstencils.com/) to make applying paste easier.
