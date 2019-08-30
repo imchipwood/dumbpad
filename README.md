@@ -7,7 +7,7 @@ dumbpad is a simple 4x4 macro/numpad with a rotary encoder. It is designed for t
 
 The EC11 rotary encoder used has a push-button, which technically makes this a 17-switch macro/numpad. The default behavior of the rotary encoder is to move the mouse left/right - the intention is to be used on slider-type controls such as brightness, RGB values, etc. found in video/photo editing software.
 
-v0.5 introduces 2 LEDs for indicating which layer you're on. The QMK firmware has NOT been updated to support these yet, if you are going to make a v0.5 board, please contact me and I'll update the firmware.
+v0.6 has two LEDs for indicating the current layer. It also has reversible switch sockets so the PCB can be soldered upside down to move the rotary encoder to the right side, if desired.
 
 ## Parts
 * 16x Cherry-style mechanical switches
