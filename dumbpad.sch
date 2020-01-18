@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2176,10 +2176,10 @@ This is a simple library of custom parts I use in my devices.</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RE1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" deviceset="EC12E_SW" device="" package3d_urn="urn:adsk.eagle:package:27083/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
+<part name="S13" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S2" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S3" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
-<part name="S4" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
+<part name="S16" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S5" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S6" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S7" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
@@ -2188,8 +2188,8 @@ This is a simple library of custom parts I use in my devices.</description>
 <part name="S10" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S11" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S12" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
-<part name="S13" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 <part name="S14" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
+<part name="S15" library="cpwood" deviceset="CHERRY-MX-REVERSIBLE" device="-PTH-CHERRY"/>
 </parts>
 <sheets>
 <sheet>
@@ -2229,9 +2229,9 @@ dumbpad</text>
 <attribute name="PART" x="25.4" y="143.51" size="1.27" layer="95"/>
 <attribute name="VALUE" x="25.4" y="133.35" size="1.27" layer="96"/>
 </instance>
-<instance part="RE0" gate="G$2" x="241.3" y="101.6" smashed="yes">
-<attribute name="PART" x="236.22" y="106.68" size="1.27" layer="95"/>
-<attribute name="VALUE" x="236.22" y="99.06" size="1.27" layer="96"/>
+<instance part="RE0" gate="G$2" x="40.64" y="101.6" smashed="yes">
+<attribute name="PART" x="35.56" y="106.68" size="1.27" layer="95"/>
+<attribute name="VALUE" x="35.56" y="99.06" size="1.27" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="20.32" y="132.08" smashed="yes">
 <attribute name="VALUE" x="17.78" y="129.54" size="1.778" layer="96"/>
@@ -2339,16 +2339,16 @@ dumbpad</text>
 <attribute name="PART" x="88.9" y="143.51" size="1.27" layer="95"/>
 <attribute name="VALUE" x="88.9" y="133.35" size="1.27" layer="96"/>
 </instance>
-<instance part="RE1" gate="G$2" x="241.3" y="17.78" smashed="yes">
-<attribute name="PART" x="236.22" y="22.86" size="1.27" layer="95"/>
-<attribute name="VALUE" x="236.22" y="15.24" size="1.27" layer="96"/>
+<instance part="RE1" gate="G$2" x="40.64" y="17.78" smashed="yes">
+<attribute name="PART" x="35.56" y="22.86" size="1.27" layer="95"/>
+<attribute name="VALUE" x="35.56" y="15.24" size="1.27" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="83.82" y="132.08" smashed="yes">
 <attribute name="VALUE" x="81.28" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="43.18" y="99.06" smashed="yes">
-<attribute name="NAME" x="43.18" y="104.394" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="43.18" y="93.726" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="S13" gate="G$1" x="241.3" y="99.06" smashed="yes">
+<attribute name="NAME" x="241.3" y="104.394" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="241.3" y="93.726" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="S2" gate="G$1" x="43.18" y="71.12" smashed="yes">
 <attribute name="NAME" x="43.18" y="76.454" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -2358,9 +2358,9 @@ dumbpad</text>
 <attribute name="NAME" x="43.18" y="48.514" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="43.18" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="S4" gate="G$1" x="43.18" y="15.24" smashed="yes">
-<attribute name="NAME" x="43.18" y="20.574" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="43.18" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="S16" gate="G$1" x="241.3" y="15.24" smashed="yes">
+<attribute name="NAME" x="241.3" y="20.574" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="241.3" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="S5" gate="G$1" x="109.22" y="99.06" smashed="yes">
 <attribute name="NAME" x="109.22" y="104.394" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -2394,11 +2394,11 @@ dumbpad</text>
 <attribute name="NAME" x="175.26" y="20.574" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="175.26" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="S13" gate="G$1" x="241.3" y="71.12" smashed="yes">
+<instance part="S14" gate="G$1" x="241.3" y="71.12" smashed="yes">
 <attribute name="NAME" x="241.3" y="76.454" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="241.3" y="65.786" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="S14" gate="G$1" x="241.3" y="43.18" smashed="yes">
+<instance part="S15" gate="G$1" x="241.3" y="43.18" smashed="yes">
 <attribute name="NAME" x="241.3" y="48.514" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="241.3" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -2560,13 +2560,6 @@ dumbpad</text>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="35.56" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -2579,13 +2572,6 @@ dumbpad</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="35.56" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2616,32 +2602,18 @@ dumbpad</text>
 <pinref part="S5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="17.78" x2="226.06" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="RE1" gate="G$2" pin="2"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="D15" gate="G$1" pin="A"/>
 <wire x1="233.68" y1="45.72" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S14" gate="G$1" pin="1"/>
+<pinref part="S15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D14" gate="G$1" pin="A"/>
 <wire x1="233.68" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="S13" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="D13" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="RE0" gate="G$2" pin="2"/>
+<pinref part="S14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -2690,15 +2662,15 @@ dumbpad</text>
 <wire x1="116.84" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="101.6" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
 <junction x="119.38" y="114.3"/>
-<wire x1="50.8" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="101.6" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <junction x="53.34" y="114.3"/>
 <label x="10.16" y="114.3" size="1.778" layer="95"/>
-<pinref part="RE0" gate="G$2" pin="1"/>
-<wire x1="251.46" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="2"/>
 <pinref part="S5" gate="G$1" pin="2"/>
 <pinref part="S9" gate="G$1" pin="2"/>
+<pinref part="RE0" gate="G$2" pin="1"/>
+<wire x1="45.72" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="S13" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COL1" class="0">
@@ -2727,7 +2699,7 @@ dumbpad</text>
 <pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="S6" gate="G$1" pin="2"/>
 <pinref part="S10" gate="G$1" pin="2"/>
-<pinref part="S13" gate="G$1" pin="2"/>
+<pinref part="S14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="COL2" class="0">
@@ -2756,7 +2728,7 @@ dumbpad</text>
 <pinref part="S3" gate="G$1" pin="2"/>
 <pinref part="S7" gate="G$1" pin="2"/>
 <pinref part="S11" gate="G$1" pin="2"/>
-<pinref part="S14" gate="G$1" pin="2"/>
+<pinref part="S15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="COL3" class="0">
@@ -2777,15 +2749,15 @@ dumbpad</text>
 <wire x1="116.84" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="17.78" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <junction x="119.38" y="27.94"/>
-<wire x1="50.8" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="17.78" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
 <junction x="53.34" y="27.94"/>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
-<pinref part="RE1" gate="G$2" pin="1"/>
-<wire x1="246.38" y1="17.78" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="2"/>
 <pinref part="S8" gate="G$1" pin="2"/>
 <pinref part="S12" gate="G$1" pin="2"/>
+<pinref part="RE1" gate="G$2" pin="1"/>
+<wire x1="45.72" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="S16" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="17.78" x2="248.92" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -2884,6 +2856,34 @@ dumbpad</text>
 <pinref part="B1" gate="G$1" pin="*5"/>
 <wire x1="271.78" y1="134.62" x2="254" y2="134.62" width="0.1524" layer="91"/>
 <label x="254" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="RE0" gate="G$2" pin="2"/>
+<wire x1="27.94" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="RE1" gate="G$2" pin="2"/>
+<wire x1="27.94" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="S16" gate="G$1" pin="1"/>
+<pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="233.68" y1="17.78" x2="226.06" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="D13" gate="G$1" pin="A"/>
+<pinref part="S13" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
