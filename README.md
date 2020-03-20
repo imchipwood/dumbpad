@@ -1,6 +1,10 @@
 # dumbpad
 
+Single-encoder version:
 ![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+Dual-encoder version:
+![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
+Eagle PCB render:
 ![dumbpad](dumbpad.png)
 
 dumbpad is a simple 4x4 macro/numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro running [QMK firmware](https://github.com/qmk/qmk_firmware).
