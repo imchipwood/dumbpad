@@ -147,7 +147,7 @@
 </layers>
 <board>
 <plain>
-<text x="1" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.6
+<text x="1" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.7
 github.com/imchipwood</text>
 <wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="21"/>
@@ -159,7 +159,7 @@ github.com/imchipwood</text>
 <wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="21"/>
 <wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21"/>
 <text x="10.5" y="73.5" size="1.778" layer="21" align="bottom-center">pro micro</text>
-<text x="1" y="15" size="1.778" layer="26" rot="SMR90">dumbpad v0.6
+<text x="1" y="15" size="1.778" layer="26" rot="SMR90">dumbpad v0.7
 github.com/imchipwood</text>
 <text x="16.5" y="69.67" size="0.75" layer="21" align="center-right">GND</text>
 <text x="16.5" y="72.21" size="0.75" layer="21" align="center-right">RAW</text>
