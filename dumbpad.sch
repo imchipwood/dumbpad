@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2134,6 +2134,111 @@ This is a simple library of custom parts I use in my devices.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_3_NO_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_NO_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_0-NO_TRACE_NO-SILK">
+<smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SMT-JUMPER_3_NO">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-SMT_3_NO" prefix="JP">
+<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has three pads in close proximity to each other. Apply solder to close the connection(s).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_3_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_3_NO_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_3_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO_SILK" package="SMT-JUMPER_3_0-NO_TRACE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2190,6 +2295,10 @@ This is a simple library of custom parts I use in my devices.</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S17" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
+<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -2233,9 +2342,9 @@ dumbpad</text>
 <attribute name="PART" x="25.4" y="143.51" size="1.27" layer="95"/>
 <attribute name="VALUE" x="25.4" y="133.35" size="1.27" layer="96"/>
 </instance>
-<instance part="RE1" gate="G$2" x="241.3" y="129.54" smashed="yes">
-<attribute name="PART" x="236.22" y="134.62" size="1.27" layer="95"/>
-<attribute name="VALUE" x="236.22" y="127" size="1.27" layer="96"/>
+<instance part="RE1" gate="G$2" x="246.38" y="129.54" smashed="yes">
+<attribute name="PART" x="248.92" y="132.08" size="1.27" layer="95"/>
+<attribute name="VALUE" x="243.84" y="127" size="1.27" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="20.32" y="132.08" smashed="yes">
 <attribute name="VALUE" x="17.78" y="129.54" size="1.778" layer="96"/>
@@ -2373,9 +2482,9 @@ dumbpad</text>
 <attribute name="NAME" x="226.06" y="15.24" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="226.06" y="21.59" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="D17" gate="G$1" x="223.52" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="226.06" y="127" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="226.06" y="133.35" size="1.27" layer="96" rot="R180"/>
+<instance part="D17" gate="G$1" x="215.9" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="215.9" y="127" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="218.44" y="133.35" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="D18" gate="D1" x="160.02" y="139.7" smashed="yes">
 <attribute name="NAME" x="156.591" y="135.128" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -2403,20 +2512,37 @@ dumbpad</text>
 <instance part="GND4" gate="1" x="287.02" y="66.04" smashed="yes">
 <attribute name="VALUE" x="284.48" y="63.5" size="1.778" layer="96"/>
 </instance>
+<instance part="JP1" gate="G$1" x="228.6" y="129.54" smashed="yes">
+<attribute name="NAME" x="223.52" y="124.841" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="JP2" gate="G$1" x="233.68" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="238.76" y="126.619" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="JP3" gate="G$1" x="48.26" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.879" y="149.86" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="JP4" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.641" y="129.54" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="ENCODER_L0" class="0">
 <segment>
-<pinref part="RE1" gate="G$1" pin="A"/>
-<wire x1="33.02" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
-<label x="45.72" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="B1" gate="G$1" pin="4"/>
 <wire x1="271.78" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="256.54" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="27.94" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
+<label x="53.34" y="132.08" size="1.778" layer="95" align="top-left"/>
 </segment>
 </net>
 <net name="ENCODER_L1" class="0">
@@ -2426,9 +2552,14 @@ dumbpad</text>
 <label x="256.54" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RE1" gate="G$1" pin="B"/>
-<wire x1="33.02" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="45.72" y="137.16" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="53.34" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="53.34" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="3"/>
+<wire x1="43.18" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="27.94" y="132.08" size="1.778" layer="95" align="top-left"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2562,12 +2693,13 @@ dumbpad</text>
 <pinref part="D15" gate="G$1" pin="C"/>
 <wire x1="220.98" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 <junction x="218.44" y="45.72"/>
-<label x="218.44" y="134.62" size="1.778" layer="95"/>
-<wire x1="218.44" y1="101.6" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="208.28" y="134.62" size="1.778" layer="95"/>
+<wire x1="218.44" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="101.6" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="D17" gate="G$1" pin="C"/>
-<wire x1="218.44" y1="129.54" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
-<junction x="218.44" y="129.54"/>
+<wire x1="208.28" y1="129.54" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
+<junction x="208.28" y="129.54"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0"/>
@@ -2697,13 +2829,12 @@ dumbpad</text>
 </net>
 <net name="COL0" class="0">
 <segment>
-<pinref part="RE1" gate="G$2" pin="1"/>
-<wire x1="246.38" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="129.54" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <label x="10.16" y="121.92" size="1.778" layer="95"/>
+<wire x1="238.76" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="139.7" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="139.7" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*5"/>
@@ -2810,13 +2941,6 @@ dumbpad</text>
 <label x="279.4" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="D17" gate="G$1" pin="A"/>
-<pinref part="RE1" gate="G$2" pin="2"/>
-<wire x1="226.06" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="COL4" class="0">
 <segment>
 <wire x1="10.16" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
@@ -2884,11 +3008,84 @@ dumbpad</text>
 <label x="302.26" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="S17_E" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="228.6" y1="124.46" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="RE1" gate="G$2" pin="2"/>
+<wire x1="233.68" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="121.92" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="124.46" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<junction x="233.68" y="121.92"/>
+<label x="228.6" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S17_D" class="0">
+<segment>
+<pinref part="RE1" gate="G$2" pin="1"/>
+<wire x1="251.46" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="254" y1="129.54" x2="254" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="254" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="134.62" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="233.68" y1="134.62" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<junction x="233.68" y="137.16"/>
+<label x="241.3" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ROW3_A" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="218.44" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENCODER_A_B" class="0">
+<segment>
+<pinref part="RE1" gate="G$1" pin="A"/>
+<wire x1="33.02" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="33.02" y="139.7" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="ENCODER_B_A" class="0">
+<segment>
+<pinref part="RE1" gate="G$1" pin="B"/>
+<wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="33.02" y="137.16" size="1.778" layer="95"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,162.56,76.2,B1,RAW,,,,"/>
+<approved hash="204,1,294.64,152.4,B1,RAW,,,,"/>
+<approved hash="106,1,294.64,144.78,VCC,,,,,"/>
+<approved hash="106,1,302.26,160.02,VCC,,,,,"/>
+<approved hash="113,1,25.4,100.355,D1,,,,,"/>
+<approved hash="113,1,25.4,72.4154,D2,,,,,"/>
+<approved hash="113,1,25.4,44.4754,D3,,,,,"/>
+<approved hash="113,1,25.4,16.5354,D4,,,,,"/>
+<approved hash="113,1,91.44,100.355,D5,,,,,"/>
+<approved hash="113,1,91.44,72.4154,D6,,,,,"/>
+<approved hash="113,1,91.44,44.4754,D7,,,,,"/>
+<approved hash="113,1,91.44,16.5354,D8,,,,,"/>
+<approved hash="113,1,157.48,100.355,D9,,,,,"/>
+<approved hash="113,1,157.48,72.4154,D10,,,,,"/>
+<approved hash="113,1,157.48,44.4754,D11,,,,,"/>
+<approved hash="113,1,157.48,16.5354,D12,,,,,"/>
+<approved hash="113,1,223.52,100.355,D13,,,,,"/>
+<approved hash="113,1,223.52,72.4154,D14,,,,,"/>
+<approved hash="113,1,223.52,44.4754,D15,,,,,"/>
+<approved hash="113,1,223.52,16.5354,D16,,,,,"/>
+<approved hash="113,1,215.9,128.295,D17,,,,,"/>
+<approved hash="113,1,157.965,138.43,D18,,,,,"/>
+<approved hash="113,1,168.125,138.43,D19,,,,,"/>
 </errors>
 </schematic>
 </drawing>
@@ -2911,6 +3108,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
