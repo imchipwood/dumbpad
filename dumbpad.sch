@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2297,8 +2297,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -2518,12 +2516,6 @@ dumbpad</text>
 <instance part="JP2" gate="G$1" x="233.68" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="126.619" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP3" gate="G$1" x="48.26" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.879" y="149.86" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="JP4" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.641" y="129.54" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -2535,14 +2527,9 @@ dumbpad</text>
 <label x="256.54" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
-<label x="27.94" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-<label x="53.34" y="132.08" size="1.778" layer="95" align="top-left"/>
+<pinref part="RE1" gate="G$1" pin="A"/>
+<wire x1="33.02" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="33.02" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENCODER_L1" class="0">
@@ -2552,14 +2539,9 @@ dumbpad</text>
 <label x="256.54" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="53.34" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="53.34" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<label x="27.94" y="132.08" size="1.778" layer="95" align="top-left"/>
+<pinref part="RE1" gate="G$1" pin="B"/>
+<wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="33.02" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3044,22 +3026,6 @@ dumbpad</text>
 <wire x1="218.44" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ENCODER_A_B" class="0">
-<segment>
-<pinref part="RE1" gate="G$1" pin="A"/>
-<wire x1="33.02" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="33.02" y="139.7" size="1.778" layer="95"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="ENCODER_B_A" class="0">
-<segment>
-<pinref part="RE1" gate="G$1" pin="B"/>
-<wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="33.02" y="137.16" size="1.778" layer="95"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -3108,11 +3074,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
 </note>
 </compatibility>
 </eagle>

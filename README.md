@@ -12,7 +12,7 @@ dumbpad is a simple 4x4 macro/numpad with a rotary encoder. It is designed for t
 The EC11 rotary encoder used has a push-button, which technically makes this a 17-switch macro/numpad. The default behavior of the rotary encoder is to move the mouse left/right - the intention is to be used on slider-type controls such as brightness, RGB values, etc. found in video/photo editing software.
 
 ## v0.7 Features
-* PCB can be flipped upside down to allow moving the rotary encoder to the right side. This required four small jumpers which MUST be soldered regardless of which side you use the encoder on.
+* PCB can be flipped upside down to allow moving the rotary encoder to the right side. This required two small jumpers which MUST be soldered regardless of which side you use the encoder on.
   * Encoder on left (default layout) - solder the left side of the jumpers to the center
   * Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
 * Two LEDs added for layer indication in binary (00 = default layer, 01 = layer 1, 10 = layer 2, 11 = layer 3)
