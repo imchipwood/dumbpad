@@ -1,15 +1,34 @@
 # dumbpad
-dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any microcontroller using the same form factor should work
+Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon, USA
 
-It is designed to run QMK firmware. https://github.com/qmk/qmk_firmware
+Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
 
-## Parts
+## Description
+dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any ATmega32u4-based microcontroller using the same form factor should work
+
+It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
+
+#### dumbpad v0.2, PCB by [OSH Park](https://www.oshpark.com)
+![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+### Eagle PCB render
+![dumbpad](dumbpad.png)
+
+### Parts
 * 16x Cherry-style mechanical switches
-* 2x 10KOhm resistors (0.3" thru hole)
 * 16x 1n4148 diodes (thru hole)
-* 1x Pro Micro ATmega32u4
-* 1x EC11 rotary encoder (7-pin)
+* 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
+* 1x EC11 rotary encoder with pushbutton (7-pin)
 * (optional) 1x 6mm tactile switch (to reset MCU)
 
+#### Notes
+- No case is currently available
+- Ignore the two resistors above the encoder - the ATmega32u4 has internal pull-ups so they are not needed
+- To avoid damaging the PCB and prevent it from sliding around, put five rubber feet on the bottom of the PCB
+  - place one directly under the rotary encoder as it takes significant force to press
+  - place the others in the corners and one in the center
+
 ## Making the PCB
-https://www.oshpark.com is the recommended service for creating PCBs. 3x PCBs is just over $60 from them. Simply upload the .brd file to create the project and order.
+Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements.
+
+### OSH Park - USA PCB Manufacturing
+Shameless Portland, Oregon company plug - [OSH Park](https://www.oshpark.com) is a fast and reliable manufacturer, combining multiple individual orders into a single panel to minimize end-user costs. dumbpad is just under $60 for 3 copies through OSH Park.
