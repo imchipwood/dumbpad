@@ -24,7 +24,7 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 * 14x Cherry-style mechanical switches
 * 16x 1n4148 diodes (thru hole)
 * 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
-* 1x EC11 rotary encoder with pushbutton (7-pin)
+* 2x EC11 rotary encoder with pushbutton (7-pin)
 * (optional) 1x 6mm tactile switch (to reset MCU)
 * (optional) 2x 3mm LEDs (whatever color)
 * (optional) 2x 220ohm or similar resistors for the LEDS (not needed if not adding LEDs)
