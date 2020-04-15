@@ -1175,7 +1175,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S12" pad="S2"/>
 <contactref element="S8" pad="S2"/>
 <contactref element="S4" pad="S2"/>
-<wire x1="84" y1="15" x2="81" y2="18" width="0.1524" layer="16"/>
+<wire x1="83.75" y1="15.25" x2="81" y2="18" width="0.1524" layer="16"/>
 <wire x1="81" y1="18" x2="81" y2="21.21" width="0.1524" layer="16"/>
 <wire x1="81" y1="21.21" x2="84.61" y2="24.82" width="0.1524" layer="16"/>
 <wire x1="84.61" y1="24.82" x2="84" y2="25.43" width="0.1524" layer="16"/>
@@ -1195,8 +1195,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="RE1" pad="D"/>
 <wire x1="87.05" y1="1.25" x2="89.65" y2="3.85" width="0.1524" layer="16"/>
 <wire x1="25" y1="1.25" x2="87.05" y2="1.25" width="0.1524" layer="16"/>
-<wire x1="89.65" y1="3.85" x2="84" y2="9.5" width="0.1524" layer="16"/>
-<wire x1="84" y1="9.5" x2="84" y2="15" width="0.1524" layer="16"/>
+<wire x1="89.65" y1="3.85" x2="87.25" y2="6.25" width="0.1524" layer="16"/>
+<wire x1="87.25" y1="6.25" x2="86.5" y2="6.25" width="0.1524" layer="16"/>
+<wire x1="86.5" y1="6.25" x2="84.75" y2="6.25" width="0.1524" layer="16"/>
+<wire x1="84.75" y1="6.25" x2="83.75" y2="7.25" width="0.1524" layer="16"/>
+<wire x1="83.75" y1="7.25" x2="83.75" y2="9.75" width="0.1524" layer="16"/>
+<wire x1="83.75" y1="9.75" x2="83.75" y2="15.25" width="0.1524" layer="16"/>
 <wire x1="7.64" y1="39.5" x2="2.88" y2="44.26" width="0.1524" layer="16"/>
 </signal>
 <signal name="RESET">
@@ -1237,10 +1241,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ENCODER1_L0">
 <contactref element="RE1" pad="A"/>
 <contactref element="B1" pad="5"/>
-<wire x1="89.65" y1="18.35" x2="84" y2="12.7" width="0.1524" layer="1"/>
+<wire x1="89.65" y1="18.35" x2="83.75" y2="12.45" width="0.1524" layer="1"/>
 <wire x1="1" y1="60.16" x2="2.88" y2="62.04" width="0.1524" layer="1"/>
-<wire x1="84" y1="12.7" x2="84" y2="9" width="0.1524" layer="1"/>
-<wire x1="84" y1="9" x2="76.75" y2="1.75" width="0.1524" layer="1"/>
+<wire x1="83.75" y1="12.45" x2="83.75" y2="8.75" width="0.1524" layer="1"/>
+<wire x1="83.75" y1="8.75" x2="76.75" y2="1.75" width="0.1524" layer="1"/>
 <wire x1="76.75" y1="1.75" x2="23.75" y2="1.75" width="0.1524" layer="1"/>
 <wire x1="23.75" y1="1.75" x2="3" y2="22.5" width="0.1524" layer="1"/>
 <wire x1="3" y1="22.5" x2="3" y2="40.25" width="0.1524" layer="1"/>
@@ -1250,12 +1254,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ENCODER1_L1">
 <contactref element="RE1" pad="B"/>
 <contactref element="B1" pad="6"/>
-<wire x1="84.65" y1="18.35" x2="83.5" y2="17.2" width="0.1524" layer="1"/>
-<wire x1="83.5" y1="9.25" x2="76.5" y2="2.25" width="0.1524" layer="1"/>
+<wire x1="84.65" y1="18.35" x2="83.25" y2="16.95" width="0.1524" layer="1"/>
+<wire x1="83.25" y1="9" x2="76.5" y2="2.25" width="0.1524" layer="1"/>
 <wire x1="3.5" y1="40.5" x2="1.5" y2="42.5" width="0.1524" layer="1"/>
 <wire x1="1.5" y1="42.5" x2="1.5" y2="58.12" width="0.1524" layer="1"/>
 <wire x1="1.5" y1="58.12" x2="2.88" y2="59.5" width="0.1524" layer="1"/>
-<wire x1="83.5" y1="17.2" x2="83.5" y2="9.25" width="0.1524" layer="1"/>
+<wire x1="83.25" y1="16.95" x2="83.25" y2="9" width="0.1524" layer="1"/>
 <wire x1="76.5" y1="2.25" x2="24" y2="2.25" width="0.1524" layer="1"/>
 <wire x1="24" y1="2.25" x2="3.5" y2="22.75" width="0.1524" layer="1"/>
 <wire x1="3.5" y1="22.75" x2="3.5" y2="40.5" width="0.1524" layer="1"/>
