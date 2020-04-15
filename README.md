@@ -1,30 +1,45 @@
 # dumbpad
+Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon, USA
 
-Single-encoder version:
+Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
+
+## Description
+dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any ATmega32u4-based microcontroller using the same form factor should work
+
+It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
+
+### Revisions
+- v0.5 introduces 2x LEDs for indicating which layer is enabled, accurately representing up to 4 layers
+- v0.6_dualencoder is a true 4x4 macropad with two rotary encoders - one in each bottom corner
+- v0.6_dualencoder_top is the same as v0.6_dualencoder but the encoders are moved to the top corners
+- v0.7 PCB is flippable. Two jumpers must be soldered:
+  - Encoder on left (default layout) - solder the left side of the jumpers to the center
+  - Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
+
+#### dumbpad v0.2, PCB by [OSH Park](https://www.oshpark.com)
 ![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
-Dual-encoder version:
+#### Dual-encoder version by chicocode:
 ![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
-Eagle PCB render:
+#### Eagle PCB render
 ![dumbpad](dumbpad.png)
 
-dumbpad is a simple 4x4 macro/numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro running [QMK firmware](https://github.com/qmk/qmk_firmware).
-
-The EC11 rotary encoder used has a push-button, which technically makes this a 17-switch macro/numpad. The default behavior of the rotary encoder is to move the mouse left/right - the intention is to be used on slider-type controls such as brightness, RGB values, etc. found in video/photo editing software.
-
-## v0.7 Features
-* PCB can be flipped upside down to allow moving the rotary encoder to the right side. This required two small jumpers which MUST be soldered regardless of which side you use the encoder on.
-  * Encoder on left (default layout) - solder the left side of the jumpers to the center
-  * Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
-* Two LEDs added for layer indication in binary (00 = default layer, 01 = layer 1, 10 = layer 2, 11 = layer 3)
-
-## Parts
+### Parts
 * 16x Cherry-style mechanical switches
 * 17x 1n4148 diodes (thru hole)
-* 1x Pro Micro ATmega32u4
-* 1x EC11 rotary encoder with switch (7-pin)
-* (optional) 1x 6mm tactile switch (to reset MCU - not needed most of the time as QMK has a RESET keycode)
+* 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
+* 1x EC11 rotary encoder with pushbutton (7-pin)
+* (optional) 1x 6mm tactile switch (to reset MCU)
 * (optional) 2x 3mm LEDs (whatever color)
 * (optional) 2x 220ohm or similar resistors for the LEDS (not needed if not adding LEDs)
 
+#### Notes
+- No case is currently available
+- To avoid damaging the PCB and prevent it from sliding around, put rubber feet on the bottom of the PCB
+  - place feet directly under the rotary encoder(s) as they take significant force to press
+  - place the others in the corners and one in the center
+
 ## Making the PCB
-https://www.oshpark.com is the recommended service for creating PCBs. 3x PCBs is roughly $60 from them. Simply upload the .brd file to create the project and order.
+Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements.
+
+### OSH Park - USA PCB Manufacturing
+Shameless Portland, Oregon company plug - [OSH Park](https://www.oshpark.com) is a fast and reliable manufacturer, combining multiple individual orders into a single panel to minimize end-user costs. dumbpad is just under $60 for 3 copies through OSH Park.
