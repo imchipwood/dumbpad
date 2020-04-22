@@ -2297,6 +2297,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
+<part name="D20" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="330OHM" device="-HORIZ-1/10W-5%" value="330"/>
 </parts>
 <sheets>
 <sheet>
@@ -2310,9 +2312,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="314.96" y1="172.72" x2="0" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="0" y1="172.72" x2="0" y2="0" width="0.1524" layer="97"/>
 <text x="307.34" y="2.54" size="1.778" layer="97">Rev:
-0.7</text>
+0.8</text>
 <text x="279.4" y="2.54" size="1.778" layer="97">Date:
-April 11, 2020</text>
+April 21, 2020</text>
 <text x="279.4" y="10.16" size="1.778" layer="97">Design By:
 github.com/imchipwood</text>
 <text x="279.4" y="17.78" size="1.778" layer="97">Title:
@@ -2516,6 +2518,14 @@ dumbpad</text>
 <instance part="JP2" gate="G$1" x="233.68" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="126.619" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="D20" gate="D1" x="180.34" y="139.7" smashed="yes">
+<attribute name="NAME" x="176.911" y="135.128" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="182.245" y="135.128" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="180.34" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.816" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="181.864" y="152.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2577,6 +2587,10 @@ dumbpad</text>
 <junction x="165.1" y="132.08"/>
 <pinref part="D19" gate="D1" pin="C"/>
 <wire x1="170.18" y1="132.08" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<junction x="170.18" y="132.08"/>
+<pinref part="D20" gate="D1" pin="C"/>
+<wire x1="180.34" y1="132.08" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S17" gate="G$1" pin="1"/>
@@ -3024,6 +3038,25 @@ dumbpad</text>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="D17" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="*10"/>
+<wire x1="294.64" y1="124.46" x2="302.26" y2="124.46" width="0.1524" layer="91"/>
+<label x="302.26" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="157.48" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
+<label x="180.34" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="D20" gate="D1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="142.24" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -147,7 +147,7 @@
 </layers>
 <board>
 <plain>
-<text x="1" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.7
+<text x="1" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.8
 github.com/imchipwood</text>
 <wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="21"/>
 <wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="21"/>
@@ -159,7 +159,7 @@ github.com/imchipwood</text>
 <wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="21"/>
 <wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21"/>
 <text x="10.5" y="73.5" size="1.778" layer="21" align="bottom-center">pro micro</text>
-<text x="1" y="15" size="1.778" layer="26" rot="SMR90">dumbpad v0.7
+<text x="1" y="15" size="1.778" layer="26" rot="SMR90">dumbpad v0.8
 github.com/imchipwood</text>
 <text x="16.5" y="69.67" size="0.75" layer="21" align="center-right">GND</text>
 <text x="16.5" y="72.21" size="0.75" layer="21" align="center-right">RAW</text>
@@ -872,15 +872,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="20.004" y="8.818" size="0.6096" layer="21" rot="R90"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.5" smashed="yes" rot="MR0"/>
-<element name="D18" library="SparkFun-LED" package="LED_3MM" value="" x="8" y="31.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.786" y="31.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08794" x="8" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.714" y="31.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D18" library="SparkFun-LED" package="LED_3MM" value="" x="8" y="29.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="8" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D19" library="SparkFun-LED" package="LED_3MM" value="" x="13" y="31.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.786" y="31.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08794" x="13" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.714" y="31.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D19" library="SparkFun-LED" package="LED_3MM" value="" x="13" y="29.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="13" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="10.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="10.5" y="38" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.5" y="37.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -890,12 +890,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="10.5" y="35.484" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PROD_ID" value="RES-8371" x="10.5" y="35.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S17" library="SparkFun-Switches" package="TACTILE_SWITCH_PTH_6.0MM" value="MOMENTARY-SWITCH-SPST-PTH-6.0MM" x="10.5" y="25" smashed="yes">
-<attribute name="PROD_ID" value=" SWCH-08441" x="10.5" y="25" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="COM-00097" x="10.5" y="25" size="1.778" layer="27" display="off"/>
+<element name="S17" library="SparkFun-Switches" package="TACTILE_SWITCH_PTH_6.0MM" value="MOMENTARY-SWITCH-SPST-PTH-6.0MM" x="10.45" y="23.5" smashed="yes">
+<attribute name="PROD_ID" value=" SWCH-08441" x="10.45" y="23.5" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="COM-00097" x="10.45" y="23.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="19.75" y="4.95" smashed="yes" rot="R180"/>
 <element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="2" y="4.95" smashed="yes" rot="R180"/>
+<element name="D20" library="SparkFun-LED" package="LED_3MM" value="" x="18" y="29.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="18" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="15.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="10.5" y="33" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.5" y="32.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
+<attribute name="PROD_ID" value="RES-8371" x="10.5" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="10.5" y="34.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -926,6 +936,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D18" pad="K"/>
 <contactref element="D19" pad="K"/>
 <contactref element="S17" pad="1"/>
+<contactref element="D20" pad="K"/>
 </signal>
 <signal name="RAW">
 <contactref element="B1" pad="24"/>
@@ -1318,8 +1329,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8" y1="57" x2="18.12" y2="67.12" width="0.1524" layer="1"/>
 <wire x1="8" y1="42" x2="5" y2="39" width="0.1524" layer="1"/>
 <wire x1="8" y1="42" x2="8" y2="57" width="0.1524" layer="1"/>
-<wire x1="5" y1="24.9882" x2="7.2488" y2="22.7394" width="0.1524" layer="1"/>
-<wire x1="5" y1="39" x2="5" y2="24.9882" width="0.1524" layer="1"/>
+<wire x1="5" y1="23.5882" x2="7.1988" y2="21.2394" width="0.1524" layer="1"/>
+<wire x1="5" y1="39" x2="5" y2="23.5882" width="0.1524" layer="1"/>
 </signal>
 <signal name="COL4">
 <contactref element="S16" pad="S2_0"/>
@@ -1349,13 +1360,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$5">
 <contactref element="D18" pad="A"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="8" y1="32.77" x2="13.23" y2="38" width="0.1524" layer="1"/>
-<wire x1="13.23" y1="38" x2="14.31" y2="38" width="0.1524" layer="1"/>
+<wire x1="14.31" y1="38" x2="14.31" y2="37.43" width="0.1524" layer="1"/>
+<wire x1="14.31" y1="37.43" x2="8" y2="30.77" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R2" pad="P$1"/>
 <contactref element="D19" pad="A"/>
-<wire x1="13" y1="32.77" x2="13" y2="34.19" width="0.1524" layer="1"/>
+<wire x1="13" y1="30.77" x2="13" y2="34.19" width="0.1524" layer="1"/>
 <wire x1="13" y1="34.19" x2="14.31" y2="35.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED0">
@@ -1402,6 +1413,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D17" pad="A"/>
 <contactref element="JP1" pad="2"/>
 <wire x1="19.75" y1="7.04" x2="19.75" y2="4.95" width="0.1524" layer="1"/>
+</signal>
+<signal name="LED2">
+<contactref element="B1" pad="13"/>
+<contactref element="R3" pad="P$2"/>
+<wire x1="6.69" y1="33" x2="17.95" y2="44.26" width="0.1524" layer="1"/>
+<wire x1="17.95" y1="44.26" x2="18.12" y2="44.26" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="D20" pad="A"/>
+<contactref element="R3" pad="P$1"/>
+<wire x1="18" y1="30.77" x2="16.54" y2="30.77" width="0.1524" layer="1"/>
+<wire x1="16.54" y1="30.77" x2="14.31" y2="33" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
