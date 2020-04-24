@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -147,44 +147,41 @@
 </layers>
 <board>
 <plain>
-<text x="1" y="40" size="1.778" layer="25" rot="SR270">dumbpad v0.8
-github.com/imchipwood</text>
-<wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="14.5" y1="76" x2="19.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="19.5" y1="76" x2="19.5" y2="42.5" width="0.1524" layer="21"/>
-<wire x1="19.5" y1="42.5" x2="1.5" y2="42.5" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="42.5" x2="1.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="76" x2="6.5" y2="77.5" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="21"/>
-<wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21"/>
+<text x="94" y="1" size="1.778" layer="21" rot="SR0" align="bottom-right">github.com/imchipwood</text>
+<wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="14.5" y1="76" x2="19.5" y2="76" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="19.5" y1="76" x2="19.5" y2="42.5" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="19.5" y1="42.5" x2="1.5" y2="42.5" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="1.5" y1="42.5" x2="1.5" y2="76" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="6.5" y1="76" x2="6.5" y2="77.5" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
+<wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21" grouprefs="UC_OUTLINE_TPLACE"/>
 <text x="10.5" y="73.5" size="1.778" layer="21" align="bottom-center">pro micro</text>
-<text x="1" y="15" size="1.778" layer="26" rot="SMR90">dumbpad v0.8
-github.com/imchipwood</text>
-<text x="16.5" y="69.67" size="0.75" layer="21" align="center-right">GND</text>
-<text x="16.5" y="72.21" size="0.75" layer="21" align="center-right">RAW</text>
-<text x="16.5" y="67.13" size="0.75" layer="21" align="center-right">RST</text>
-<text x="16.5" y="64.59" size="0.75" layer="21" align="center-right">VCC</text>
-<text x="4.5" y="67.13" size="0.75" layer="21" align="center-left">GND</text>
-<text x="4.5" y="64.59" size="0.75" layer="21" align="center-left">GND</text>
-<text x="4.5" y="72.21" size="0.75" layer="21" align="center-left">D3</text>
-<text x="4.5" y="69.67" size="0.75" layer="21" align="center-left">D2</text>
-<text x="4.5" y="62.05" size="0.75" layer="21" align="center-left">D1</text>
-<text x="4.5" y="59.51" size="0.75" layer="21" align="center-left">D0</text>
-<text x="4.5" y="56.97" size="0.75" layer="21" align="center-left">D4</text>
-<text x="4.5" y="54.43" size="0.75" layer="21" align="center-left">C6</text>
-<text x="4.5" y="51.89" size="0.75" layer="21" align="center-left">D7</text>
-<text x="4.5" y="49.35" size="0.75" layer="21" align="center-left">E6</text>
-<text x="4.5" y="46.81" size="0.75" layer="21" align="center-left">B4</text>
-<text x="4.5" y="44.27" size="0.75" layer="21" align="center-left">B5</text>
-<text x="16.5" y="62.05" size="0.75" layer="21" align="center-right">F4</text>
-<text x="16.5" y="59.51" size="0.75" layer="21" align="center-right">F5</text>
-<text x="16.5" y="56.97" size="0.75" layer="21" align="center-right">F6</text>
-<text x="16.5" y="54.43" size="0.75" layer="21" align="center-right">F7</text>
-<text x="16.5" y="51.89" size="0.75" layer="21" align="center-right">B1</text>
-<text x="16.5" y="49.35" size="0.75" layer="21" align="center-right">B3</text>
-<text x="16.5" y="46.81" size="0.75" layer="21" align="center-right">B2</text>
-<text x="16.5" y="44.27" size="0.75" layer="21" align="center-right">B6</text>
+<text x="16.5" y="69.67" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">GND</text>
+<text x="16.5" y="72.21" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">RAW</text>
+<text x="16.5" y="67.13" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">RST</text>
+<text x="16.5" y="64.59" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">VCC</text>
+<text x="4.5" y="67.13" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">GND</text>
+<text x="4.5" y="64.59" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">GND</text>
+<text x="4.5" y="72.21" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D3</text>
+<text x="4.5" y="69.67" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D2</text>
+<text x="4.5" y="62.05" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D1</text>
+<text x="4.5" y="59.51" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D0</text>
+<text x="4.5" y="56.97" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D4</text>
+<text x="4.5" y="54.43" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">C6</text>
+<text x="4.5" y="51.89" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">D7</text>
+<text x="4.5" y="49.35" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">E6</text>
+<text x="4.5" y="46.81" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">B4</text>
+<text x="4.5" y="44.27" size="0.75" layer="21" align="center-left" grouprefs="UC_LABELS_TPLACE_LEFT">B5</text>
+<text x="16.5" y="62.05" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">F4</text>
+<text x="16.5" y="59.51" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">F5</text>
+<text x="16.5" y="56.97" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">F6</text>
+<text x="16.5" y="54.43" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">F7</text>
+<text x="16.5" y="51.89" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">B1</text>
+<text x="16.5" y="49.35" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">B3</text>
+<text x="16.5" y="46.81" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">B2</text>
+<text x="16.5" y="44.27" size="0.75" layer="21" align="center-right" grouprefs="UC_LABELS_TPLACE_RIGHT">B6</text>
 <wire x1="0" y1="2" x2="2" y2="0" width="0.1524" layer="20"/>
 <wire x1="2" y1="0" x2="95" y2="0" width="0.1524" layer="20"/>
 <wire x1="95" y1="0" x2="97" y2="2" width="0.1524" layer="20"/>
@@ -195,6 +192,43 @@ github.com/imchipwood</text>
 <wire x1="0" y1="76.5" x2="0" y2="2" width="0.1524" layer="20"/>
 <text x="10.5" y="7.5" size="0.51" layer="25" align="top-center">encoder on left - solder left jumpers
 encoder on right - solder right jumpers</text>
+<text x="4.5" y="72.21" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D3</text>
+<text x="4.5" y="69.67" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D2</text>
+<text x="4.5" y="67.13" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">GND</text>
+<text x="4.5" y="64.59" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">GND</text>
+<text x="4.5" y="62.05" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D1</text>
+<text x="4.5" y="59.51" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D0</text>
+<text x="4.5" y="56.97" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D4</text>
+<text x="4.5" y="54.43" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">C6</text>
+<text x="4.5" y="51.89" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">D7</text>
+<text x="4.5" y="49.35" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">E6</text>
+<text x="4.5" y="46.81" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">B4</text>
+<text x="4.5" y="44.27" size="0.75" layer="22" rot="MR0" align="center-right" grouprefs="UC_LABELS_BPLACE_LEFT">B5</text>
+<text x="16.5" y="44.27" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">B6</text>
+<text x="16.5" y="46.81" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">B2</text>
+<text x="16.5" y="49.35" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">B3</text>
+<text x="16.5" y="51.89" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">B1</text>
+<text x="16.5" y="54.43" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">F7</text>
+<text x="16.5" y="56.97" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">F6</text>
+<text x="16.5" y="59.51" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">F5</text>
+<text x="16.5" y="72.21" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">RAW</text>
+<text x="16.5" y="69.67" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">GND</text>
+<text x="16.5" y="67.13" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">RST</text>
+<text x="16.5" y="64.59" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">VCC</text>
+<text x="16.5" y="62.05" size="0.75" layer="22" rot="MR0" align="center-left" grouprefs="UC_LABELS_BPLACE_RIGHT">F4</text>
+<wire x1="19.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="14.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="6.5" y1="76" x2="1.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="1.5" y1="76" x2="1.5" y2="42.5" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="1.5" y1="42.5" x2="19.5" y2="42.5" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="19.5" y1="42.5" x2="19.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="14.5" y1="76" x2="14.5" y2="77.5" width="0.1524" layer="22"/>
+<wire x1="14.5" y1="77.5" x2="6.5" y2="77.5" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<wire x1="6.5" y1="77.5" x2="6.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
+<text x="10.5" y="73.5" size="1.778" layer="22" rot="MR0" align="bottom-center">pro micro</text>
+<text x="3" y="1" size="1.778" layer="21" rot="SR0">dumbpad v0.8</text>
+<text x="3" y="1" size="1.778" layer="22" rot="SMR0" align="bottom-right">github.com/imchipwood</text>
+<text x="94" y="1" size="1.778" layer="22" rot="SMR0">dumbpad v0.8</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -513,34 +547,6 @@ This is a simple library of custom parts I use in my devices.</description>
 <pad name="S2_0" x="-2.54" y="5.08" drill="1.7526" diameter="3.2258"/>
 <pad name="S1_1" x="3.81" y="-2.54" drill="1.7526" diameter="3.2258"/>
 <pad name="S2_1" x="-2.54" y="-5.08" drill="1.7526" diameter="3.2258"/>
-<wire x1="-6.731" y1="6.731" x2="-7.747" y2="6.731" width="0.254" layer="51"/>
-<wire x1="-7.747" y1="6.731" x2="-6.731" y2="7.747" width="0.254" layer="51" curve="-90"/>
-<wire x1="-6.731" y1="7.747" x2="-3.175" y2="7.747" width="0.254" layer="51"/>
-<wire x1="-3.175" y1="7.747" x2="-3.175" y2="6.731" width="0.254" layer="51"/>
-<wire x1="3.175" y1="7.747" x2="3.175" y2="6.731" width="0.254" layer="51"/>
-<wire x1="6.731" y1="6.731" x2="7.747" y2="6.731" width="0.254" layer="51"/>
-<wire x1="7.747" y1="6.731" x2="6.731" y2="7.747" width="0.254" layer="51" curve="90"/>
-<wire x1="6.731" y1="7.747" x2="3.175" y2="7.747" width="0.254" layer="51"/>
-<wire x1="6.731" y1="6.731" x2="6.731" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="6.731" y1="-6.731" x2="7.747" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="7.747" y1="-6.731" x2="6.731" y2="-7.747" width="0.254" layer="51" curve="-90"/>
-<wire x1="6.731" y1="-7.747" x2="3.175" y2="-7.747" width="0.254" layer="51"/>
-<wire x1="3.175" y1="-7.747" x2="3.175" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="-3.175" y1="-7.747" x2="-3.175" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="-6.731" y1="-7.747" x2="-3.175" y2="-7.747" width="0.254" layer="51"/>
-<wire x1="-7.747" y1="-6.731" x2="-6.731" y2="-7.747" width="0.254" layer="51" curve="90"/>
-<wire x1="-6.731" y1="-6.731" x2="-7.747" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="-6.731" y1="-6.731" x2="-6.731" y2="6.731" width="0.254" layer="51"/>
-<wire x1="-3.175" y1="6.731" x2="-0.762" y2="6.731" width="0.254" layer="51"/>
-<wire x1="-0.762" y1="6.731" x2="-0.762" y2="7.747" width="0.254" layer="51"/>
-<wire x1="-0.762" y1="7.747" x2="0.762" y2="7.747" width="0.254" layer="51"/>
-<wire x1="0.762" y1="7.747" x2="0.762" y2="6.731" width="0.254" layer="51"/>
-<wire x1="0.762" y1="6.731" x2="3.175" y2="6.731" width="0.254" layer="51"/>
-<wire x1="3.175" y1="-6.731" x2="0.762" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="0.762" y1="-6.731" x2="0.762" y2="-7.747" width="0.254" layer="51"/>
-<wire x1="-0.762" y1="-7.747" x2="-0.762" y2="-6.731" width="0.254" layer="51"/>
-<wire x1="0.762" y1="-7.747" x2="-0.762" y2="-7.747" width="0.254" layer="51"/>
-<wire x1="-0.762" y1="-6.731" x2="-3.175" y2="-6.731" width="0.254" layer="51"/>
 <wire x1="-6.096" y1="6.731" x2="6.096" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="6.096" y1="6.731" x2="6.096" y2="-6.731" width="0.2032" layer="21"/>
 <wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="21"/>
@@ -764,6 +770,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="cfChangeDir" value="25"/>
 </pass>
 </autorouter>
+<groups>
+<board_group name="UC_LABELS_BPLACE_LEFT"/>
+<board_group name="UC_LABELS_BPLACE_RIGHT"/>
+<board_group name="UC_OUTLINE_TPLACE"/>
+<board_group name="UC_OUTLINE_BPLACE"/>
+<board_group name="UC_LABELS_TPLACE_RIGHT"/>
+<board_group name="UC_LABELS_TPLACE_LEFT"/>
+<board_group name="LEDS"/>
+</groups>
 <elements>
 <element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN_PRO_MICRO" x="10.5" y="59.5" smashed="yes"/>
 <element name="RE1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" package="ALPS_EC12E_SW" package3d_urn="urn:adsk.eagle:package:27083/1" value="EC12E_SW" x="10.5" y="11" smashed="yes" rot="R180">
@@ -872,15 +887,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="20.004" y="8.818" size="0.6096" layer="21" rot="R90"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.5" smashed="yes" rot="MR0"/>
-<element name="D18" library="SparkFun-LED" package="LED_3MM" value="" x="8" y="29.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08794" x="8" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D18" library="SparkFun-LED" package="LED_3MM" value="" x="5.5" y="29.4" smashed="yes" rot="R270" grouprefs="LEDS">
+<attribute name="NAME" x="6.286" y="29.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="5.5" y="29.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="3.214" y="29.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D19" library="SparkFun-LED" package="LED_3MM" value="" x="13" y="29.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08794" x="13" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D19" library="SparkFun-LED" package="LED_3MM" value="" x="10.5" y="29.4" smashed="yes" rot="R270" grouprefs="LEDS">
+<attribute name="NAME" x="11.286" y="29.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="10.5" y="29.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="8.214" y="29.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="10.5" y="38" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.5" y="37.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -896,16 +911,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="19.75" y="4.95" smashed="yes" rot="R180"/>
 <element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="2" y="4.95" smashed="yes" rot="R180"/>
-<element name="D20" library="SparkFun-LED" package="LED_3MM" value="" x="18" y="29.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.786" y="29.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08794" x="18" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="15.714" y="29.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D20" library="SparkFun-LED" package="LED_3MM" value="" x="15.5" y="29.4" smashed="yes" rot="R270" grouprefs="LEDS">
+<attribute name="NAME" x="16.286" y="29.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08794" x="15.5" y="29.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="13.214" y="29.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="10.5" y="33" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.5" y="32.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PROD_ID" value="RES-8371" x="10.5" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.5" y="34.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.5" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -943,24 +959,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="ENCODER_L0">
 <contactref element="B1" pad="7"/>
-<wire x1="3" y1="40" x2="3" y2="21.5" width="0.1524" layer="1"/>
-<wire x1="3" y1="40" x2="6" y2="43" width="0.1524" layer="1"/>
+<wire x1="2" y1="39" x2="2" y2="22.5" width="0.1524" layer="1"/>
+<wire x1="2" y1="39" x2="6" y2="43" width="0.1524" layer="1"/>
 <wire x1="6" y1="43" x2="6" y2="53.84" width="0.1524" layer="1"/>
 <wire x1="6" y1="53.84" x2="2.88" y2="56.96" width="0.1524" layer="1"/>
-<wire x1="3" y1="21.5" x2="7.2" y2="17.3" width="0.1524" layer="1"/>
+<wire x1="2" y1="22.5" x2="7.2" y2="17.3" width="0.1524" layer="1"/>
 <contactref element="RE1" pad="A"/>
 <wire x1="7.2" y1="17.3" x2="11.8" y2="17.3" width="0.1524" layer="1"/>
 <wire x1="11.8" y1="17.3" x2="13" y2="18.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER_L1">
 <contactref element="B1" pad="6"/>
-<wire x1="4" y1="39.5" x2="7" y2="42.5" width="0.1524" layer="1"/>
+<wire x1="2.95" y1="38.45" x2="7" y2="42.5" width="0.1524" layer="1"/>
 <wire x1="7" y1="42.5" x2="7" y2="55.38" width="0.1524" layer="1"/>
 <wire x1="7" y1="55.38" x2="2.88" y2="59.5" width="0.1524" layer="1"/>
-<wire x1="4" y1="39.5" x2="4" y2="22" width="0.1524" layer="1"/>
+<wire x1="2.95" y1="38.45" x2="2.95" y2="23.05" width="0.1524" layer="1"/>
 <contactref element="RE1" pad="B"/>
 <wire x1="7.5" y1="18.5" x2="8" y2="18.5" width="0.1524" layer="1"/>
-<wire x1="4" y1="22" x2="7.5" y2="18.5" width="0.1524" layer="1"/>
+<wire x1="2.95" y1="23.05" x2="7.5" y2="18.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW0">
 <contactref element="D4" pad="C"/>
@@ -1245,11 +1261,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="COL0">
 <contactref element="B1" pad="8"/>
-<wire x1="5" y1="43.5" x2="2" y2="40.5" width="0.1524" layer="1"/>
+<wire x1="5" y1="43.5" x2="1" y2="39.5" width="0.1524" layer="1"/>
 <wire x1="5" y1="43.5" x2="5" y2="52.3" width="0.1524" layer="1"/>
 <wire x1="5" y1="52.3" x2="2.88" y2="54.42" width="0.1524" layer="1"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="2" y1="40.5" x2="2" y2="4.95" width="0.1524" layer="1"/>
+<wire x1="1" y1="39.5" x2="1" y2="22.05" width="0.1524" layer="1"/>
+<wire x1="2" y1="21.05" x2="1" y2="22.05" width="0.1524" layer="1"/>
+<wire x1="2" y1="21.05" x2="2" y2="4.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="COL1">
 <contactref element="S13" pad="S2_0"/>
@@ -1327,10 +1345,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="B1" pad="22"/>
 <contactref element="S17" pad="3"/>
 <wire x1="8" y1="57" x2="18.12" y2="67.12" width="0.1524" layer="1"/>
-<wire x1="8" y1="42" x2="5" y2="39" width="0.1524" layer="1"/>
+<wire x1="8" y1="42" x2="4" y2="38" width="0.1524" layer="1"/>
 <wire x1="8" y1="42" x2="8" y2="57" width="0.1524" layer="1"/>
-<wire x1="5" y1="23.5882" x2="7.1988" y2="21.2394" width="0.1524" layer="1"/>
-<wire x1="5" y1="39" x2="5" y2="23.5882" width="0.1524" layer="1"/>
+<wire x1="4" y1="24.65641875" x2="7.1988" y2="21.2394" width="0.1524" layer="1"/>
+<wire x1="4" y1="38" x2="4" y2="24.65641875" width="0.1524" layer="1"/>
 </signal>
 <signal name="COL4">
 <contactref element="S16" pad="S2_0"/>
@@ -1360,14 +1378,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$5">
 <contactref element="D18" pad="A"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="14.31" y1="38" x2="14.31" y2="37.43" width="0.1524" layer="1"/>
-<wire x1="14.31" y1="37.43" x2="8" y2="30.77" width="0.1524" layer="1"/>
+<wire x1="14.25" y1="38" x2="14.31" y2="38" width="0.1524" layer="1"/>
+<wire x1="6.92" y1="30.67" x2="14.25" y2="38" width="0.1524" layer="1"/>
+<wire x1="5.5" y1="30.67" x2="6.92" y2="30.67" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R2" pad="P$1"/>
 <contactref element="D19" pad="A"/>
-<wire x1="13" y1="30.77" x2="13" y2="34.19" width="0.1524" layer="1"/>
-<wire x1="13" y1="34.19" x2="14.31" y2="35.5" width="0.1524" layer="1"/>
+<wire x1="10.5" y1="30.67" x2="10.5" y2="31.69" width="0.1524" layer="1"/>
+<wire x1="10.5" y1="31.69" x2="14.31" y2="35.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED0">
 <contactref element="R1" pad="P$2"/>
@@ -1423,8 +1442,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$10">
 <contactref element="D20" pad="A"/>
 <contactref element="R3" pad="P$1"/>
-<wire x1="18" y1="30.77" x2="16.54" y2="30.77" width="0.1524" layer="1"/>
-<wire x1="16.54" y1="30.77" x2="14.31" y2="33" width="0.1524" layer="1"/>
+<wire x1="15.5" y1="30.67" x2="14.31" y2="31.86" width="0.1524" layer="1"/>
+<wire x1="14.31" y1="31.86" x2="14.31" y2="33" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1521,6 +1540,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
