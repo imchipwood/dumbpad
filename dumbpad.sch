@@ -1039,7 +1039,7 @@ EC12E series with push-on switch</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EC12E_SW" urn="urn:adsk.eagle:component:27084/1" prefix="SW" library_version="1">
+<deviceset name="EC12E_SW" urn="urn:adsk.eagle:component:27084/2" prefix="SW" library_version="2">
 <description>ALPS rotary Encoder EC12E series with switch</description>
 <gates>
 <gate name="G$1" symbol="ENCODER" x="-10.16" y="-2.54" addlevel="always"/>
@@ -1067,6 +1067,7 @@ EC12E series with push-on switch</description>
 <attribute name="MPN" value="EC12E2424407" constant="no"/>
 <attribute name="OC_FARNELL" value="1520813" constant="no"/>
 <attribute name="OC_NEWARK" value="74M1068" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2059,6 +2060,14 @@ This is a simple library of custom parts I use in my devices.</description>
 <wire x1="3.81" y1="-2.54" x2="1.27" y2="-5.08" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="2.54" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="5.08" x2="0.762" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="22"/>
+<wire x1="-6.096" y1="-6.731" x2="-6.096" y2="6.731" width="0.2032" layer="22"/>
+<wire x1="-6.096" y1="6.731" x2="6.096" y2="6.731" width="0.2032" layer="22"/>
+<wire x1="6.096" y1="6.731" x2="6.096" y2="-6.731" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="2.54" x2="1.27" y2="5.08" width="0.2032" layer="22"/>
+<wire x1="-2.54" y1="5.08" x2="0.762" y2="3.81" width="0.2032" layer="22"/>
+<wire x1="-2.54" y1="-5.08" x2="0.762" y2="-3.81" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="1.27" y2="-5.08" width="0.2032" layer="22"/>
 </package>
 </packages>
 <symbols>

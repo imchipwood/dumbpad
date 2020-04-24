@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -557,6 +557,14 @@ This is a simple library of custom parts I use in my devices.</description>
 <wire x1="3.81" y1="-2.54" x2="1.27" y2="-5.08" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="2.54" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="5.08" x2="0.762" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="22"/>
+<wire x1="-6.096" y1="-6.731" x2="-6.096" y2="6.731" width="0.2032" layer="22"/>
+<wire x1="-6.096" y1="6.731" x2="6.096" y2="6.731" width="0.2032" layer="22"/>
+<wire x1="6.096" y1="6.731" x2="6.096" y2="-6.731" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="2.54" x2="1.27" y2="5.08" width="0.2032" layer="22"/>
+<wire x1="-2.54" y1="5.08" x2="0.762" y2="3.81" width="0.2032" layer="22"/>
+<wire x1="-2.54" y1="-5.08" x2="0.762" y2="-3.81" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="1.27" y2="-5.08" width="0.2032" layer="22"/>
 </package>
 </packages>
 </library>
@@ -786,6 +794,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="EC12E2424407" x="-30.14" y="22.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1520813" x="-30.14" y="22.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="74M1068" x="-30.14" y="22.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="3" x="10.5" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S1" library="cpwood" package="CHERRY-MX-REVERSIBLE" value="CHERRY-MX-REVERSIBLE-PTH-CHERRY" x="30" y="68" smashed="yes" rot="R180">
 <attribute name="SF_ID" value="COM-13834" x="-43.66" y="78.16" size="1.778" layer="27" rot="R180" display="off"/>
