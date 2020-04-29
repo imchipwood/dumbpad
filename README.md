@@ -15,7 +15,7 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 - v0.7 PCB is flippable. Two jumpers must be soldered:
   - Encoder on left (default layout) - solder the left side of the jumpers to the center
   - Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
-- v0.8 PCB adds a 3rd LED - default use is to indicate if NUMLOCK is on
+- v1.0 PCB adds a 3rd LED - default use is to indicate if NUMLOCK is on
 
 #### dumbpad v0.2, PCB by [OSH Park](https://www.oshpark.com)
 ![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
@@ -31,7 +31,7 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 * 1x EC11 rotary encoder with pushbutton (7-pin)
 * (optional) 1x 6mm tactile switch (to reset MCU)
 * (optional) 3x 3mm LEDs (whatever color)
-* (optional) 3x 220ohm or similar resistors for the LEDS (not needed if not adding LEDs)
+* (optional) 3x 330ohm or similar resistors for the LEDS (not needed if not adding LEDs)
 
 #### Notes
 - No case is currently available

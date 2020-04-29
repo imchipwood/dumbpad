@@ -2276,8 +2276,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S17" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO_SILK" value="JUMPER-SMT_3_NO_NO_SILK"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO_SILK" value="JUMPER-SMT_3_NO_NO_SILK"/>
 <part name="D20" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="330OHM" device="-HORIZ-1/10W-5%" value="330"/>
 </parts>
@@ -2293,9 +2293,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="314.96" y1="172.72" x2="0" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="0" y1="172.72" x2="0" y2="0" width="0.1524" layer="97"/>
 <text x="307.34" y="2.54" size="1.778" layer="97">Rev:
-0.8</text>
+1.0</text>
 <text x="279.4" y="2.54" size="1.778" layer="97">Date:
-April 21, 2020</text>
+April 28, 2020</text>
 <text x="279.4" y="10.16" size="1.778" layer="97">Design By:
 github.com/imchipwood</text>
 <text x="279.4" y="17.78" size="1.778" layer="97">Title:

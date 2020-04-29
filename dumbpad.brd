@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -226,9 +226,9 @@ encoder on right - solder right jumpers</text>
 <wire x1="14.5" y1="77.5" x2="6.5" y2="77.5" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
 <wire x1="6.5" y1="77.5" x2="6.5" y2="76" width="0.1524" layer="22" grouprefs="UC_OUTLINE_BPLACE"/>
 <text x="10.5" y="73.5" size="1.778" layer="22" rot="MR0" align="bottom-center">pro micro</text>
-<text x="3" y="1" size="1.778" layer="21" rot="SR0">dumbpad v0.8</text>
+<text x="3" y="1" size="1.778" layer="21" rot="SR0">dumbpad v1.0</text>
 <text x="3" y="1" size="1.778" layer="22" rot="SMR0" align="bottom-right">github.com/imchipwood</text>
-<text x="94" y="1" size="1.778" layer="22" rot="SMR0">dumbpad v0.8</text>
+<text x="94" y="1" size="1.778" layer="22" rot="SMR0">dumbpad v1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -583,12 +583,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_3_NO_NO-SILK">
+<package name="SMT-JUMPER_3_0-NO_TRACE_NO-SILK">
+<smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
 </packages>
 </library>
@@ -918,8 +918,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value=" SWCH-08441" x="10.45" y="23.5" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="COM-00097" x="10.45" y="23.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="19.75" y="4.95" smashed="yes" rot="R180"/>
-<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="2" y="4.95" smashed="yes" rot="R180"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_0-NO_TRACE_NO-SILK" value="JUMPER-SMT_3_NO_NO_SILK" x="19.75" y="4.95" smashed="yes" rot="R180"/>
+<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_3_0-NO_TRACE_NO-SILK" value="JUMPER-SMT_3_NO_NO_SILK" x="2" y="4.95" smashed="yes" rot="R180"/>
 <element name="D20" library="SparkFun-LED" package="LED_3MM" value="" x="15.5" y="29.4" smashed="yes" rot="R270" grouprefs="LEDS">
 <attribute name="NAME" x="16.286" y="29.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-08794" x="15.5" y="29.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1421,21 +1421,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12" y1="5.1" x2="14" y2="5.1" width="0.1524" layer="1"/>
 <wire x1="14" y1="5.1" x2="14.15" y2="4.95" width="0.1524" layer="1"/>
 <wire x1="8" y1="4" x2="7.05" y2="4.95" width="0.1524" layer="1"/>
-<wire x1="7.05" y1="4.95" x2="2.8128" y2="4.95" width="0.1524" layer="1"/>
-<wire x1="14.15" y1="4.95" x2="18.9372" y2="4.95" width="0.1524" layer="1"/>
+<wire x1="7.05" y1="4.95" x2="3.016" y2="4.95" width="0.1524" layer="1"/>
+<wire x1="14.15" y1="4.95" x2="18.734" y2="4.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="S17_D">
 <contactref element="RE1" pad="D"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="JP2" pad="3"/>
-<wire x1="20.5628" y1="4.95" x2="20.5628" y2="4.3628" width="0.1524" layer="1"/>
-<wire x1="20.2" y1="4" x2="20.5628" y2="4.3628" width="0.1524" layer="1"/>
-<wire x1="20.2" y1="4" x2="13" y2="4" width="0.1524" layer="1"/>
-<wire x1="1.1872" y1="4.95" x2="1.4539" y2="4.6833" width="0.1524" layer="1"/>
-<wire x1="1.4539" y1="4.6833" x2="1.4539" y2="4.2203125" width="0.1524" layer="1"/>
-<wire x1="1.4539" y1="4.2203125" x2="3.0242125" y2="2.65" width="0.1524" layer="1"/>
+<wire x1="20.4" y1="4" x2="13" y2="4" width="0.1524" layer="1"/>
+<wire x1="0.984" y1="4.95" x2="1.0039" y2="4.93870625" width="0.1524" layer="1"/>
+<wire x1="1.0039" y1="4.93870625" x2="1.0039" y2="4.3203125" width="0.1524" layer="1"/>
+<wire x1="1.0039" y1="4.3203125" x2="2.6742125" y2="2.65" width="0.1524" layer="1"/>
 <wire x1="11.65" y1="2.65" x2="13" y2="4" width="0.1524" layer="1"/>
-<wire x1="3.0242125" y1="2.65" x2="11.65" y2="2.65" width="0.1524" layer="1"/>
+<wire x1="2.6742125" y1="2.65" x2="11.65" y2="2.65" width="0.1524" layer="1"/>
+<wire x1="20.4" y1="4" x2="20.766" y2="4.366" width="0.1524" layer="1"/>
+<wire x1="20.766" y1="4.366" x2="20.766" y2="4.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW3_A">
 <contactref element="D17" pad="A"/>
