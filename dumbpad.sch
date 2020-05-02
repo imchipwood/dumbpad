@@ -2968,9 +2968,9 @@ dumbpad</text>
 <label x="160.02" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="13(SCK)"/>
-<wire x1="294.64" y1="132.08" x2="302.26" y2="132.08" width="0.1524" layer="91"/>
-<label x="302.26" y="132.08" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="12(MISO)"/>
+<wire x1="294.64" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
+<label x="302.26" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -2980,9 +2980,9 @@ dumbpad</text>
 <label x="170.18" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="12(MISO)"/>
-<wire x1="294.64" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="302.26" y="129.54" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="13(SCK)"/>
+<wire x1="294.64" y1="132.08" x2="302.26" y2="132.08" width="0.1524" layer="91"/>
+<label x="302.26" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S17_E" class="0">
