@@ -17,8 +17,8 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
   - Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
 - v1.0 PCB adds a 3rd LED - default use is to indicate if NUMLOCK is on
 
-#### dumbpad v0.2, PCB by [OSH Park](https://www.oshpark.com)
-![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+#### dumbpad v0.2 (top) & v0.7 (bottom), PCB by [OSH Park](https://www.oshpark.com)
+![dumbpad](https://i.imgur.com/c3YBNp0.jpg)
 #### Dual-encoder version by chicocode:
 ![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
 #### Eagle PCB render
