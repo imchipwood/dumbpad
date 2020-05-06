@@ -34,7 +34,11 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 * (optional) 3x 330ohm or similar resistors for the LEDS (not needed if not adding LEDs)
 
 #### Notes
-- No case is currently available
+- No case is currently available, but v1.0 has mounting holes in a 38.1mm square at these positions (from bottom left of PCB):
+  - 39.525, 58.475
+  - 39.525, 20.375
+  - 77.625, 58.475
+  - 77.625, 20.375
 - To avoid damaging the PCB and prevent it from sliding around, put rubber feet on the bottom of the PCB
   - place feet directly under the rotary encoder(s) as they take significant force to press
   - place the others in the corners and one in the center
