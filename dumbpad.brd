@@ -230,6 +230,10 @@
 <text x="94" y="1" size="1.778" layer="22" font="vector" ratio="20" rot="SMR0">dumbpad v1.0</text>
 <text x="11.7375" y="6.8" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">left | left to center</text>
 <text x="11.75" y="5.95" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">right | right to center</text>
+<hole x="39.525" y="58.475" drill="2"/>
+<hole x="77.625" y="58.475" drill="2"/>
+<hole x="39.525" y="20.375" drill="2"/>
+<hole x="77.625" y="20.375" drill="2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
