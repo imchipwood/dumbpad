@@ -8,14 +8,12 @@ dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATm
 
 It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
 
-### Revisions
-- v0.5 introduces 2x LEDs for indicating which layer is enabled, accurately representing up to 4 layers
-- v0.6_dualencoder is a true 4x4 macropad with two rotary encoders - one in each bottom corner
-- v0.6_dualencoder_top is the same as v0.6_dualencoder but the encoders are moved to the top corners
+## v1.0 features:
 
-#### dumbpad v0.2, PCB by [OSH Park](https://www.oshpark.com)
-![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
-#### Dual-encoder version by chicocode:
+- a third LED is used to indicate if numlock is enabled
+- A debug version of each layout is available - it adds extra Pro Micro header holes to facilitate testing extra hardware
+
+#### v0.6_dualencoder by chicocode:
 ![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
 #### Eagle PCB render
 ![dumbpad](dumbpad.png)
@@ -25,12 +23,16 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 * 16x 1n4148 diodes (thru hole)
 * 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
 * 2x EC11 rotary encoder with pushbutton (7-pin)
-* (optional) 1x 6mm tactile switch (to reset MCU)
-* (optional) 2x 3mm LEDs (whatever color)
-* (optional) 2x 220ohm or similar resistors for the LEDS (not needed if not adding LEDs)
+* (optional) 1x 6mm tactile switch (reset button)
+* (optional) 3x 3mm LEDs
+* (optional) 3x 330ohm 1/8w or similar resistors for the LEDS (not needed if not adding LEDs)
 
 #### Notes
-- No case is currently available
+- No case is currently available - however, there are mounting holes in all v1.0 versions in a 38.1mm square at these positions (from bottom left of PCB):
+  - 39.525, 58.475
+  - 39.525, 20.375
+  - 77.625, 58.475
+  - 77.625, 20.375
 - To avoid damaging the PCB and prevent it from sliding around, put rubber feet on the bottom of the PCB
   - place feet directly under the rotary encoder(s) as they take significant force to press
   - place the others in the corners and one in the center
