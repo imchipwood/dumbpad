@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -227,10 +227,10 @@
 <text x="16.5" y="44.27" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">B6</text>
 <text x="94.75" y="0.875" size="1.75" layer="26" font="vector" ratio="15" rot="SMR0">dumbpad v1.0 dual</text>
 <text x="94.75" y="0.875" size="1.75" layer="25" font="vector" ratio="15" rot="SR0" align="bottom-right">github.com/imchipwood/dumbpad</text>
-<hole x="39.525" y="58.475" drill="2"/>
-<hole x="39.525" y="20.375" drill="2"/>
-<hole x="77.625" y="20.375" drill="2"/>
-<hole x="77.625" y="58.75" drill="2"/>
+<hole x="38.575" y="59.425" drill="2"/>
+<hole x="38.575" y="19.425" drill="2"/>
+<hole x="78.575" y="19.425" drill="2"/>
+<hole x="78.575" y="59.425" drill="2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
