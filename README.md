@@ -37,8 +37,8 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 - No case is currently available, but v1.0 has 2mm mounting holes in a 40mm square centered at x=58.575mm, y=39.425mm (from the bottom left)
   - 38.575, 19.425
   - 38.575, 59.425
-		- 78.575, 19.425
-		- 78.575, 59.425
+  - 78.575, 19.425
+  - 78.575, 59.425
 - To avoid damaging the PCB and prevent it from sliding around, put rubber feet on the bottom of the PCB
   - place feet directly under the rotary encoder(s) as they take significant force to press
   - place the others in the corners and one in the center
