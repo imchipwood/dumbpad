@@ -573,7 +573,7 @@ This is a simple library of custom parts I use in my devices.</description>
 <pad name="B" x="-2.5" y="7.5" drill="1" rot="R180"/>
 <pad name="D" x="2.5" y="-7" drill="1" rot="R180"/>
 <pad name="E" x="-2.5" y="-7" drill="1" rot="R180"/>
-<pad name="GND1" x="-6.1" y="0" drill="2.2"/>
+<pad name="GND1" x="-6.1" y="0" drill="2.2" diameter="3.2258"/>
 <pad name="GND2" x="6.1" y="0" drill="2.2"/>
 <wire x1="-6.0325" y1="0" x2="-5.08" y2="0" width="2.032" layer="46"/>
 <wire x1="5.08" y1="0" x2="6.0325" y2="0" width="2.032" layer="46"/>
@@ -583,7 +583,7 @@ This is a simple library of custom parts I use in my devices.</description>
 <circle x="-5.08" y="0" radius="1.016" width="0.127" layer="42"/>
 <pad name="S1_1" x="-2.54" y="-5.08" drill="1.7526" diameter="2.54" rot="R180"/>
 <pad name="S2_1" x="3.81" y="-2.54" drill="1.7526" diameter="2.159" rot="R180"/>
-<wire x1="-2.54" y1="-5.08" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="1.27" y2="-4.699" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-2.54" x2="0.508" y2="-3.81" width="0.127" layer="21"/>
 </package>
 </packages>
@@ -1363,10 +1363,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.25" y1="13.5" x2="15.75" y2="17" width="0.1524" layer="1"/>
 <wire x1="15.75" y1="17" x2="9.35" y2="17" width="0.1524" layer="1"/>
 <wire x1="15.75" y1="17" x2="15.75" y2="21.5" width="0.1524" layer="1"/>
-<wire x1="15.75" y1="21.5" x2="14" y2="23.25" width="0.1524" layer="1"/>
-<wire x1="14" y1="23.25" x2="4.75" y2="23.25" width="0.1524" layer="1"/>
-<wire x1="4.75" y1="23.25" x2="3" y2="25" width="0.1524" layer="1"/>
-<wire x1="3" y1="25" x2="3" y2="40.25" width="0.1524" layer="1"/>
+<wire x1="15.75" y1="21.5" x2="14.25" y2="23" width="0.1524" layer="1"/>
+<wire x1="14.25" y1="23" x2="3.5" y2="23" width="0.1524" layer="1"/>
+<wire x1="3.5" y1="23" x2="3" y2="23.5" width="0.1524" layer="1"/>
+<wire x1="3" y1="23.5" x2="3" y2="40.25" width="0.1524" layer="1"/>
 <wire x1="3" y1="40.25" x2="9.5" y2="46.75" width="0.1524" layer="1"/>
 <wire x1="18.07" y1="46.75" x2="18.12" y2="46.8" width="0.1524" layer="1"/>
 <wire x1="9.5" y1="46.75" x2="18.07" y2="46.75" width="0.1524" layer="1"/>
@@ -1431,10 +1431,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="RE_3_0" pad="S1_1"/>
 <wire x1="8" y1="3.85" x2="7.96" y2="3.89" width="0.1524" layer="16"/>
 <wire x1="7.96" y1="3.89" x2="7.96" y2="5.77" width="0.1524" layer="16"/>
-<wire x1="7.96" y1="5.77" x2="7" y2="6.73" width="0.1524" layer="16"/>
+<wire x1="7.96" y1="5.77" x2="7.75" y2="5.98" width="0.1524" layer="16"/>
 <wire x1="1.5" y1="53.04" x2="2.88" y2="54.42" width="0.1524" layer="16"/>
-<wire x1="7" y1="6.73" x2="7" y2="16.5" width="0.1524" layer="16"/>
-<wire x1="7" y1="16.5" x2="1.5" y2="22" width="0.1524" layer="16"/>
+<wire x1="7.75" y1="5.98" x2="7.75" y2="15.75" width="0.1524" layer="16"/>
+<wire x1="7.75" y1="15.75" x2="1.5" y2="22" width="0.1524" layer="16"/>
 <wire x1="1.5" y1="22" x2="1.5" y2="53.04" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$20">

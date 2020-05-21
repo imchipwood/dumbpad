@@ -2287,7 +2287,7 @@ This is a simple library of custom parts I use in my devices.</description>
 <pad name="B" x="-2.5" y="7.5" drill="1" rot="R180"/>
 <pad name="D" x="2.5" y="-7" drill="1" rot="R180"/>
 <pad name="E" x="-2.5" y="-7" drill="1" rot="R180"/>
-<pad name="GND1" x="-6.1" y="0" drill="2.2"/>
+<pad name="GND1" x="-6.1" y="0" drill="2.2" diameter="3.2258"/>
 <pad name="GND2" x="6.1" y="0" drill="2.2"/>
 <wire x1="-6.0325" y1="0" x2="-5.08" y2="0" width="2.032" layer="46"/>
 <wire x1="5.08" y1="0" x2="6.0325" y2="0" width="2.032" layer="46"/>
@@ -2297,7 +2297,7 @@ This is a simple library of custom parts I use in my devices.</description>
 <circle x="-5.08" y="0" radius="1.016" width="0.127" layer="42"/>
 <pad name="S1_1" x="-2.54" y="-5.08" drill="1.7526" diameter="2.54" rot="R180"/>
 <pad name="S2_1" x="3.81" y="-2.54" drill="1.7526" diameter="2.159" rot="R180"/>
-<wire x1="-2.54" y1="-5.08" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="1.27" y2="-4.699" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-2.54" x2="0.508" y2="-3.81" width="0.127" layer="21"/>
 </package>
 </packages>
