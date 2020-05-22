@@ -159,30 +159,30 @@
 <wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21"/>
 <text x="10.5" y="74" size="1.75" layer="21" font="vector" ratio="15" align="bottom-center">pro micro</text>
 <text x="2.25" y="0.875" size="1.75" layer="26" font="vector" ratio="15" rot="SMR0" align="bottom-right">github.com/imchipwood/dumbpad</text>
-<text x="16.5" y="69.67" size="0.75" layer="21" font="vector" ratio="15" align="center-right">GND</text>
-<text x="16.5" y="72.21" size="0.75" layer="21" font="vector" ratio="15" align="center-right">RAW</text>
-<text x="16.5" y="67.13" size="0.75" layer="21" font="vector" ratio="15" align="center-right">RST</text>
-<text x="16.5" y="64.59" size="0.75" layer="21" font="vector" ratio="15" align="center-right">VCC</text>
-<text x="4.5" y="67.13" size="0.75" layer="21" font="vector" ratio="15" align="center-left">GND</text>
-<text x="4.5" y="64.59" size="0.75" layer="21" font="vector" ratio="15" align="center-left">GND</text>
-<text x="4.5" y="72.21" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D3</text>
-<text x="4.5" y="69.67" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D2</text>
-<text x="4.5" y="62.05" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D1</text>
-<text x="4.5" y="59.51" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D0</text>
-<text x="4.5" y="56.97" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D4</text>
-<text x="4.5" y="54.43" size="0.75" layer="21" font="vector" ratio="15" align="center-left">C6</text>
-<text x="4.5" y="51.89" size="0.75" layer="21" font="vector" ratio="15" align="center-left">D7</text>
-<text x="4.5" y="49.35" size="0.75" layer="21" font="vector" ratio="15" align="center-left">E6</text>
-<text x="4.5" y="46.81" size="0.75" layer="21" font="vector" ratio="15" align="center-left">B4</text>
-<text x="4.5" y="44.27" size="0.75" layer="21" font="vector" ratio="15" align="center-left">B5</text>
-<text x="16.5" y="62.05" size="0.75" layer="21" font="vector" ratio="15" align="center-right">F4</text>
-<text x="16.5" y="59.51" size="0.75" layer="21" font="vector" ratio="15" align="center-right">F5</text>
-<text x="16.5" y="56.97" size="0.75" layer="21" font="vector" ratio="15" align="center-right">F6</text>
-<text x="16.5" y="54.43" size="0.75" layer="21" font="vector" ratio="15" align="center-right">F7</text>
-<text x="16.5" y="51.89" size="0.75" layer="21" font="vector" ratio="15" align="center-right">B1</text>
-<text x="16.5" y="49.35" size="0.75" layer="21" font="vector" ratio="15" align="center-right">B3</text>
-<text x="16.5" y="46.81" size="0.75" layer="21" font="vector" ratio="15" align="center-right">B2</text>
-<text x="16.5" y="44.27" size="0.75" layer="21" font="vector" ratio="15" align="center-right">B6</text>
+<text x="16.5" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">GND</text>
+<text x="16.5" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RAW</text>
+<text x="16.5" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RST</text>
+<text x="16.5" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">VCC</text>
+<text x="4.5" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
+<text x="4.5" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
+<text x="4.5" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D3</text>
+<text x="4.5" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D2</text>
+<text x="4.5" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D1</text>
+<text x="4.5" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D0</text>
+<text x="4.5" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D4</text>
+<text x="4.5" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">C6</text>
+<text x="4.5" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D7</text>
+<text x="4.5" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">E6</text>
+<text x="4.5" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B4</text>
+<text x="4.5" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B5</text>
+<text x="16.5" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F4</text>
+<text x="16.5" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F5</text>
+<text x="16.5" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F6</text>
+<text x="16.5" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F7</text>
+<text x="16.5" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B1</text>
+<text x="16.5" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B3</text>
+<text x="16.5" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B2</text>
+<text x="16.5" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B6</text>
 <wire x1="0" y1="2" x2="2" y2="0" width="0.1524" layer="20"/>
 <wire x1="2" y1="0" x2="95" y2="0" width="0.1524" layer="20"/>
 <wire x1="95" y1="0" x2="97" y2="2" width="0.1524" layer="20"/>
@@ -201,30 +201,30 @@
 <wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="22"/>
 <wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="22"/>
 <text x="10.5" y="74" size="1.75" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">pro micro</text>
-<text x="16.5" y="69.67" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GND</text>
-<text x="16.5" y="72.21" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">RAW</text>
-<text x="16.5" y="67.13" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">RST</text>
-<text x="16.5" y="64.59" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">VCC</text>
-<text x="4.5" y="67.13" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GND</text>
-<text x="4.5" y="64.59" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GND</text>
-<text x="4.5" y="72.21" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D3</text>
-<text x="4.5" y="69.67" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D2</text>
-<text x="4.5" y="62.05" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D1</text>
-<text x="4.5" y="59.51" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D0</text>
-<text x="4.5" y="56.97" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D4</text>
-<text x="4.5" y="54.43" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">C6</text>
-<text x="4.5" y="51.89" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D7</text>
-<text x="4.5" y="49.35" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">E6</text>
-<text x="4.5" y="46.81" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">B4</text>
-<text x="4.5" y="44.27" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">B5</text>
-<text x="16.5" y="62.05" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">F4</text>
-<text x="16.5" y="59.51" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">F5</text>
-<text x="16.5" y="56.97" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">F6</text>
-<text x="16.5" y="54.43" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">F7</text>
-<text x="16.5" y="51.89" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">B1</text>
-<text x="16.5" y="49.35" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">B3</text>
-<text x="16.5" y="46.81" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">B2</text>
-<text x="16.5" y="44.27" size="0.75" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">B6</text>
+<text x="16.5" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">GND</text>
+<text x="16.5" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RAW</text>
+<text x="16.5" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RST</text>
+<text x="16.5" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">VCC</text>
+<text x="4.5" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
+<text x="4.5" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
+<text x="4.5" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D3</text>
+<text x="4.5" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D2</text>
+<text x="4.5" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D1</text>
+<text x="4.5" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D0</text>
+<text x="4.5" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D4</text>
+<text x="4.5" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">C6</text>
+<text x="4.5" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D7</text>
+<text x="4.5" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">E6</text>
+<text x="4.5" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B4</text>
+<text x="4.5" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B5</text>
+<text x="16.5" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F4</text>
+<text x="16.5" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F5</text>
+<text x="16.5" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F6</text>
+<text x="16.5" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F7</text>
+<text x="16.5" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B1</text>
+<text x="16.5" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B3</text>
+<text x="16.5" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B2</text>
+<text x="16.5" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B6</text>
 <text x="94.75" y="0.875" size="1.75" layer="26" font="vector" ratio="15" rot="SMR0">dumbpad v1.1</text>
 <text x="94.75" y="0.875" size="1.75" layer="25" font="vector" ratio="15" rot="SR0" align="bottom-right">github.com/imchipwood/dumbpad</text>
 <hole x="38.575" y="59.425" drill="2"/>
@@ -562,12 +562,9 @@ This is a simple library of custom parts I use in my devices.</description>
 <package name="CHERRY-MX-ENCODER">
 <hole x="0" y="0" drill="4.0894"/>
 <text x="0" y="4.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-1.5" x2="-2.6" y2="-1.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="-1.5" x2="-2.6" y2="-1.5" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.2032" layer="21"/>
 <pad name="A" x="2.5" y="7.5" drill="1" rot="R180"/>
 <pad name="C" x="0" y="7.5" drill="1" rot="R180"/>
 <pad name="B" x="-2.5" y="7.5" drill="1" rot="R180"/>
@@ -583,8 +580,15 @@ This is a simple library of custom parts I use in my devices.</description>
 <circle x="-5.08" y="0" radius="1.016" width="0.127" layer="42"/>
 <pad name="S2" x="-2.54" y="-5.08" drill="1.7526" diameter="2.286" rot="R180"/>
 <pad name="S1" x="3.81" y="-2.54" drill="1.7526" diameter="2.286" rot="R180"/>
-<wire x1="-2.54" y1="-5.08" x2="1.27" y2="-4.699" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="0.508" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-4.5974" x2="0.762" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="-3.556" x2="1.27" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="6.6" x2="-6.2" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-1.524" x2="-6.2" y2="-6.6" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="6.6" x2="6.2" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-1.524" x2="6.2" y2="-6.6" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-6.6" x2="-3.81" y2="-6.6" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-6.6" x2="1.27" y2="-6.6" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-6.6" x2="6.2" y2="-6.6" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -774,6 +778,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="cfChangeDir" value="25"/>
 </pass>
 </autorouter>
+<groups>
+<board_group name="PINLABELS_LEFT_TOP"/>
+<board_group name="PINLABELS_RIGHT_TOP"/>
+<board_group name="PINLABELS_LEFT_BOTTOM"/>
+<board_group name="PINLABELS_RIGHT_BOTTOM"/>
+</groups>
 <elements>
 <element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN_PRO_MICRO" x="10.5" y="59.5" smashed="yes"/>
 <element name="S10" library="SparkFun-Switches" package="CHERRY-MX-LED" value="MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY" x="49.05" y="29.9" smashed="yes" rot="R180">
@@ -1426,4 +1436,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
