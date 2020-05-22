@@ -31,9 +31,10 @@ Changing the behavior of the LEDs is simple - look at [v1x.c](https://github.com
 
 ### Single- vs Dual-Encoder Support
 
-With the combined Cherry MX/encoder sockets, various configurations are supported - no encoder, single encoder, and double encoder.
+With the combined Cherry MX/encoder sockets, allowing single- and dual-encoder configurations.
 
-The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side. This table shows where the encoders are in the switch grid ("X" for encoder, "s" for switch):
+The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side. 
+This table shows where the encoders are in the switch grid ("X" for encoder, "s" for switch):
 
 | C0  | C1  | C2  | C3  | C4  |
 |:---:|:---:|:---:|:---:|:---:|
@@ -43,11 +44,13 @@ The only rule when using two encoders is that there cannot be two encoders on th
 |__X__|__X__|  s  |  s  |__X__|
 
 - The three encoders in columns C0 and C1 are connected to each other
-- The two encoders in column C4 are connected to each other. Thus, if you
+- The two encoders in column C4 are connected to each other
+
+So, if doing dual encoders, one must be in column C4 and the other in either C0 or C1. Three or more encoders will not work.
 
 The following sections describe the configurations that the default keymaps in QMK are designed for.
 
-#### Default Configuration: Single-Encoder
+#### Single-Encoder (Default Configuration)
 
 In the default configuration, the encoder is in column 0, the bottom left corner below the Pro Micro. All other sockets are filled with switches.
 
