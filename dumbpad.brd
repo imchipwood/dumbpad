@@ -148,41 +148,41 @@
 <board>
 <plain>
 <text x="2.25" y="0.875" size="1.75" layer="25" font="vector" ratio="15" rot="SR0">dumbpad v1.1</text>
-<wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="14.5" y1="76" x2="19.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="19.5" y1="76" x2="19.5" y2="42.5" width="0.1524" layer="21"/>
-<wire x1="19.5" y1="42.5" x2="1.5" y2="42.5" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="42.5" x2="1.5" y2="76" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="76" x2="6.5" y2="77.5" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="21"/>
-<wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="21"/>
-<text x="10.5" y="74" size="1.75" layer="21" font="vector" ratio="15" align="bottom-center">pro micro</text>
+<wire x1="1.05" y1="76" x2="6.05" y2="76" width="0.1524" layer="21"/>
+<wire x1="6.05" y1="76" x2="14.05" y2="76" width="0.1524" layer="21"/>
+<wire x1="14.05" y1="76" x2="19.05" y2="76" width="0.1524" layer="21"/>
+<wire x1="19.05" y1="76" x2="19.05" y2="42.5" width="0.1524" layer="21"/>
+<wire x1="19.05" y1="42.5" x2="1.05" y2="42.5" width="0.1524" layer="21"/>
+<wire x1="1.05" y1="42.5" x2="1.05" y2="76" width="0.1524" layer="21"/>
+<wire x1="6.05" y1="76" x2="6.05" y2="77.5" width="0.1524" layer="21"/>
+<wire x1="6.05" y1="77.5" x2="14.05" y2="77.5" width="0.1524" layer="21"/>
+<wire x1="14.05" y1="77.5" x2="14.05" y2="76" width="0.1524" layer="21"/>
+<text x="10.05" y="74" size="1.75" layer="21" font="vector" ratio="15" align="bottom-center">pro micro</text>
 <text x="2.25" y="0.875" size="1.75" layer="26" font="vector" ratio="15" rot="SMR0" align="bottom-right">github.com/imchipwood/dumbpad</text>
-<text x="16.5" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">GND</text>
-<text x="16.5" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RAW</text>
-<text x="16.5" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RST</text>
-<text x="16.5" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">VCC</text>
-<text x="4.5" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
-<text x="4.5" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
-<text x="4.5" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D3</text>
-<text x="4.5" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D2</text>
-<text x="4.5" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D1</text>
-<text x="4.5" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D0</text>
-<text x="4.5" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D4</text>
-<text x="4.5" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">C6</text>
-<text x="4.5" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D7</text>
-<text x="4.5" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">E6</text>
-<text x="4.5" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B4</text>
-<text x="4.5" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B5</text>
-<text x="16.5" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F4</text>
-<text x="16.5" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F5</text>
-<text x="16.5" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F6</text>
-<text x="16.5" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F7</text>
-<text x="16.5" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B1</text>
-<text x="16.5" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B3</text>
-<text x="16.5" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B2</text>
-<text x="16.5" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B6</text>
+<text x="16.05" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">GND</text>
+<text x="16.05" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RAW</text>
+<text x="16.05" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">RST</text>
+<text x="16.05" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">VCC</text>
+<text x="4.05" y="67.13" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
+<text x="4.05" y="64.59" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">GND</text>
+<text x="4.05" y="72.21" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D3</text>
+<text x="4.05" y="69.67" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D2</text>
+<text x="4.05" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D1</text>
+<text x="4.05" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D0</text>
+<text x="4.05" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D4</text>
+<text x="4.05" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">C6</text>
+<text x="4.05" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">D7</text>
+<text x="4.05" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">E6</text>
+<text x="4.05" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B4</text>
+<text x="4.05" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-left" grouprefs="PINLABELS_LEFT_TOP">B5</text>
+<text x="16.05" y="62.05" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F4</text>
+<text x="16.05" y="59.51" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F5</text>
+<text x="16.05" y="56.97" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F6</text>
+<text x="16.05" y="54.43" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">F7</text>
+<text x="16.05" y="51.89" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B1</text>
+<text x="16.05" y="49.35" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B3</text>
+<text x="16.05" y="46.81" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B2</text>
+<text x="16.05" y="44.27" size="0.75" layer="25" font="vector" ratio="15" align="center-right" grouprefs="PINLABELS_RIGHT_TOP">B6</text>
 <wire x1="0" y1="2" x2="2" y2="0" width="0.1524" layer="20"/>
 <wire x1="2" y1="0" x2="95" y2="0" width="0.1524" layer="20"/>
 <wire x1="95" y1="0" x2="97" y2="2" width="0.1524" layer="20"/>
@@ -191,40 +191,40 @@
 <wire x1="95" y1="78.5" x2="2" y2="78.5" width="0.1524" layer="20"/>
 <wire x1="2" y1="78.5" x2="0" y2="76.5" width="0.1524" layer="20"/>
 <wire x1="0" y1="76.5" x2="0" y2="2" width="0.1524" layer="20"/>
-<wire x1="1.5" y1="76" x2="6.5" y2="76" width="0.1524" layer="22"/>
-<wire x1="6.5" y1="76" x2="14.5" y2="76" width="0.1524" layer="22"/>
-<wire x1="14.5" y1="76" x2="19.5" y2="76" width="0.1524" layer="22"/>
-<wire x1="19.5" y1="76" x2="19.5" y2="42.5" width="0.1524" layer="22"/>
-<wire x1="19.5" y1="42.5" x2="1.5" y2="42.5" width="0.1524" layer="22"/>
-<wire x1="1.5" y1="42.5" x2="1.5" y2="76" width="0.1524" layer="22"/>
-<wire x1="6.5" y1="76" x2="6.5" y2="77.5" width="0.1524" layer="22"/>
-<wire x1="6.5" y1="77.5" x2="14.5" y2="77.5" width="0.1524" layer="22"/>
-<wire x1="14.5" y1="77.5" x2="14.5" y2="76" width="0.1524" layer="22"/>
-<text x="10.5" y="74" size="1.75" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">pro micro</text>
-<text x="16.5" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">GND</text>
-<text x="16.5" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RAW</text>
-<text x="16.5" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RST</text>
-<text x="16.5" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">VCC</text>
-<text x="4.5" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
-<text x="4.5" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
-<text x="4.5" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D3</text>
-<text x="4.5" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D2</text>
-<text x="4.5" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D1</text>
-<text x="4.5" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D0</text>
-<text x="4.5" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D4</text>
-<text x="4.5" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">C6</text>
-<text x="4.5" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D7</text>
-<text x="4.5" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">E6</text>
-<text x="4.5" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B4</text>
-<text x="4.5" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B5</text>
-<text x="16.5" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F4</text>
-<text x="16.5" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F5</text>
-<text x="16.5" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F6</text>
-<text x="16.5" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F7</text>
-<text x="16.5" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B1</text>
-<text x="16.5" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B3</text>
-<text x="16.5" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B2</text>
-<text x="16.5" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B6</text>
+<wire x1="1.05" y1="76" x2="6.05" y2="76" width="0.1524" layer="22"/>
+<wire x1="6.05" y1="76" x2="14.05" y2="76" width="0.1524" layer="22"/>
+<wire x1="14.05" y1="76" x2="19.05" y2="76" width="0.1524" layer="22"/>
+<wire x1="19.05" y1="76" x2="19.05" y2="42.5" width="0.1524" layer="22"/>
+<wire x1="19.05" y1="42.5" x2="1.05" y2="42.5" width="0.1524" layer="22"/>
+<wire x1="1.05" y1="42.5" x2="1.05" y2="76" width="0.1524" layer="22"/>
+<wire x1="6.05" y1="76" x2="6.05" y2="77.5" width="0.1524" layer="22"/>
+<wire x1="6.05" y1="77.5" x2="14.05" y2="77.5" width="0.1524" layer="22"/>
+<wire x1="14.05" y1="77.5" x2="14.05" y2="76" width="0.1524" layer="22"/>
+<text x="10.05" y="74" size="1.75" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">pro micro</text>
+<text x="16.05" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">GND</text>
+<text x="16.05" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RAW</text>
+<text x="16.05" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">RST</text>
+<text x="16.05" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">VCC</text>
+<text x="4.05" y="67.13" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
+<text x="4.05" y="64.59" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">GND</text>
+<text x="4.05" y="72.21" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D3</text>
+<text x="4.05" y="69.67" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D2</text>
+<text x="4.05" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D1</text>
+<text x="4.05" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D0</text>
+<text x="4.05" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D4</text>
+<text x="4.05" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">C6</text>
+<text x="4.05" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">D7</text>
+<text x="4.05" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">E6</text>
+<text x="4.05" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B4</text>
+<text x="4.05" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-right" grouprefs="PINLABELS_LEFT_BOTTOM">B5</text>
+<text x="16.05" y="62.05" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F4</text>
+<text x="16.05" y="59.51" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F5</text>
+<text x="16.05" y="56.97" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F6</text>
+<text x="16.05" y="54.43" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">F7</text>
+<text x="16.05" y="51.89" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B1</text>
+<text x="16.05" y="49.35" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B3</text>
+<text x="16.05" y="46.81" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B2</text>
+<text x="16.05" y="44.27" size="0.75" layer="26" font="vector" ratio="15" rot="MR0" align="center-left" grouprefs="PINLABELS_RIGHT_BOTTOM">B6</text>
 <text x="94.75" y="0.875" size="1.75" layer="26" font="vector" ratio="15" rot="SMR0">dumbpad v1.1</text>
 <text x="94.75" y="0.875" size="1.75" layer="25" font="vector" ratio="15" rot="SR0" align="bottom-right">github.com/imchipwood/dumbpad</text>
 <hole x="38.575" y="59.425" drill="2"/>
@@ -785,7 +785,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <board_group name="PINLABELS_RIGHT_BOTTOM"/>
 </groups>
 <elements>
-<element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN_PRO_MICRO" x="10.5" y="59.5" smashed="yes"/>
+<element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN_PRO_MICRO" x="10.05" y="59.5" smashed="yes"/>
 <element name="S10" library="SparkFun-Switches" package="CHERRY-MX-LED" value="MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY" x="49.05" y="29.9" smashed="yes" rot="R180">
 <attribute name="SF_ID" value="COM-13834" x="-5.56" y="97.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -870,7 +870,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D16" library="adafruit" package="DO-1N4148" value="" x="87.15" y="20.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="89.182" y="21.154" size="0.6096" layer="21" rot="R180"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.6" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.05" y="59.5" smashed="yes" rot="MR0"/>
 <element name="D17" library="SparkFun-LED" package="LED_3MM" value="" x="4.8" y="38.75" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="DIO-08794" x="4.8" y="38.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.514" y="38.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -889,7 +889,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value=" SWCH-08441" x="10.05" y="23.25" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="COM-00097" x="10.05" y="23.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.6" smashed="yes"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.05" y="59.5" smashed="yes"/>
 <element name="D18" library="SparkFun-LED" package="LED_3MM" value="" x="10.05" y="38.75" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="DIO-08794" x="10.05" y="38.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.764" y="38.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -948,15 +948,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D3" pad="C"/>
 <contactref element="B1" pad="20"/>
 <wire x1="83.34" y1="58.4" x2="79.25" y2="62.49" width="0.1524" layer="1"/>
-<wire x1="79.25" y1="65" x2="79.25" y2="62.49" width="0.1524" layer="1"/>
-<wire x1="77.625" y1="71.81" x2="77.625" y2="66.625" width="0.1524" layer="1"/>
-<wire x1="77.625" y1="66.625" x2="79.25" y2="65" width="0.1524" layer="1"/>
+<wire x1="79.25" y1="65.5" x2="79.25" y2="62.49" width="0.1524" layer="1"/>
+<wire x1="77.625" y1="71.81" x2="77.625" y2="67.125" width="0.1524" layer="1"/>
+<wire x1="77.625" y1="67.125" x2="79.25" y2="65.5" width="0.1524" layer="1"/>
 <wire x1="77.625" y1="71.81" x2="58.575" y2="71.81" width="0.1524" layer="1"/>
 <wire x1="58.575" y1="71.81" x2="39.525" y2="71.81" width="0.1524" layer="1"/>
 <wire x1="39.525" y1="71.81" x2="23.06" y2="71.81" width="0.1524" layer="1"/>
-<wire x1="23.06" y1="71.81" x2="19.5" y2="68.25" width="0.1524" layer="1"/>
-<wire x1="19.5" y1="63.42" x2="18.12" y2="62.04" width="0.1524" layer="1"/>
-<wire x1="19.5" y1="68.25" x2="19.5" y2="63.42" width="0.1524" layer="1"/>
+<wire x1="23.06" y1="71.81" x2="19.25" y2="68" width="0.1524" layer="1"/>
+<wire x1="19.25" y1="63.62" x2="17.67" y2="62.04" width="0.1524" layer="1"/>
+<wire x1="19.25" y1="68" x2="19.25" y2="63.62" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW1">
 <contactref element="D8" pad="C"/>
@@ -967,8 +967,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="95.15" y1="52.76" x2="77.625" y2="52.76" width="0.1524" layer="1"/>
 <wire x1="77.625" y1="52.76" x2="58.575" y2="52.76" width="0.1524" layer="1"/>
 <wire x1="58.575" y1="52.76" x2="39.525" y2="52.76" width="0.1524" layer="1"/>
-<wire x1="39.525" y1="52.76" x2="24.86" y2="52.76" width="0.1524" layer="1"/>
-<wire x1="24.86" y1="52.76" x2="18.12" y2="59.5" width="0.1524" layer="1"/>
+<wire x1="39.525" y1="52.76" x2="24.41" y2="52.76" width="0.1524" layer="1"/>
+<wire x1="24.41" y1="52.76" x2="17.67" y2="59.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW2">
 <contactref element="D12" pad="C"/>
@@ -980,9 +980,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="77.625" y1="33.71" x2="58.575" y2="33.71" width="0.1524" layer="1"/>
 <wire x1="58.575" y1="33.71" x2="39.525" y2="33.71" width="0.1524" layer="1"/>
 <wire x1="39.525" y1="33.71" x2="24.79" y2="33.71" width="0.1524" layer="1"/>
-<wire x1="24.79" y1="33.71" x2="21" y2="37.5" width="0.1524" layer="1"/>
-<wire x1="21" y1="54.08" x2="18.12" y2="56.96" width="0.1524" layer="1"/>
-<wire x1="21" y1="37.5" x2="21" y2="54.08" width="0.1524" layer="1"/>
+<wire x1="24.79" y1="33.71" x2="20.5" y2="38" width="0.1524" layer="1"/>
+<wire x1="20.5" y1="54.13" x2="17.67" y2="56.96" width="0.1524" layer="1"/>
+<wire x1="20.5" y1="38" x2="20.5" y2="54.13" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW3">
 <contactref element="D16" pad="C"/>
@@ -990,14 +990,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D14" pad="C"/>
 <contactref element="D15" pad="C"/>
 <contactref element="B1" pad="17"/>
-<wire x1="18.12" y1="54.42" x2="20.5" y2="52.04" width="0.1524" layer="1"/>
-<wire x1="20.5" y1="52.04" x2="20.5" y2="24.295" width="0.1524" layer="1"/>
+<wire x1="17.67" y1="54.42" x2="20" y2="52.09" width="0.1524" layer="1"/>
+<wire x1="20" y1="52.09" x2="20" y2="24.795" width="0.1524" layer="1"/>
 <wire x1="83.34" y1="20.9" x2="83.34" y2="20.375" width="0.1524" layer="1"/>
 <wire x1="83.34" y1="20.375" x2="77.625" y2="14.66" width="0.1524" layer="1"/>
 <contactref element="D20" pad="C"/>
 <wire x1="77.625" y1="14.66" x2="58.575" y2="14.66" width="0.1524" layer="1"/>
 <wire x1="39.525" y1="14.66" x2="19.525" y2="14.66" width="0.1524" layer="1"/>
-<wire x1="20.5" y1="24.295" x2="24.795" y2="20" width="0.1524" layer="1"/>
+<wire x1="20" y1="24.795" x2="24.795" y2="20" width="0.1524" layer="1"/>
 <wire x1="34.185" y1="20" x2="39.525" y2="14.66" width="0.1524" layer="1"/>
 <wire x1="24.795" y1="20" x2="34.185" y2="20" width="0.1524" layer="1"/>
 <wire x1="39.525" y1="14.66" x2="58.575" y2="14.66" width="0.1524" layer="1"/>
@@ -1121,9 +1121,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S5" pad="S2"/>
 <wire x1="27.46" y1="24.82" x2="26.5" y2="23.86" width="0.1524" layer="16"/>
 <wire x1="27.46" y1="43.87" x2="26.59" y2="43" width="0.1524" layer="16"/>
-<wire x1="5.25" y1="49.51" x2="2.88" y2="51.88" width="0.1524" layer="16"/>
-<wire x1="5.25" y1="44.25" x2="6.5" y2="43" width="0.1524" layer="16"/>
-<wire x1="5.25" y1="44.25" x2="5.25" y2="49.51" width="0.1524" layer="16"/>
+<wire x1="4.75" y1="49.56" x2="2.43" y2="51.88" width="0.1524" layer="16"/>
+<wire x1="4.75" y1="44.75" x2="6.5" y2="43" width="0.1524" layer="16"/>
+<wire x1="4.75" y1="44.75" x2="4.75" y2="49.56" width="0.1524" layer="16"/>
 <contactref element="RE_3_1" pad="E"/>
 <contactref element="RE_3_1" pad="S2"/>
 <wire x1="26.5" y1="23.86" x2="26.5" y2="6.73" width="0.1524" layer="16"/>
@@ -1145,19 +1145,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S10" pad="S2"/>
 <contactref element="S6" pad="S2"/>
 <contactref element="S2" pad="S2"/>
-<wire x1="21.75" y1="38" x2="21.75" y2="13" width="0.1524" layer="16"/>
-<wire x1="21.75" y1="13" x2="21.5" y2="12.75" width="0.1524" layer="16"/>
-<wire x1="21.5" y1="12.75" x2="21.5" y2="9" width="0.1524" layer="16"/>
-<wire x1="21.5" y1="9" x2="21.75" y2="8.75" width="0.1524" layer="16"/>
-<wire x1="21.75" y1="8.75" x2="21.75" y2="6" width="0.1524" layer="16"/>
+<wire x1="21.75" y1="38" x2="21.75" y2="12.5" width="0.1524" layer="16"/>
+<wire x1="21.75" y1="12.5" x2="21.5" y2="12.25" width="0.1524" layer="16"/>
+<wire x1="21.5" y1="12.25" x2="21.5" y2="9.5" width="0.1524" layer="16"/>
+<wire x1="21.5" y1="9.5" x2="21.75" y2="9.25" width="0.1524" layer="16"/>
+<wire x1="21.75" y1="9.25" x2="21.75" y2="6" width="0.1524" layer="16"/>
 <wire x1="21.75" y1="6" x2="25.25" y2="2.5" width="0.1524" layer="16"/>
 <wire x1="21.75" y1="38" x2="17.25" y2="42.5" width="0.1524" layer="16"/>
 <wire x1="43.24" y1="2.5" x2="46.51" y2="5.77" width="0.1524" layer="16"/>
 <wire x1="25.25" y1="2.5" x2="43.24" y2="2.5" width="0.1524" layer="16"/>
-<wire x1="6.25" y1="42.5" x2="4.75" y2="44" width="0.1524" layer="16"/>
-<wire x1="4.75" y1="47.47" x2="2.88" y2="49.34" width="0.1524" layer="16"/>
+<wire x1="6.25" y1="42.5" x2="4.25" y2="44.5" width="0.1524" layer="16"/>
+<wire x1="4.25" y1="47.52" x2="2.43" y2="49.34" width="0.1524" layer="16"/>
 <wire x1="17.25" y1="42.5" x2="6.25" y2="42.5" width="0.1524" layer="16"/>
-<wire x1="4.75" y1="44" x2="4.75" y2="47.47" width="0.1524" layer="16"/>
+<wire x1="4.25" y1="44.5" x2="4.25" y2="47.52" width="0.1524" layer="16"/>
 <wire x1="46.51" y1="62.92" x2="46.51" y2="43.87" width="0.1524" layer="16"/>
 <wire x1="46.51" y1="43.87" x2="46.51" y2="24.82" width="0.1524" layer="16"/>
 <wire x1="46.51" y1="24.82" x2="46.51" y2="5.77" width="0.1524" layer="16"/>
@@ -1170,17 +1170,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S3" pad="S2"/>
 <wire x1="25" y1="2" x2="61.79" y2="2" width="0.1524" layer="16"/>
 <wire x1="25" y1="2" x2="21.25" y2="5.75" width="0.1524" layer="16"/>
-<wire x1="21.25" y1="5.75" x2="21.25" y2="8.5" width="0.1524" layer="16"/>
-<wire x1="21.25" y1="8.5" x2="21" y2="8.75" width="0.1524" layer="16"/>
-<wire x1="21" y1="8.75" x2="21" y2="13" width="0.1524" layer="16"/>
-<wire x1="21" y1="13" x2="21.25" y2="13.25" width="0.1524" layer="16"/>
-<wire x1="21.25" y1="13.25" x2="21.25" y2="37.75" width="0.1524" layer="16"/>
+<wire x1="21.25" y1="5.75" x2="21.25" y2="9" width="0.1524" layer="16"/>
+<wire x1="21.25" y1="9" x2="21" y2="9.25" width="0.1524" layer="16"/>
+<wire x1="21" y1="9.25" x2="21" y2="12.5" width="0.1524" layer="16"/>
+<wire x1="21" y1="12.5" x2="21.25" y2="12.75" width="0.1524" layer="16"/>
+<wire x1="21.25" y1="12.75" x2="21.25" y2="37.75" width="0.1524" layer="16"/>
 <wire x1="21.25" y1="37.75" x2="17" y2="42" width="0.1524" layer="16"/>
 <wire x1="61.79" y1="2" x2="65.56" y2="5.77" width="0.1524" layer="16"/>
-<wire x1="4.25" y1="45.43" x2="2.88" y2="46.8" width="0.1524" layer="16"/>
+<wire x1="3.75" y1="45.48" x2="2.43" y2="46.8" width="0.1524" layer="16"/>
 <wire x1="17" y1="42" x2="6" y2="42" width="0.1524" layer="16"/>
-<wire x1="6" y1="42" x2="4.25" y2="43.75" width="0.1524" layer="16"/>
-<wire x1="4.25" y1="43.75" x2="4.25" y2="45.43" width="0.1524" layer="16"/>
+<wire x1="6" y1="42" x2="3.75" y2="44.25" width="0.1524" layer="16"/>
+<wire x1="3.75" y1="44.25" x2="3.75" y2="45.48" width="0.1524" layer="16"/>
 <wire x1="65.56" y1="62.92" x2="65.56" y2="43.87" width="0.1524" layer="16"/>
 <wire x1="65.56" y1="43.87" x2="65.56" y2="24.82" width="0.1524" layer="16"/>
 <wire x1="65.56" y1="24.82" x2="65.56" y2="5.77" width="0.1524" layer="16"/>
@@ -1189,24 +1189,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="B1" pad="12"/>
 <contactref element="S12" pad="S2"/>
 <contactref element="S8" pad="S2"/>
-<wire x1="82" y1="17" x2="83.75" y2="15.25" width="0.1524" layer="16"/>
-<wire x1="82" y1="17" x2="82" y2="22.21" width="0.1524" layer="16"/>
+<wire x1="82" y1="18.75" x2="83.75" y2="17" width="0.1524" layer="16"/>
+<wire x1="82" y1="18.75" x2="82" y2="22.21" width="0.1524" layer="16"/>
 <wire x1="82" y1="22.21" x2="84.61" y2="24.82" width="0.1524" layer="16"/>
 <wire x1="24.75" y1="1.5" x2="20.75" y2="5.5" width="0.1524" layer="16"/>
-<wire x1="20.75" y1="5.5" x2="20.75" y2="8.25" width="0.1524" layer="16"/>
-<wire x1="20.75" y1="8.25" x2="20.5" y2="8.5" width="0.1524" layer="16"/>
-<wire x1="20.5" y1="8.5" x2="20.5" y2="13.25" width="0.1524" layer="16"/>
-<wire x1="20.5" y1="13.25" x2="20.75" y2="13.5" width="0.1524" layer="16"/>
-<wire x1="20.75" y1="13.5" x2="20.75" y2="37.25" width="0.1524" layer="16"/>
+<wire x1="20.75" y1="5.5" x2="20.75" y2="8.75" width="0.1524" layer="16"/>
+<wire x1="20.75" y1="8.75" x2="20.5" y2="9" width="0.1524" layer="16"/>
+<wire x1="20.5" y1="9" x2="20.5" y2="12.75" width="0.1524" layer="16"/>
+<wire x1="20.5" y1="12.75" x2="20.75" y2="13" width="0.1524" layer="16"/>
+<wire x1="20.75" y1="13" x2="20.75" y2="37.25" width="0.1524" layer="16"/>
 <wire x1="20.75" y1="37.25" x2="16.5" y2="41.5" width="0.1524" layer="16"/>
-<wire x1="5.64" y1="41.5" x2="2.88" y2="44.26" width="0.1524" layer="16"/>
-<wire x1="16.5" y1="41.5" x2="5.64" y2="41.5" width="0.1524" layer="16"/>
+<wire x1="5.69" y1="41.5" x2="2.93" y2="44.26" width="0.1524" layer="16"/>
+<wire x1="2.93" y1="44.26" x2="2.43" y2="44.26" width="0.1524" layer="16"/>
+<wire x1="16.5" y1="41.5" x2="5.69" y2="41.5" width="0.1524" layer="16"/>
 <contactref element="RE_3_4" pad="E"/>
 <contactref element="RE_3_4" pad="S2"/>
 <wire x1="82.3" y1="1.5" x2="84.65" y2="3.85" width="0.1524" layer="16"/>
 <wire x1="24.75" y1="1.5" x2="82.3" y2="1.5" width="0.1524" layer="16"/>
 <wire x1="83.75" y1="6.63" x2="84.61" y2="5.77" width="0.1524" layer="16"/>
-<wire x1="83.75" y1="15.25" x2="83.75" y2="6.63" width="0.1524" layer="16"/>
+<wire x1="83.75" y1="17" x2="83.75" y2="6.63" width="0.1524" layer="16"/>
 <wire x1="84.61" y1="5.77" x2="84.61" y2="3.89" width="0.1524" layer="16"/>
 <wire x1="84.61" y1="3.89" x2="84.65" y2="3.85" width="0.1524" layer="16"/>
 <contactref element="RE_0_4" pad="E"/>
@@ -1220,12 +1221,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="RESET">
 <contactref element="B1" pad="22"/>
 <contactref element="S17" pad="3"/>
-<wire x1="3.9988" y1="20.9894" x2="6.7988" y2="20.9894" width="0.1524" layer="1"/>
-<wire x1="3.9988" y1="20.9894" x2="2.5" y2="22.4882" width="0.1524" layer="1"/>
-<wire x1="4.75" y1="53.75" x2="18.12" y2="67.12" width="0.1524" layer="1"/>
-<wire x1="2.5" y1="22.4882" x2="2.5" y2="40.5" width="0.1524" layer="1"/>
-<wire x1="2.5" y1="40.5" x2="4.75" y2="42.75" width="0.1524" layer="1"/>
-<wire x1="4.75" y1="42.75" x2="4.75" y2="53.75" width="0.1524" layer="1"/>
+<wire x1="3.2488" y1="20.9894" x2="6.7988" y2="20.9894" width="0.1524" layer="1"/>
+<wire x1="3.2488" y1="20.9894" x2="2" y2="22.2382" width="0.1524" layer="1"/>
+<wire x1="17.67" y1="66.92" x2="4.75" y2="54" width="0.1524" layer="1"/>
+<wire x1="17.67" y1="66.92" x2="17.67" y2="67.12" width="0.1524" layer="1"/>
+<wire x1="2" y1="22.2382" x2="2" y2="40.75" width="0.1524" layer="1"/>
+<wire x1="2" y1="40.75" x2="4.75" y2="43.5" width="0.1524" layer="1"/>
+<wire x1="4.75" y1="43.5" x2="4.75" y2="54" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="D17" pad="A"/>
@@ -1244,17 +1246,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R1" pad="P$2"/>
 <contactref element="B1" pad="15"/>
 <wire x1="13.86" y1="34.25" x2="16.25" y2="34.25" width="0.1524" layer="1"/>
-<wire x1="19.5" y1="47.96" x2="18.12" y2="49.34" width="0.1524" layer="1"/>
-<wire x1="16.25" y1="34.25" x2="19.5" y2="37.5" width="0.1524" layer="1"/>
-<wire x1="19.5" y1="37.5" x2="19.5" y2="47.96" width="0.1524" layer="1"/>
+<wire x1="19" y1="48.01" x2="17.67" y2="49.34" width="0.1524" layer="1"/>
+<wire x1="16.25" y1="34.25" x2="19" y2="37" width="0.1524" layer="1"/>
+<wire x1="19" y1="37" x2="19" y2="48.01" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED1">
 <contactref element="B1" pad="16"/>
 <contactref element="R2" pad="P$2"/>
-<wire x1="20" y1="50" x2="18.12" y2="51.88" width="0.1524" layer="1"/>
-<wire x1="20" y1="37.19" x2="20" y2="50" width="0.1524" layer="1"/>
+<wire x1="19.5" y1="50.05" x2="17.67" y2="51.88" width="0.1524" layer="1"/>
+<wire x1="19.5" y1="36.69" x2="19.5" y2="50.05" width="0.1524" layer="1"/>
 <wire x1="13.86" y1="31.5" x2="14.31" y2="31.5" width="0.1524" layer="1"/>
-<wire x1="14.31" y1="31.5" x2="20" y2="37.19" width="0.1524" layer="1"/>
+<wire x1="14.31" y1="31.5" x2="19.5" y2="36.69" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER1_L0">
 <contactref element="B1" pad="5"/>
@@ -1277,17 +1279,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="94" y1="47.75" x2="94" y2="31" width="0.1524" layer="16"/>
 <wire x1="89.65" y1="75.5" x2="87.4" y2="77.75" width="0.1524" layer="1"/>
 <wire x1="87.4" y1="77.75" x2="19.75" y2="77.75" width="0.1524" layer="1"/>
-<wire x1="4.04" y1="62.04" x2="2.88" y2="62.04" width="0.1524" layer="1"/>
+<wire x1="4.04" y1="62.04" x2="2.43" y2="62.04" width="0.1524" layer="1"/>
 <wire x1="19.75" y1="77.75" x2="4.04" y2="62.04" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER1_L1">
 <contactref element="B1" pad="6"/>
 <contactref element="RE_3_4" pad="B"/>
 <contactref element="RE_0_4" pad="B"/>
-<wire x1="84.65" y1="18.35" x2="84.65" y2="20.65" width="0.1524" layer="16"/>
-<wire x1="84.65" y1="20.65" x2="86.75" y2="22.75" width="0.1524" layer="16"/>
-<wire x1="86.75" y1="22.75" x2="89.5" y2="22.75" width="0.1524" layer="16"/>
-<wire x1="89.5" y1="22.75" x2="93.5" y2="26.75" width="0.1524" layer="16"/>
+<wire x1="84.65" y1="18.35" x2="85.1" y2="18.35" width="0.1524" layer="16"/>
+<wire x1="93.5" y1="26.75" x2="85.1" y2="18.35" width="0.1524" layer="16"/>
 <wire x1="95.75" y1="68.75" x2="90.25" y2="74.25" width="0.1524" layer="16"/>
 <wire x1="85.9" y1="74.25" x2="84.65" y2="75.5" width="0.1524" layer="16"/>
 <wire x1="93.5" y1="65" x2="95.75" y2="67.25" width="0.1524" layer="16"/>
@@ -1304,10 +1304,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="93.5" y1="26.75" x2="93.5" y2="29" width="0.1524" layer="16"/>
 <wire x1="84.65" y1="75.5" x2="82.9" y2="77.25" width="0.1524" layer="1"/>
 <wire x1="82.9" y1="77.25" x2="20" y2="77.25" width="0.1524" layer="1"/>
-<wire x1="4.25" y1="61.5" x2="4.25" y2="60.75" width="0.1524" layer="1"/>
-<wire x1="4.25" y1="60.75" x2="3" y2="59.5" width="0.1524" layer="1"/>
-<wire x1="3" y1="59.5" x2="2.88" y2="59.5" width="0.1524" layer="1"/>
-<wire x1="20" y1="77.25" x2="4.25" y2="61.5" width="0.1524" layer="1"/>
+<wire x1="3.75" y1="61" x2="3.75" y2="60.25" width="0.1524" layer="1"/>
+<wire x1="3.75" y1="60.25" x2="3" y2="59.5" width="0.1524" layer="1"/>
+<wire x1="3" y1="59.5" x2="2.43" y2="59.5" width="0.1524" layer="1"/>
+<wire x1="20" y1="77.25" x2="3.75" y2="61" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER0_L0">
 <contactref element="RE_3_1" pad="B"/>
@@ -1316,41 +1316,42 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.75" y1="76.25" x2="19.75" y2="76.25" width="0.1524" layer="16"/>
 <contactref element="B1" pad="14"/>
 <contactref element="RE_3_0" pad="B"/>
-<wire x1="19.75" y1="76.25" x2="16.75" y2="73.25" width="0.1524" layer="16"/>
-<wire x1="16.75" y1="48.17" x2="18.12" y2="46.8" width="0.1524" layer="16"/>
-<wire x1="16.75" y1="73.25" x2="16.75" y2="48.17" width="0.1524" layer="16"/>
-<wire x1="3" y1="40.25" x2="3" y2="23.5" width="0.1524" layer="1"/>
-<wire x1="3" y1="40.25" x2="9.5" y2="46.75" width="0.1524" layer="1"/>
-<wire x1="18.07" y1="46.75" x2="18.12" y2="46.8" width="0.1524" layer="1"/>
-<wire x1="9.5" y1="46.75" x2="18.07" y2="46.75" width="0.1524" layer="1"/>
+<wire x1="19.75" y1="76.25" x2="16.25" y2="72.75" width="0.1524" layer="16"/>
+<wire x1="17.67" y1="47.3" x2="16.25" y2="48.72" width="0.1524" layer="16"/>
+<wire x1="17.67" y1="47.3" x2="17.67" y2="46.8" width="0.1524" layer="16"/>
+<wire x1="16.25" y1="72.75" x2="16.25" y2="48.72" width="0.1524" layer="16"/>
+<wire x1="2.5" y1="40.5" x2="2.5" y2="23.75" width="0.1524" layer="1"/>
+<wire x1="2.5" y1="40.5" x2="5" y2="43" width="0.1524" layer="1"/>
+<wire x1="13.87" y1="43" x2="17.67" y2="46.8" width="0.1524" layer="1"/>
+<wire x1="5" y1="43" x2="13.87" y2="43" width="0.1524" layer="1"/>
 <wire x1="27.5" y1="18.35" x2="26.35" y2="19.5" width="0.1524" layer="1"/>
 <wire x1="26.35" y1="19.5" x2="8.7" y2="19.5" width="0.1524" layer="1"/>
-<wire x1="4" y1="22.5" x2="7.75" y2="22.5" width="0.1524" layer="1"/>
-<wire x1="3" y1="23.5" x2="4" y2="22.5" width="0.1524" layer="1"/>
+<wire x1="3.75" y1="22.5" x2="7.75" y2="22.5" width="0.1524" layer="1"/>
+<wire x1="2.5" y1="23.75" x2="3.75" y2="22.5" width="0.1524" layer="1"/>
 <wire x1="8.7" y1="19.5" x2="7.55" y2="18.35" width="0.1524" layer="1"/>
 <wire x1="7.75" y1="22.5" x2="8.7" y2="21.55" width="0.1524" layer="1"/>
 <wire x1="8.7" y1="21.55" x2="8.7" y2="19.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER0_L1">
 <contactref element="B1" pad="7"/>
-<wire x1="4.25" y1="55.59" x2="2.88" y2="56.96" width="0.1524" layer="1"/>
-<wire x1="2" y1="40.75" x2="2" y2="22.25" width="0.1524" layer="1"/>
-<wire x1="2" y1="40.75" x2="4.25" y2="43" width="0.1524" layer="1"/>
-<wire x1="4.25" y1="43" x2="4.25" y2="55.59" width="0.1524" layer="1"/>
+<wire x1="4.25" y1="55.14" x2="2.43" y2="56.96" width="0.1524" layer="1"/>
+<wire x1="1.5" y1="41" x2="1.5" y2="22" width="0.1524" layer="1"/>
+<wire x1="1.5" y1="41" x2="4.25" y2="43.75" width="0.1524" layer="1"/>
+<wire x1="4.25" y1="43.75" x2="4.25" y2="55.14" width="0.1524" layer="1"/>
 <contactref element="RE_3_1" pad="A"/>
 <contactref element="RE_0_1" pad="A"/>
 <contactref element="RE_3_0" pad="A"/>
 <wire x1="32.5" y1="18.35" x2="31.4" y2="17.25" width="0.1524" layer="1"/>
 <wire x1="13.65" y1="17.25" x2="12.55" y2="18.35" width="0.1524" layer="1"/>
 <wire x1="31.4" y1="17.25" x2="13.65" y2="17.25" width="0.1524" layer="1"/>
-<wire x1="2" y1="22.25" x2="7" y2="17.25" width="0.1524" layer="1"/>
+<wire x1="1.5" y1="22" x2="6.25" y2="17.25" width="0.1524" layer="1"/>
 <wire x1="11.45" y1="17.25" x2="12.55" y2="18.35" width="0.1524" layer="1"/>
-<wire x1="7" y1="17.25" x2="11.45" y2="17.25" width="0.1524" layer="1"/>
+<wire x1="6.25" y1="17.25" x2="11.45" y2="17.25" width="0.1524" layer="1"/>
 <wire x1="32.5" y1="75.5" x2="31.25" y2="76.75" width="0.1524" layer="1"/>
-<wire x1="4.75" y1="58.83" x2="2.88" y2="56.96" width="0.1524" layer="1"/>
+<wire x1="4.25" y1="58.78" x2="2.43" y2="56.96" width="0.1524" layer="1"/>
 <wire x1="31.25" y1="76.75" x2="20.25" y2="76.75" width="0.1524" layer="1"/>
-<wire x1="20.25" y1="76.75" x2="4.75" y2="61.25" width="0.1524" layer="1"/>
-<wire x1="4.75" y1="61.25" x2="4.75" y2="58.83" width="0.1524" layer="1"/>
+<wire x1="20.25" y1="76.75" x2="4.25" y2="60.75" width="0.1524" layer="1"/>
+<wire x1="4.25" y1="60.75" x2="4.25" y2="58.78" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R2" pad="P$1"/>
@@ -1372,9 +1373,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="B1" pad="13"/>
 <contactref element="R3" pad="P$2"/>
 <wire x1="13.5" y1="35.75" x2="17" y2="35.75" width="0.1524" layer="1"/>
-<wire x1="19" y1="43.38" x2="18.12" y2="44.26" width="0.1524" layer="1"/>
-<wire x1="17" y1="35.75" x2="19" y2="37.75" width="0.1524" layer="1"/>
-<wire x1="19" y1="37.75" x2="19" y2="43.38" width="0.1524" layer="1"/>
+<wire x1="18.5" y1="43.43" x2="17.67" y2="44.26" width="0.1524" layer="1"/>
+<wire x1="17" y1="35.75" x2="18.5" y2="37.25" width="0.1524" layer="1"/>
+<wire x1="18.5" y1="37.25" x2="18.5" y2="43.43" width="0.1524" layer="1"/>
 <wire x1="13.86" y1="28.75" x2="12.25" y2="30.36" width="0.1524" layer="1"/>
 <wire x1="12.25" y1="30.36" x2="12.25" y2="34.5" width="0.1524" layer="1"/>
 <wire x1="12.25" y1="34.5" x2="13.5" y2="35.75" width="0.1524" layer="1"/>
@@ -1385,11 +1386,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="RE_3_0" pad="S2"/>
 <wire x1="7.55" y1="3.85" x2="7.51" y2="3.89" width="0.1524" layer="16"/>
 <wire x1="7.51" y1="3.89" x2="7.51" y2="5.77" width="0.1524" layer="16"/>
-<wire x1="1.5" y1="53.04" x2="2.88" y2="54.42" width="0.1524" layer="16"/>
+<wire x1="1" y1="52.99" x2="2.43" y2="54.42" width="0.1524" layer="16"/>
 <wire x1="7.51" y1="5.77" x2="7.5" y2="5.78" width="0.1524" layer="16"/>
 <wire x1="7.5" y1="16" x2="7.5" y2="5.78" width="0.1524" layer="16"/>
-<wire x1="7.5" y1="16" x2="1.5" y2="22" width="0.1524" layer="16"/>
-<wire x1="1.5" y1="22" x2="1.5" y2="53.04" width="0.1524" layer="16"/>
+<wire x1="7.5" y1="16" x2="1" y2="22.5" width="0.1524" layer="16"/>
+<wire x1="1" y1="22.5" x2="1" y2="52.99" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="RE_3_0" pad="S1"/>

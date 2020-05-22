@@ -3,40 +3,92 @@ Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon,
 
 Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
 
-## Description
-
-dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any ATmega32u4-based microcontroller using the same form factor should work
-
-It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
-
-## v1.x features
-
-- a third LED is used to indicate if numlock is enabled
-- v1.1 uses combined Cherry MX switch & EC11 rotary encoder sockets. At most, two encoders can be connected
-  - Assuming a 5x4 grid (column = x, row = y) where the bottom left is 0, 0, these encoder signals are connected together:
-    - (0, 0), (1, 0), (1, 3)
-    - (4, 0), (4, 3)
-    - two encoders can be used as long as they're not connected as described above
-
-### v0.6_dualencoder by chicocode
+## v0.6_dualencoder by chicocode
 
 ![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
 
-### Eagle PCB render
+## Eagle PCB render
 
 ![dumbpad](dumbpad.png)
 
-### Parts
+## Description
 
-- 14x Cherry-style mechanical switches
-- 16x 1n4148 diodes (thru hole)
+dumbpad is a simple 4x4 numpad/macropad with rotary encoder support.
+Version 1.1 uses combined Cherry MX switch & EC11 rotary encoder sockets so a single PCB now supports both single- and dual-encoder layouts.
+
+dumbpad is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions.
+
+## v1.x features
+
+### Status Indicator LEDs
+
+There are three status indicator LEDs near the microcontroller
+
+- The right two are for indicating which layer is enabled, supporting up to four layers via binary representation (00, 01, 10, 11)
+- The left LED indicates if numlock is enabled
+
+Changing the behavior of the LEDs is simple - look at [v1x.c](https://github.com/imchipwood/qmk_firmware/blob/dumbpad_refactor/keyboards/dumbpad/v1x/v1x.c) for guidance.
+
+### Single- vs Dual-Encoder Support
+
+With the combined Cherry MX/encoder sockets, various configurations are supported - no encoder, single encoder, and double encoder.
+
+The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side. This table shows where the encoders are in the switch grid ("X" for encoder, "s" for switch):
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |__X__|  s  |  s  |__X__|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|__X__|__X__|  s  |  s  |__X__|
+
+- The three encoders in columns C0 and C1 are connected to each other
+- The two encoders in column C4 are connected to each other. Thus, if you
+
+The following sections describe the configurations that the default keymaps in QMK are designed for.
+
+#### Default Configuration: Single-Encoder
+
+In the default configuration, the encoder is in column 0, the bottom left corner below the Pro Micro. All other sockets are filled with switches.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|__X__|  s  |  s  |  s  |  s  |
+
+#### Dual-Encoder Bottom
+
+One dual-encoder configuration has encoders in the bottom two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |__X__|  s  |  s  |__X__|
+
+#### Dual-Encoder Top
+
+Another dual-encoder configuration has encoders in the top two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |__X__|  s  |  s  |__X__|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+
+### Bill Of Materials
+
+- Cherry-style mechanical switches
+- 1n4148 diodes (thru hole) - one per switch and rotary encoder
 - 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
-- 2x EC11 rotary encoder with pushbutton (7-pin)
-- (optional) 1x 6mm tactile switch (reset button)
-- (optional) 3x 3mm LEDs
-- (optional) 3x 330ohm 1/8w or similar resistors for the LEDS (not needed if not adding LEDs)
+- EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
+- (optional) 3x 3mm LEDs and current limiting resistors
 
-#### Notes
+## Notes
 
 - No case is currently available, but v1.0 has 2mm mounting holes in a 40mm square centered at x=58.575mm, y=39.425mm (from the bottom left)
   - 38.575, 19.425
@@ -49,4 +101,4 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 
 ## Making the PCB
 
-Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements.
+Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements. Or, open the `.brd` file in Eagle >9.6 and generate gerbers using the cam processor.
