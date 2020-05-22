@@ -2287,18 +2287,52 @@ This is a simple library of custom parts I use in my devices.</description>
 <pad name="B" x="-2.5" y="7.5" drill="1" rot="R180"/>
 <pad name="D" x="2.5" y="-7" drill="1" rot="R180"/>
 <pad name="E" x="-2.5" y="-7" drill="1" rot="R180"/>
-<pad name="GND1" x="-6.1" y="0" drill="2.2" diameter="3.2258"/>
-<pad name="GND2" x="6.1" y="0" drill="2.2"/>
-<wire x1="-6.0325" y1="0" x2="-5.08" y2="0" width="2.032" layer="46"/>
-<wire x1="5.08" y1="0" x2="6.0325" y2="0" width="2.032" layer="46"/>
+<pad name="CASE1" x="-6.1" y="0" drill="2.2" diameter="2.54" shape="long"/>
+<pad name="CASE2" x="6.1" y="0" drill="2.2" diameter="2.54" shape="long"/>
+<wire x1="-6.1" y1="0" x2="-5.08" y2="0" width="1.70688125" layer="46"/>
+<wire x1="5.08" y1="0" x2="6.1" y2="0" width="1.70688125" layer="46"/>
 <circle x="5.08" y="0" radius="1.016" width="0.127" layer="41"/>
 <circle x="5.08" y="0" radius="1.016" width="0.127" layer="42"/>
 <circle x="-5.08" y="0" radius="1.016" width="0.127" layer="41"/>
 <circle x="-5.08" y="0" radius="1.016" width="0.127" layer="42"/>
-<pad name="S1_1" x="-2.54" y="-5.08" drill="1.7526" diameter="2.54" rot="R180"/>
-<pad name="S2_1" x="3.81" y="-2.54" drill="1.7526" diameter="2.159" rot="R180"/>
+<pad name="S2" x="-2.54" y="-5.08" drill="1.7526" diameter="2.286" rot="R180"/>
+<pad name="S1" x="3.81" y="-2.54" drill="1.7526" diameter="2.286" rot="R180"/>
 <wire x1="-2.54" y1="-5.08" x2="1.27" y2="-4.699" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-2.54" x2="0.508" y2="-3.81" width="0.127" layer="21"/>
+</package>
+<package name="CHERRY-MX-ENCODER2">
+<hole x="0" y="0" drill="4.0894"/>
+<text x="0" y="4.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.5" x2="-2.6" y2="-1.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<pad name="A" x="2.5" y="7.5" drill="1" rot="R180"/>
+<pad name="C" x="0" y="7.5" drill="1" rot="R180"/>
+<pad name="B" x="-2.5" y="7.5" drill="1" rot="R180"/>
+<pad name="D" x="2.5" y="-7" drill="1" rot="R180"/>
+<pad name="E" x="-2.5" y="-7" drill="1" rot="R180"/>
+<pad name="CASE1" x="-6.1" y="0" drill="2.2" diameter="2.54"/>
+<pad name="CASE2" x="6.1" y="0" drill="2.2" diameter="2.54"/>
+<wire x1="-6.1" y1="0" x2="-5.08" y2="0" width="1.70688125" layer="46"/>
+<wire x1="5.08" y1="0" x2="6.1" y2="0" width="1.70688125" layer="46"/>
+<circle x="5.08" y="0" radius="1.016" width="0.127" layer="41"/>
+<circle x="5.08" y="0" radius="1.016" width="0.127" layer="42"/>
+<circle x="-5.08" y="0" radius="1.016" width="0.127" layer="41"/>
+<circle x="-5.08" y="0" radius="1.016" width="0.127" layer="42"/>
+<pad name="S2" x="-2.54" y="-5.08" drill="1.7526" diameter="2.286" rot="R180"/>
+<pad name="S1" x="3.81" y="-2.54" drill="1.7526" diameter="2.286" rot="R180"/>
+<wire x1="-2.54" y1="-5.08" x2="1.27" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="0.508" y2="-3.81" width="0.127" layer="21"/>
+<hole x="-3.81" y="3.81" drill="1.7018"/>
+<pad name="P$1" x="-5.08" y="0" drill="1.70688125" diameter="2.54"/>
+<pad name="P$2" x="5.08" y="0" drill="1.70688125" diameter="2.54"/>
+<wire x1="-5.08" y1="0" x2="-6.1" y2="0" width="1.70688125" layer="1"/>
+<wire x1="-5.08" y1="0" x2="-6.1" y2="0" width="1.70688125" layer="16"/>
+<wire x1="5.08" y1="0" x2="6.1" y2="0" width="1.70688125" layer="16"/>
+<wire x1="5.08" y1="0" x2="6.1" y2="0" width="1.70688125" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2339,8 +2373,20 @@ This is a simple library of custom parts I use in my devices.</description>
 <devices>
 <device name="" package="CHERRY-MX-ENCODER">
 <connects>
-<connect gate="G$1" pin="1" pad="D S2_1"/>
-<connect gate="G$1" pin="2" pad="E S1_1"/>
+<connect gate="G$1" pin="1" pad="D S1"/>
+<connect gate="G$1" pin="2" pad="E S2"/>
+<connect gate="G$2" pin="A" pad="A"/>
+<connect gate="G$2" pin="B" pad="B"/>
+<connect gate="G$2" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHERRY-MX-ENCODER2" package="CHERRY-MX-ENCODER2">
+<connects>
+<connect gate="G$1" pin="1" pad="D S1"/>
+<connect gate="G$1" pin="2" pad="E S2"/>
 <connect gate="G$2" pin="A" pad="A"/>
 <connect gate="G$2" pin="B" pad="B"/>
 <connect gate="G$2" pin="C" pad="C"/>
