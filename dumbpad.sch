@@ -2303,6 +2303,10 @@ This is a simple library of custom parts I use in my devices.</description>
 <wire x1="-6.2" y1="-6.6" x2="-3.81" y2="-6.6" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-6.6" x2="1.27" y2="-6.6" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-6.6" x2="6.2" y2="-6.6" width="0.2032" layer="21"/>
+<wire x1="-6.1" y1="0" x2="-5.08" y2="0" width="1.70688125" layer="1"/>
+<wire x1="-6.1" y1="0" x2="-5.08" y2="0" width="1.70688125" layer="16"/>
+<wire x1="6.1" y1="0" x2="5.08" y2="0" width="1.70688125" layer="1"/>
+<wire x1="6.1" y1="0" x2="5.08" y2="0" width="1.70688125" layer="16"/>
 </package>
 </packages>
 <symbols>

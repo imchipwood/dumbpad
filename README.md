@@ -104,4 +104,4 @@ Another dual-encoder configuration has encoders in the top two corners of the 4x
 
 ## Making the PCB
 
-Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements. Or, open the `.brd` file in Eagle >9.6 and generate gerbers using the cam processor.
+Most manufacturers accept Gerber files - upload [dumbpad_v1.1_gerbers.zip](./dumbpad_v1.1_gerbers.zip) to your preferred manufacturer. Some manufacturers also accept Eagle .brd files.
