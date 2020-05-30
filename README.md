@@ -18,7 +18,7 @@ Version 1.1 uses combined Cherry MX switch & EC11 rotary encoder sockets so a si
 
 dumbpad is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions.
 
-## v1.x features
+## v1.1 features
 
 ### Status Indicator LEDs
 
@@ -31,9 +31,9 @@ Changing the behavior of the LEDs is simple - look at [v1x.c](https://github.com
 
 ### Single- vs Dual-Encoder Support
 
-With the combined Cherry MX/encoder sockets, allowing single- and dual-encoder configurations.
+The combined Cherry MX/encoder sockets allow single- and dual-encoder configurations.
 
-The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side. 
+The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side.
 This table shows where the encoders are in the switch grid ("X" for encoder, "s" for switch):
 
 | C0  | C1  | C2  | C3  | C4  |
@@ -86,10 +86,11 @@ Another dual-encoder configuration has encoders in the top two corners of the 4x
 ### Bill Of Materials
 
 - Cherry-style mechanical switches
-- 1n4148 diodes (thru hole) - one per switch and rotary encoder
+- 1n4148 diodes (thru hole) - one per switch
 - 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
 - EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
 - (optional) 3x 3mm LEDs and current limiting resistors
+- (optional) 6mm SPST switch for resetting MCU
 
 ## Notes
 
