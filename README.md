@@ -3,37 +3,97 @@ Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon,
 
 Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
 
-## Description
-dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any ATmega32u4-based microcontroller using the same form factor should work
+## v0.6_dualencoder by chicocode
 
-It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
-
-### Revisions
-- v0.5 introduces 2x LEDs for indicating which layer is enabled, accurately representing up to 4 layers
-- v0.6_dualencoder is a true 4x4 macropad with two rotary encoders - one in each bottom corner
-- v0.6_dualencoder_top is the same as v0.6_dualencoder but the encoders are moved to the top corners
-- v0.7 PCB is flippable. Two jumpers must be soldered:
-  - Encoder on left (default layout) - solder the left side of the jumpers to the center
-  - Encoder on right (PCB upside down) - solder the right side of the jumpers to the center
-- v1.0 PCB adds a 3rd LED - default use is to indicate if NUMLOCK is on
-
-#### dumbpad v0.2 (top) & v0.7 (bottom), PCB by [OSH Park](https://www.oshpark.com)
-![dumbpad](https://i.imgur.com/c3YBNp0.jpg)
-#### Dual-encoder version by chicocode:
 ![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
-#### Eagle PCB render
+
+## Eagle PCB render
+
 ![dumbpad](dumbpad.png)
 
-### Parts
-* 16x Cherry-style mechanical switches
-* 17x 1n4148 diodes (thru hole)
-* 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
-* 1x EC11 rotary encoder with pushbutton (7-pin)
-* (optional) 1x 6mm tactile switch (to reset MCU)
-* (optional) 3x 3mm LEDs (whatever color)
-* (optional) 3x 330ohm or similar resistors for the LEDS (not needed if not adding LEDs)
+## Description
 
-#### Notes
+dumbpad is a simple 4x4 numpad/macropad with rotary encoder support.
+Version 1.1 uses combined Cherry MX switch & EC11 rotary encoder sockets so a single PCB now supports both single- and dual-encoder layouts.
+
+dumbpad is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions.
+
+## v1.1 features
+
+### Status Indicator LEDs
+
+There are three status indicator LEDs near the microcontroller
+
+- The right two are for indicating which layer is enabled, supporting up to four layers via binary representation (00, 01, 10, 11)
+- The left LED indicates if numlock is enabled
+
+Changing the behavior of the LEDs is simple - look at [v1x.c](https://github.com/imchipwood/qmk_firmware/blob/dumbpad_refactor/keyboards/dumbpad/v1x/v1x.c) for guidance.
+
+### Single- vs Dual-Encoder Support
+
+The combined Cherry MX/encoder sockets allow single- and dual-encoder configurations.
+
+The only rule when using two encoders is that there cannot be two encoders on the left side at once, or two on the right side.
+This table shows where the encoders are in the switch grid ("X" for encoder, "s" for switch):
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |__X__|  s  |  s  |__X__|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|__X__|__X__|  s  |  s  |__X__|
+
+- The three encoders in columns C0 and C1 are connected to each other
+- The two encoders in column C4 are connected to each other
+
+So, if doing dual encoders, one must be in column C4 and the other in either C0 or C1. Three or more encoders will not work.
+
+The following sections describe the configurations that the default keymaps in QMK are designed for.
+
+#### Single-Encoder (Default Configuration)
+
+In the default configuration, the encoder is in column 0, the bottom left corner below the Pro Micro. All other sockets are filled with switches.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|__X__|  s  |  s  |  s  |  s  |
+
+#### Dual-Encoder Bottom
+
+One dual-encoder configuration has encoders in the bottom two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |__X__|  s  |  s  |__X__|
+
+#### Dual-Encoder Top
+
+Another dual-encoder configuration has encoders in the top two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
+
+| C0  | C1  | C2  | C3  | C4  |
+|:---:|:---:|:---:|:---:|:---:|
+|     |__X__|  s  |  s  |__X__|
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+|     |  s  |  s  |  s  |  s  |
+
+### Bill Of Materials
+
+- Cherry-style mechanical switches
+- 1n4148 diodes (thru hole) - one per switch
+- 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
+- EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
+- (optional) 3x 3mm LEDs and current limiting resistors
+- (optional) 6mm SPST switch for resetting MCU
+
+## Notes
+
 - No case is currently available, but v1.0 has 2mm mounting holes in a 40mm square centered at x=58.575mm, y=39.425mm (from the bottom left)
   - 38.575, 19.425
   - 38.575, 59.425
@@ -44,7 +104,5 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
   - place the others in the corners and one in the center
 
 ## Making the PCB
-Submit the `.brd` file to your preferred PCB manufacturer - be mindful of minimum quantity requirements.
 
-### OSH Park - USA PCB Manufacturing
-Shameless Portland, Oregon company plug - [OSH Park](https://www.oshpark.com) is a fast and reliable manufacturer, combining multiple individual orders into a single panel to minimize end-user costs. dumbpad is just under $60 for 3 copies through OSH Park.
+Most manufacturers accept Gerber files - upload [dumbpad_v1.1_gerbers.zip](./dumbpad_v1.1_gerbers.zip) to your preferred manufacturer. Some manufacturers also accept Eagle .brd files.
