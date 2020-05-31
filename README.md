@@ -28,8 +28,13 @@ Each folder includes the Eagle files as well as exported Gerber files for manufa
 
 All PCB revisions in this branch support up to three LEDs.
 
-- left-most LED: numlock indicator
-- center and right-most LED: layer indication, up to four layers (main layer + 3 others) by displaying in binary:
+| LED position on PCB | LED name in QMK software | LED default behavior |
+|:-:|:-:|:-:|
+| right | LED_00 | 1s bit in binary layer indication |
+| center | LED_01 | 2s bit in binary layer indication |
+| left | LED_02 | numlock indicator |
+
+LED_00 (right) and LED_01 (center) indicate the layer by displaying the layer number in binary:
 
 | center LED | right LED  |   layer    |
 |:----------:|:----------:|:----------:|
@@ -37,6 +42,14 @@ All PCB revisions in this branch support up to three LEDs.
 | off        |  on        | 1          |
 |  on        | off        | 2          |
 |  on        |  on        | 3          |
+
+LED behavior can be changed in the QMK software if you'd like them to do something else. See [v1x.c](https://github.com/imchipwood/qmk_firmware/blob/dumbpad_refactor/keyboards/dumbpad/v1x/v1x.c) for reference.
+
+#### (Optional) Reset Button
+
+[combo](./combo) and [reversible](./reversible) have a 6mm switch socket that is optional to include when building your dumbpad. This socket shorts RST to GND to make it easy to enter the bootloader. This is not included in the [combo_teensy](./combo_teensy) design as the Teensy has a reset button already.
+
+If you don't want to solder this switch, make sure to include the [RESET](https://docs.qmk.fm/#/quantum_keycodes) keycode somewhere in your keymap. If you don't include this keycode, you can still enter the bootloader by shorting RST to GND while plugging in the USB cable.
 
 ## PCB Dimensions
 
