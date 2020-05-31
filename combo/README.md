@@ -1,35 +1,12 @@
-# dumbpad
-Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon, USA
+# dumbpad/combo
 
-Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
-
-## v0.6_dualencoder by chicocode
-
-![dumbpad](https://i.imgur.com/OkSRXWT.jpg)
+This folder houses the dumbpad "combo" design - this layout uses custom "combo" Cherry MX + EC11 rotary encoder sockets that allow a single PCB design to support both single- and dual-encoder layouts.
 
 ## Eagle PCB render
 
 ![dumbpad](dumbpad.png)
 
-## Description
-
-dumbpad is a simple 4x4 numpad/macropad with rotary encoder support.
-Version 1.1 uses combined Cherry MX switch & EC11 rotary encoder sockets so a single PCB now supports both single- and dual-encoder layouts.
-
-dumbpad is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions.
-
-## v1.1 features
-
-### Status Indicator LEDs
-
-There are three status indicator LEDs near the microcontroller
-
-- The right two are for indicating which layer is enabled, supporting up to four layers via binary representation (00, 01, 10, 11)
-- The left LED indicates if numlock is enabled
-
-Changing the behavior of the LEDs is simple - look at [v1x.c](https://github.com/imchipwood/qmk_firmware/blob/dumbpad_refactor/keyboards/dumbpad/v1x/v1x.c) for guidance.
-
-### Single- vs Dual-Encoder Support
+## Single- vs Dual-Encoder Support
 
 The combined Cherry MX/encoder sockets allow single- and dual-encoder configurations.
 
@@ -50,7 +27,7 @@ So, if doing dual encoders, one must be in column C4 and the other in either C0 
 
 The following sections describe the configurations that the default keymaps in QMK are designed for.
 
-#### Single-Encoder (Default Configuration)
+### Single-Encoder (Default Configuration)
 
 In the default configuration, the encoder is in column 0, the bottom left corner below the Pro Micro. All other sockets are filled with switches.
 
@@ -61,7 +38,7 @@ In the default configuration, the encoder is in column 0, the bottom left corner
 |     |  s  |  s  |  s  |  s  |
 |__X__|  s  |  s  |  s  |  s  |
 
-#### Dual-Encoder Bottom
+### Dual-Encoder Bottom
 
 One dual-encoder configuration has encoders in the bottom two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
 
@@ -72,7 +49,7 @@ One dual-encoder configuration has encoders in the bottom two corners of the 4x4
 |     |  s  |  s  |  s  |  s  |
 |     |__X__|  s  |  s  |__X__|
 
-#### Dual-Encoder Top
+### Dual-Encoder Top
 
 Another dual-encoder configuration has encoders in the top two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
 
@@ -83,26 +60,16 @@ Another dual-encoder configuration has encoders in the top two corners of the 4x
 |     |  s  |  s  |  s  |  s  |
 |     |  s  |  s  |  s  |  s  |
 
+### No-Encoder
+
+You may also choose not to use any rotary encoders if you like!
+
 ### Bill Of Materials
 
 - Cherry-style mechanical switches
-- 1n4148 diodes (thru hole) - one per switch
-- 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
 - EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
-- (optional) 3x 3mm LEDs and current limiting resistors
+- 1n4148 diodes (thru hole) - one per switch and rotary encoder (if using clickable encoder(s))
+- 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
+- (optional) 3x 3mm LEDs
+  - (optional) 3x 3mm resistors (for limiting current in LEDs)
 - (optional) 6mm SPST switch for resetting MCU
-
-## Notes
-
-- No case is currently available, but v1.0 has 2mm mounting holes in a 40mm square centered at x=58.575mm, y=39.425mm (from the bottom left)
-  - 38.575, 19.425
-  - 38.575, 59.425
-  - 78.575, 19.425
-  - 78.575, 59.425
-- To avoid damaging the PCB and prevent it from sliding around, put rubber feet on the bottom of the PCB
-  - place feet directly under the rotary encoder(s) as they take significant force to press
-  - place the others in the corners and one in the center
-
-## Making the PCB
-
-Most manufacturers accept Gerber files - upload [dumbpad_v1.1_gerbers.zip](./dumbpad_v1.1_gerbers.zip) to your preferred manufacturer. Some manufacturers also accept Eagle .brd files.
