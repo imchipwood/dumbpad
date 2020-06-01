@@ -925,14 +925,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.8" y1="17.3" x2="13" y2="18.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENCODER_L1">
-<contactref element="B1" pad="6"/>
-<wire x1="5.5" y1="40.4" x2="5.5" y2="56.88" width="0.1524" layer="1"/>
-<wire x1="5.5" y1="56.88" x2="2.88" y2="59.5" width="0.1524" layer="1"/>
 <contactref element="RE1" pad="B"/>
-<wire x1="8" y1="18.5" x2="6.75" y2="18.5" width="0.1524" layer="1"/>
-<wire x1="6.75" y1="18.5" x2="3" y2="22.25" width="0.1524" layer="1"/>
-<wire x1="3" y1="37.9" x2="5.5" y2="40.4" width="0.1524" layer="1"/>
-<wire x1="3" y1="22.25" x2="3" y2="37.9" width="0.1524" layer="1"/>
+<contactref element="B1" pad="14"/>
+<wire x1="8" y1="18.5" x2="9.25" y2="19.75" width="0.1524" layer="1"/>
+<wire x1="14.36416875" y1="19.75" x2="21" y2="26.38583125" width="0.1524" layer="1"/>
+<wire x1="21" y1="43.92" x2="18.12" y2="46.8" width="0.1524" layer="1"/>
+<wire x1="9.25" y1="19.75" x2="14.36416875" y2="19.75" width="0.1524" layer="1"/>
+<wire x1="21" y1="26.38583125" x2="21" y2="43.92" width="0.1524" layer="1"/>
 </signal>
 <signal name="ROW0">
 <contactref element="D4" pad="C"/>
@@ -1312,12 +1311,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="RESET">
 <contactref element="B1" pad="22"/>
 <contactref element="S17" pad="2"/>
-<wire x1="6" y1="55" x2="18.12" y2="67.12" width="0.1524" layer="1"/>
-<wire x1="6" y1="40.15" x2="3.5" y2="37.65" width="0.1524" layer="1"/>
-<wire x1="6" y1="40.15" x2="6" y2="55" width="0.1524" layer="1"/>
-<wire x1="4.7606" y1="21.2394" x2="7.1988" y2="21.2394" width="0.1524" layer="1"/>
-<wire x1="3.5" y1="37.65" x2="3.5" y2="22.5" width="0.1524" layer="1"/>
-<wire x1="3.5" y1="22.5" x2="4.7606" y2="21.2394" width="0.1524" layer="1"/>
+<wire x1="5.5" y1="54.5" x2="18.12" y2="67.12" width="0.1524" layer="1"/>
+<wire x1="5.5" y1="40.4" x2="3" y2="37.9" width="0.1524" layer="1"/>
+<wire x1="5.5" y1="40.4" x2="5.5" y2="54.5" width="0.1524" layer="1"/>
+<wire x1="4.0106" y1="21.2394" x2="7.1988" y2="21.2394" width="0.1524" layer="1"/>
+<wire x1="3" y1="37.9" x2="3" y2="22.25" width="0.1524" layer="1"/>
+<wire x1="3" y1="22.25" x2="4.0106" y2="21.2394" width="0.1524" layer="1"/>
 </signal>
 <signal name="COL4">
 <contactref element="S16" pad="S2_0"/>

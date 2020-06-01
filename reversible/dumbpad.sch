@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1363,7 +1363,7 @@ EC12E series with push-on switch</description>
 <text x="307.34" y="2.54" size="1.778" layer="97">Rev:
 1.0</text>
 <text x="279.4" y="2.54" size="1.778" layer="97">Date:
-May 5, 2020</text>
+May 31, 2020</text>
 <text x="279.4" y="10.16" size="1.778" layer="97">Design By:
 github.com/imchipwood</text>
 <text x="279.4" y="17.78" size="1.778" layer="97">Title:
@@ -1576,14 +1576,14 @@ dumbpad</text>
 </net>
 <net name="ENCODER_L1" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="*3"/>
-<wire x1="271.78" y1="139.7" x2="256.54" y2="139.7" width="0.1524" layer="91"/>
-<label x="256.54" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="RE1" gate="G$1" pin="B"/>
 <wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 <label x="33.02" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="11(MOSI)"/>
+<wire x1="294.64" y1="127" x2="302.26" y2="127" width="0.1524" layer="91"/>
+<label x="302.26" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
