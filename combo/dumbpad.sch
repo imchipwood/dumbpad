@@ -2447,7 +2447,7 @@ This is a simple library of custom parts I use in my devices.</description>
 <text x="340.36" y="2.54" size="1.778" layer="97">Rev:
 1.1</text>
 <text x="312.42" y="2.54" size="1.778" layer="97">Date:
-May 21, 2020</text>
+May 31, 2020</text>
 <text x="312.42" y="10.16" size="1.778" layer="97">Design By:
 github.com/imchipwood</text>
 <text x="312.42" y="17.78" size="1.778" layer="97">Title:
@@ -3124,7 +3124,7 @@ dumbpad</text>
 <label x="162.56" y="167.64" size="1.778" layer="95" grouprefs="LEDS_RESISTORS"/>
 </segment>
 </net>
-<net name="ENCODER1_L0" class="0">
+<net name="ENCODER1_L1" class="0">
 <segment>
 <wire x1="17.78" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91" grouprefs="ENCODER_PINS"/>
 <label x="20.32" y="157.48" size="1.778" layer="95" grouprefs="ENCODER_PINS"/>
@@ -3141,7 +3141,7 @@ dumbpad</text>
 <label x="55.88" y="157.48" size="1.778" layer="95" grouprefs="ENCODER_PINS"/>
 </segment>
 </net>
-<net name="ENCODER1_L1" class="0">
+<net name="ENCODER1_L0" class="0">
 <segment>
 <wire x1="17.78" y1="152.4" x2="20.32" y2="152.4" width="0.1524" layer="91" grouprefs="ENCODER_PINS"/>
 <label x="20.32" y="152.4" size="1.778" layer="95" grouprefs="ENCODER_PINS"/>

@@ -1271,7 +1271,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.86" y1="31.5" x2="14.31" y2="31.5" width="0.1524" layer="1"/>
 <wire x1="14.31" y1="31.5" x2="19.5" y2="36.69" width="0.1524" layer="1"/>
 </signal>
-<signal name="ENCODER1_L0">
+<signal name="ENCODER1_L1">
 <contactref element="B1" pad="5"/>
 <contactref element="RE_3_4" pad="A"/>
 <contactref element="RE_0_4" pad="A"/>
@@ -1295,7 +1295,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="4.04" y1="62.04" x2="2.43" y2="62.04" width="0.1524" layer="1"/>
 <wire x1="19.75" y1="77.75" x2="4.04" y2="62.04" width="0.1524" layer="1"/>
 </signal>
-<signal name="ENCODER1_L1">
+<signal name="ENCODER1_L0">
 <contactref element="B1" pad="6"/>
 <contactref element="RE_3_4" pad="B"/>
 <contactref element="RE_0_4" pad="B"/>
