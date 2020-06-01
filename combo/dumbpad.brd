@@ -310,101 +310,63 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED_3MM">
-<description>&lt;h3&gt;LED 3MM PTH&lt;/h3&gt;
+<package name="CHERRY-MX-LED">
+<description>&lt;h3&gt;Cherry MX Switch - Electromechanical Swith w/ LED&lt;/h3&gt;
 
-3 mm, round.
+&lt;p&gt;Cherry MX Keyswitches are top-of-the-line mechanical keyboard switches. They’re satisfyingly “clicky”, reliable up to tens-of-millions of key presses, and a standard in gaming and programming keyboards across the globe. This ‘blue’ version Cherry MX Switch is favored by most due to its secondary internal actuator making it less likely to “double-tap.” If you are looking for a noticeably audible and high-quality key switch, this is the perfect option for you!&lt;/p&gt;
 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="22" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="22" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="22" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="22" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="22"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="22"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="cpwood">
-<description>lt;h3&gt;github.com/imchipwood custom parts&lt;/h3&gt;
-This is a simple library of custom parts I use in my devices.</description>
-<packages>
-<package name="CHERRY-MX-REVERSIBLE">
-<description>&lt;h3&gt;Cherry MX Switch - Electromechanical Switch&lt;/h3&gt;</description>
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/13834"&gt;SparkFun Product Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <hole x="0" y="0" drill="4.0894"/>
-<hole x="5.08" y="0" drill="1.70688125"/>
 <hole x="-5.08" y="0" drill="1.70688125"/>
-<pad name="S1_0" x="-3.81" y="-2.54" drill="1.7526" diameter="3.2258" rot="R180"/>
-<pad name="S2_0" x="2.54" y="-5.08" drill="1.7526" diameter="3.2258" rot="R180"/>
-<pad name="S1_1" x="-3.81" y="2.54" drill="1.7526" diameter="3.2258" rot="R180"/>
-<pad name="S2_1" x="2.54" y="5.08" drill="1.7526" diameter="3.2258" rot="R180"/>
-<wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="21"/>
-<wire x1="-6.096" y1="-6.731" x2="-6.096" y2="6.731" width="0.2032" layer="21"/>
+<hole x="5.08" y="0" drill="1.70688125"/>
+<pad name="A" x="-1.27" y="-5.08" drill="1.0922" diameter="2.032"/>
+<pad name="K" x="1.27" y="-5.08" drill="1.0922" diameter="2.032"/>
+<pad name="S1" x="-3.81" y="2.54" drill="1.7526" diameter="3.2258"/>
+<pad name="S2" x="2.54" y="5.08" drill="1.7526" diameter="3.2258"/>
+<text x="-2.159" y="-5.08" size="1.524" layer="21" font="vector" ratio="15" align="center-right">+</text>
+<text x="2.54" y="-5.08" size="1.524" layer="21" font="vector" ratio="15" align="center-left">-</text>
+<wire x1="-6.731" y1="6.731" x2="-7.747" y2="6.731" width="0.254" layer="51"/>
+<wire x1="-7.747" y1="6.731" x2="-6.731" y2="7.747" width="0.254" layer="51" curve="-90"/>
+<wire x1="-6.731" y1="7.747" x2="-3.175" y2="7.747" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="7.747" x2="-3.175" y2="6.731" width="0.254" layer="51"/>
+<wire x1="3.175" y1="7.747" x2="3.175" y2="6.731" width="0.254" layer="51"/>
+<wire x1="6.731" y1="6.731" x2="7.747" y2="6.731" width="0.254" layer="51"/>
+<wire x1="7.747" y1="6.731" x2="6.731" y2="7.747" width="0.254" layer="51" curve="90"/>
+<wire x1="6.731" y1="7.747" x2="3.175" y2="7.747" width="0.254" layer="51"/>
+<wire x1="6.731" y1="6.731" x2="6.731" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="6.731" y1="-6.731" x2="7.747" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="7.747" y1="-6.731" x2="6.731" y2="-7.747" width="0.254" layer="51" curve="-90"/>
+<wire x1="6.731" y1="-7.747" x2="3.175" y2="-7.747" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-7.747" x2="3.175" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-7.747" x2="-3.175" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="-6.731" y1="-7.747" x2="-3.175" y2="-7.747" width="0.254" layer="51"/>
+<wire x1="-7.747" y1="-6.731" x2="-6.731" y2="-7.747" width="0.254" layer="51" curve="90"/>
+<wire x1="-6.731" y1="-6.731" x2="-7.747" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="-6.731" y1="-6.731" x2="-6.731" y2="6.731" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="6.731" x2="-0.762" y2="6.731" width="0.254" layer="51"/>
+<wire x1="-0.762" y1="6.731" x2="-0.762" y2="7.747" width="0.254" layer="51"/>
+<wire x1="-0.762" y1="7.747" x2="0.762" y2="7.747" width="0.254" layer="51"/>
+<wire x1="0.762" y1="7.747" x2="0.762" y2="6.731" width="0.254" layer="51"/>
+<wire x1="0.762" y1="6.731" x2="3.175" y2="6.731" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-6.731" x2="0.762" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="0.762" y1="-6.731" x2="0.762" y2="-7.747" width="0.254" layer="51"/>
+<wire x1="-0.762" y1="-7.747" x2="-0.762" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="0.762" y1="-7.747" x2="-0.762" y2="-7.747" width="0.254" layer="51"/>
+<wire x1="-0.762" y1="-6.731" x2="-3.175" y2="-6.731" width="0.254" layer="51"/>
+<wire x1="-3.81" y1="2.54" x2="-1.27" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="5.08" x2="-0.762" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="-6.096" y1="6.731" x2="6.096" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="6.096" y1="6.731" x2="6.096" y2="-6.731" width="0.2032" layer="21"/>
-<text x="6.985" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Name</text>
-<text x="-6.985" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center">&gt;Value</text>
-<wire x1="2.54" y1="5.08" x2="-0.762" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="-1.27" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-2.54" x2="-1.27" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-5.08" x2="-0.762" y2="-3.81" width="0.2032" layer="21"/>
-<wire x1="-6.096" y1="6.731" x2="6.096" y2="6.731" width="0.2032" layer="22"/>
-<wire x1="6.096" y1="6.731" x2="6.096" y2="-6.731" width="0.2032" layer="22"/>
-<wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="22"/>
-<wire x1="-6.096" y1="-6.731" x2="-6.096" y2="6.731" width="0.2032" layer="22"/>
-<wire x1="-3.81" y1="-2.54" x2="-1.27" y2="-5.08" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="-5.08" x2="-0.762" y2="-3.81" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="5.08" x2="-0.762" y2="3.81" width="0.2032" layer="22"/>
-<wire x1="-3.81" y1="2.54" x2="-1.27" y2="5.08" width="0.2032" layer="22"/>
-<text x="6.985" y="0" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center">&gt;Name</text>
-<text x="-6.985" y="0" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center">&gt;Value</text>
+<wire x1="6.096" y1="-6.731" x2="-6.096" y2="-6.731" width="0.2032" layer="21"/>
+<wire x1="-6.096" y1="-6.731" x2="-6.096" y2="6.731" width="0.2032" layer="21"/>
+<text x="-6.985" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="6.985" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
-<package name="DO-1N4148_MIRROR">
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="22"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="22"/>
-<text x="0" y="1.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_6.0MM_MIRROR">
+<package name="TACTILE_SWITCH_PTH_6.0MM">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
 <wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
 <wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
 <wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
@@ -429,28 +391,14 @@ This is a simple library of custom parts I use in my devices.</description>
 <pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
 <pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
 <pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<wire x1="-2.159" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="22"/>
-<wire x1="2.159" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="22"/>
-<wire x1="-3.048" y1="0.998" x2="-3.048" y2="-1.016" width="0.2032" layer="22"/>
-<wire x1="3.048" y1="1.028" x2="3.048" y2="-1.016" width="0.2032" layer="22"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="22"/>
-<wire x1="-3.048" y1="1.016" x2="-3.048" y2="2.54" width="0.2032" layer="52"/>
-<wire x1="-3.048" y1="2.54" x2="-2.54" y2="3.048" width="0.2032" layer="52"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="52"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="3.048" x2="3.048" y2="2.54" width="0.2032" layer="52"/>
-<wire x1="3.048" y1="2.54" x2="3.048" y2="1.016" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="52"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="52"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="52"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0.508" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="-0.508" x2="2.54" y2="-1.27" width="0.2032" layer="52"/>
-<wire x1="2.54" y1="0.508" x2="2.159" y2="-0.381" width="0.2032" layer="52"/>
+<text x="0" y="3.302" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="AXIAL-0.3_MIRROR">
+</packages>
+</library>
+<library name="adafruit">
+<packages>
+<package name="DO-1N4148">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
@@ -459,65 +407,13 @@ This is a simple library of custom parts I use in my devices.</description>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="0.762" x2="-2.54" y2="0" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.762" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="0" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="0.762" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="22"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="1.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<text x="0" y="-1.143" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center">&gt;Value</text>
-</package>
-<package name="ALPS_EC12E_SW_MIRROR" urn="urn:adsk.eagle:footprint:27082/1" locally_modified="yes">
-<description>ALPS rotary encoder&lt;br&gt;
-EC12E series with push-on switch</description>
-<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.5" x2="2.6" y2="1.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<pad name="A" x="-2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="C" x="0" y="-7.5" drill="1" shape="square"/>
-<pad name="B" x="2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="D" x="-2.5" y="7" drill="1" shape="square"/>
-<pad name="E" x="2.5" y="7" drill="1" shape="square"/>
-<pad name="GND1" x="-6.1" y="0" drill="2.2" shape="square"/>
-<pad name="GND2" x="6.1" y="0" drill="2.2" shape="square"/>
-<text x="-2.5" y="8.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="3.5" y="-9" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
-<wire x1="6.2" y1="-6.6" x2="-6.2" y2="-6.6" width="0.127" layer="22"/>
-<wire x1="-6.2" y1="-6.6" x2="-6.2" y2="6.6" width="0.127" layer="22"/>
-<wire x1="-6.2" y1="6.6" x2="6.2" y2="6.6" width="0.127" layer="22"/>
-<wire x1="6.2" y1="6.6" x2="6.2" y2="-6.6" width="0.127" layer="22"/>
-<wire x1="2.6" y1="1.5" x2="-2.6" y2="1.5" width="0.127" layer="22"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="22"/>
-<text x="3.77" y="8.5" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
-<text x="-3.5" y="-9" size="1.27" layer="28" rot="MR180">&gt;VALUE</text>
-</package>
-<package name="SMT-JUMPER_3_0-NO_TRACE_NO-SILK">
-<smd name="1" x="-1.143" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90" cream="no"/>
-<smd name="2" x="0" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90" cream="no"/>
-<smd name="3" x="1.143" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9"/>
+<pad name="C" x="3.81" y="0" drill="0.9"/>
+<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.032" y="-0.254" size="0.6096" layer="21">&gt;Value</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="ALPS_EC12E_SW" urn="urn:adsk.eagle:package:27083/1" type="box">
-<description>ALPS rotary encoder
-EC12E series with push-on switch</description>
-<packageinstances>
-<packageinstance name="ALPS_EC12E_SW_MIRROR"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
@@ -1019,8 +915,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D20" library="adafruit" package="DO-1N4148" value="" x="19.525" y="10.85" smashed="yes" rot="R90">
 <attribute name="VALUE" x="19.779" y="8.818" size="0.6096" layer="21" rot="R90"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.5" smashed="yes" rot="MR0"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="10.5" y="59.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1131,13 +1025,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="89.65" y1="64.15" x2="90.96" y2="65.46" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="S3" pad="S1_0"/>
+<contactref element="S3" pad="S1"/>
 <contactref element="D3" pad="A"/>
 <wire x1="71.91" y1="65.46" x2="73.18" y2="64.19" width="0.1524" layer="1"/>
 <wire x1="73.18" y1="64.19" x2="77.625" y2="64.19" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="S2" pad="S1_0"/>
+<contactref element="S2" pad="S1"/>
 <contactref element="D2" pad="A"/>
 <wire x1="52.86" y1="65.46" x2="54.13" y2="64.19" width="0.1524" layer="1"/>
 <wire x1="54.13" y1="64.19" x2="58.575" y2="64.19" width="0.1524" layer="1"/>
@@ -1152,25 +1046,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.5" y1="64.15" x2="32.5" y2="61" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="S8" pad="S1_0"/>
+<contactref element="S8" pad="S1"/>
 <contactref element="D8" pad="A"/>
 <wire x1="90.96" y1="46.41" x2="92.23" y2="45.14" width="0.1524" layer="1"/>
 <wire x1="92.23" y1="45.14" x2="95.15" y2="45.14" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="S7" pad="S1_0"/>
+<contactref element="S7" pad="S1"/>
 <contactref element="D7" pad="A"/>
 <wire x1="71.91" y1="46.41" x2="73.18" y2="45.14" width="0.1524" layer="1"/>
 <wire x1="73.18" y1="45.14" x2="77.625" y2="45.14" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="S6" pad="S1_0"/>
+<contactref element="S6" pad="S1"/>
 <contactref element="D6" pad="A"/>
 <wire x1="52.86" y1="46.41" x2="54.13" y2="45.14" width="0.1524" layer="1"/>
 <wire x1="54.13" y1="45.14" x2="58.575" y2="45.14" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="S5" pad="S1_0"/>
+<contactref element="S5" pad="S1"/>
 <contactref element="D5" pad="A"/>
 <wire x1="33.81" y1="46.41" x2="35.08" y2="45.14" width="0.1524" layer="1"/>
 <wire x1="35.08" y1="45.14" x2="39.525" y2="45.14" width="0.1524" layer="1"/>
@@ -1187,13 +1081,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="90.96" y1="5.16" x2="89.65" y2="3.85" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="S15" pad="S1_0"/>
+<contactref element="S15" pad="S1"/>
 <contactref element="D15" pad="A"/>
 <wire x1="71.91" y1="8.31" x2="73.18" y2="7.04" width="0.1524" layer="1"/>
 <wire x1="73.18" y1="7.04" x2="77.625" y2="7.04" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="S14" pad="S1_0"/>
+<contactref element="S14" pad="S1"/>
 <contactref element="D14" pad="A"/>
 <wire x1="52.86" y1="8.31" x2="54.13" y2="7.04" width="0.1524" layer="1"/>
 <wire x1="54.13" y1="7.04" x2="58.575" y2="7.04" width="0.1524" layer="1"/>
@@ -1208,25 +1102,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.5" y1="7" x2="32.5" y2="3.85" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="S12" pad="S1_0"/>
+<contactref element="S12" pad="S1"/>
 <contactref element="D12" pad="A"/>
 <wire x1="90.96" y1="27.36" x2="92.23" y2="26.09" width="0.1524" layer="1"/>
 <wire x1="92.23" y1="26.09" x2="95.15" y2="26.09" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="S11" pad="S1_0"/>
+<contactref element="S11" pad="S1"/>
 <contactref element="D11" pad="A"/>
 <wire x1="71.91" y1="27.36" x2="73.18" y2="26.09" width="0.1524" layer="1"/>
 <wire x1="73.18" y1="26.09" x2="77.625" y2="26.09" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="S10" pad="S1_0"/>
+<contactref element="S10" pad="S1"/>
 <contactref element="D10" pad="A"/>
 <wire x1="52.86" y1="27.36" x2="54.13" y2="26.09" width="0.1524" layer="1"/>
 <wire x1="54.13" y1="26.09" x2="58.575" y2="26.09" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="S9" pad="S1_0"/>
+<contactref element="S9" pad="S1"/>
 <contactref element="D9" pad="A"/>
 <wire x1="33.81" y1="27.36" x2="35.08" y2="26.09" width="0.1524" layer="1"/>
 <wire x1="35.08" y1="26.09" x2="39.525" y2="26.09" width="0.1524" layer="1"/>
