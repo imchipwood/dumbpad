@@ -1253,12 +1253,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.75" y1="30.26" x2="7.75" y2="32.47" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED0">
-<contactref element="R1" pad="P$2"/>
-<contactref element="B1" pad="15"/>
-<wire x1="13.86" y1="34.25" x2="16.25" y2="34.25" width="0.1524" layer="1"/>
-<wire x1="19" y1="48.01" x2="17.67" y2="49.34" width="0.1524" layer="1"/>
-<wire x1="16.25" y1="34.25" x2="19" y2="37" width="0.1524" layer="1"/>
-<wire x1="19" y1="37" x2="19" y2="48.01" width="0.1524" layer="1"/>
+<contactref element="B1" pad="13"/>
+<contactref element="R3" pad="P$2"/>
+<wire x1="13.5" y1="35.75" x2="17" y2="35.75" width="0.1524" layer="1"/>
+<wire x1="17" y1="35.75" x2="18.5" y2="37.25" width="0.1524" layer="1"/>
+<wire x1="18.5" y1="37.25" x2="18.5" y2="43.43" width="0.1524" layer="1"/>
+<wire x1="13.86" y1="28.75" x2="12.25" y2="30.36" width="0.1524" layer="1"/>
+<wire x1="12.25" y1="30.36" x2="12.25" y2="34.5" width="0.1524" layer="1"/>
+<wire x1="12.25" y1="34.5" x2="13.5" y2="35.75" width="0.1524" layer="1"/>
+<wire x1="18.5" y1="43.43" x2="17.67" y2="44.26" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED1">
 <contactref element="B1" pad="16"/>
@@ -1380,15 +1383,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="B1" pad="24"/>
 </signal>
 <signal name="LED2">
-<contactref element="B1" pad="13"/>
-<contactref element="R3" pad="P$2"/>
-<wire x1="13.5" y1="35.75" x2="17" y2="35.75" width="0.1524" layer="1"/>
-<wire x1="18.5" y1="43.43" x2="17.67" y2="44.26" width="0.1524" layer="1"/>
-<wire x1="17" y1="35.75" x2="18.5" y2="37.25" width="0.1524" layer="1"/>
-<wire x1="18.5" y1="37.25" x2="18.5" y2="43.43" width="0.1524" layer="1"/>
-<wire x1="13.86" y1="28.75" x2="12.25" y2="30.36" width="0.1524" layer="1"/>
-<wire x1="12.25" y1="30.36" x2="12.25" y2="34.5" width="0.1524" layer="1"/>
-<wire x1="12.25" y1="34.5" x2="13.5" y2="35.75" width="0.1524" layer="1"/>
+<contactref element="B1" pad="15"/>
+<contactref element="R1" pad="P$2"/>
+<wire x1="13.86" y1="34.25" x2="16.25" y2="34.25" width="0.1524" layer="1"/>
+<wire x1="16.25" y1="34.25" x2="19" y2="37" width="0.1524" layer="1"/>
+<wire x1="19" y1="37" x2="19" y2="48.01" width="0.1524" layer="1"/>
+<wire x1="19" y1="48.01" x2="17.67" y2="49.34" width="0.1524" layer="1"/>
 </signal>
 <signal name="COL0">
 <contactref element="B1" pad="8"/>

@@ -3102,14 +3102,14 @@ dumbpad</text>
 </net>
 <net name="LED0" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91" grouprefs="LEDS_RESISTORS"/>
-<label x="162.56" y="177.8" size="1.778" layer="95" grouprefs="LEDS_RESISTORS"/>
+<pinref part="B1" gate="G$1" pin="*10"/>
+<wire x1="307.34" y1="142.24" x2="314.96" y2="142.24" width="0.1524" layer="91" grouprefs="PRO_MICRO"/>
+<label x="314.96" y="142.24" size="1.778" layer="95" grouprefs="PRO_MICRO"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="12(MISO)"/>
-<wire x1="307.34" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91" grouprefs="PRO_MICRO"/>
-<label x="314.96" y="147.32" size="1.778" layer="95" grouprefs="PRO_MICRO"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS_RESISTORS"/>
+<label x="162.56" y="157.48" size="1.778" layer="95" grouprefs="LEDS_RESISTORS"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -3232,14 +3232,14 @@ dumbpad</text>
 </net>
 <net name="LED2" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="*10"/>
-<wire x1="307.34" y1="142.24" x2="314.96" y2="142.24" width="0.1524" layer="91" grouprefs="PRO_MICRO"/>
-<label x="314.96" y="142.24" size="1.778" layer="95" grouprefs="PRO_MICRO"/>
+<pinref part="B1" gate="G$1" pin="12(MISO)"/>
+<wire x1="307.34" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91" grouprefs="PRO_MICRO"/>
+<label x="314.96" y="147.32" size="1.778" layer="95" grouprefs="PRO_MICRO"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS_RESISTORS"/>
-<label x="162.56" y="157.48" size="1.778" layer="95" grouprefs="LEDS_RESISTORS"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91" grouprefs="LEDS_RESISTORS"/>
+<label x="162.56" y="177.8" size="1.778" layer="95" grouprefs="LEDS_RESISTORS"/>
 </segment>
 </net>
 <net name="COL0" class="0">
