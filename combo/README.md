@@ -38,6 +38,8 @@ In the default configuration, the encoder is in column 0, the bottom left corner
 |     |  s  |  s  |  s  |  s  |
 |__X__|  s  |  s  |  s  |  s  |
 
+![single encoder](https://i.imgur.com/8ZPz1gFl.jpg)
+
 ### Dual-Encoder Bottom
 
 One dual-encoder configuration has encoders in the bottom two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
@@ -49,6 +51,8 @@ One dual-encoder configuration has encoders in the bottom two corners of the 4x4
 |     |  s  |  s  |  s  |  s  |
 |     |__X__|  s  |  s  |__X__|
 
+![dual-encoder bottom](https://i.imgur.com/QCqKDMSl.jpg)
+
 ### Dual-Encoder Top
 
 Another dual-encoder configuration has encoders in the top two corners of the 4x4 grid, and switches in the rest of the grid. The socket in column 0 is left empty.
@@ -59,6 +63,8 @@ Another dual-encoder configuration has encoders in the top two corners of the 4x
 |     |  s  |  s  |  s  |  s  |
 |     |  s  |  s  |  s  |  s  |
 |     |  s  |  s  |  s  |  s  |
+
+![dual-encoder top](https://i.imgur.com/Rq6ox2Ol.jpg)
 
 ### No-Encoder
 
