@@ -1,6 +1,6 @@
 # dumbpad
 
-dumbpad is a simple macropad with support for up to two rotary encoders, designed to use [QMK](https://www.qmk.fm) firmware.
+dumbpad is a simple macropad with support for up to two rotary encoders, designed to use [QMK](https://qmk.fm/) firmware.
 
 ## Gallery
 
