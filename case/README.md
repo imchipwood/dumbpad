@@ -1,8 +1,8 @@
 # Dumbpad Case
 
-based off the original design by Anthony @ [customkbd.com.au](http://customkbd.com.au/) - huge thanks to him for his initial work and sending me the STL files I used to create a batch through Shapeways
+based off the original design by Anthony @ [customkbd.com.au](https://customkbd.com/collections/cases/products/dumbpad-3d-printed-highcase) - huge thanks to him for his initial work and sending me the STL files I used to create a batch through Shapeways
 
-Files also available on [Thingiverse](https://www.thingiverse.com/thing:4816409)
+Files also available on [Thingiverse](https://www.thingiverse.com/thing:4816442)
 
 ## Changes from Anthony's design
 
