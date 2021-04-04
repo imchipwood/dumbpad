@@ -18,6 +18,10 @@ If you want the encoder to do something else, you will need to clone the [qmk_fi
 
 ![dumbpad](dumbpad.png)
 
+## Case
+
+A case is available on [Thingiverse](https://www.thingiverse.com/thing:4816409) - thanks to Anthony @ [customkbd.com](http://customkbd.com.au/) for the initial design and being kind enough to send the original design files!
+
 ## Single- vs Dual-Encoder Support
 
 The combined Cherry MX/encoder sockets allow single- and dual-encoder configurations.

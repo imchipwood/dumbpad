@@ -2,6 +2,8 @@
 
 based off the original design by Anthony @ [customkbd.com.au](http://customkbd.com.au/) - huge thanks to him for his initial work and sending me the STL files I used to create a batch through Shapeways
 
+Files also available on [Thingiverse](https://www.thingiverse.com/thing:4816409)
+
 ## Changes from Anthony's design
 
 Main difference is some tabs added in the corners to support the PCB a little better.
