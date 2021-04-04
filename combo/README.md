@@ -2,6 +2,18 @@
 
 This folder houses the dumbpad "combo" design - this layout uses custom "combo" Cherry MX + EC11 rotary encoder sockets that allow a single PCB design to support both single- and dual-encoder layouts.
 
+## Compiling QMK
+
+The [QMK Configurator](https://config.qmk.fm/#/dumbpad/v1x/LAYOUT) can compile the various dumbpad versions
+with basic rotary encoder support. The default rotary encoder actions are as follows:
+
+| Layer | Clockwise | Counter-clockwise |
+|:-:|:-:|:-:|
+| 1 | KC_MS_R (move mouse right) | KC_MS_L (move mouse left) |
+| 2 | KC_EQUALS (Adobe "increase") | KC_MINUS (Adobe "decrease") |
+
+If you want the encoder to do something else, you will need to clone the [qmk_firmare](https://github.com/qmk/qmk_firmware) repository and modify the rotary encoder code. The [QMK docs](https://docs.qmk.fm/#/newbs) can help you with this.
+
 ## Eagle PCB render
 
 ![dumbpad](dumbpad.png)
