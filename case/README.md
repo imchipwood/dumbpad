@@ -8,8 +8,18 @@ Main difference is some tabs added in the corners to support the PCB a little be
 
 I found the original design flexed quite a bit, especially when pressing the rotary encoder. This design aims to fix that.
 
+Also removed some material under the Pro Micro USB port to prevent stress on the port if the Pro Micro is soldered directly to the PCB.
+
 ## Redesigned using SketchUp because
 
 1. I suck at any other 3d modeling software
 1. I've used it before
 1. It was literally quicker to redraw the whole thing in SketchUp than try to learn a new tool.
+
+### dumbpad_case
+
+Basic case.
+
+### dumbpad_case_emboss
+
+Same as dumbpad_case with "dumbpad" emboss on the rear face.
