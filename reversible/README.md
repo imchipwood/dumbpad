@@ -1,7 +1,7 @@
 # dumbpad
 Designed by [imchipwood](https://www.github.com/imchipwood) in Portland, Oregon, USA
 
-Special thanks to [QMK](https://www.qmk.fm) for open-source keyboard firmware
+Special thanks to [QMK](https://qmk.fm/) for open-source keyboard firmware
 
 ## Description
 dumbpad is a simple 4x4 numpad with a rotary encoder. It is designed for the ATmega32u4-based Pro Micro but any ATmega32u4-based microcontroller using the same form factor should work
