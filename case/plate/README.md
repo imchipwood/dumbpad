@@ -5,6 +5,7 @@ I found out that the hot-swap sockets I soldered in cannot hold switches firmly 
 
 I am new to 3D printing and 3D modelling, and this is my first ever model. Please be forgiving and feel free to point out any inappropriates in my design. PR's are welcomed too.
 
+Also available on [Thingiverse](https://www.thingiverse.com/thing:4971965)
 <br/><br/>
 
 
