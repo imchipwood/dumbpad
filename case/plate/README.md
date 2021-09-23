@@ -1,5 +1,5 @@
 ## 3D-Printable Mounting Plate for dumbpad
-Mounting plates designed for dumbpad v1.x ([dumbpad by imchipwood](https://github.com/imchipwood/dumbpad/)); fits in the case designed by Anthony @ [customkbd.com.au](https://customkbd.com.au/)
+Mounting plates designed for dumbpad v1.x ([dumbpad by imchipwood](https://github.com/imchipwood/dumbpad/)); fits in the case designed by Anthony @ [customkbd.com.au](https://customkbd.com.au/); 1.5mm thick.
 
 I found out that the hot-swap sockets I soldered in cannot hold switches firmly enough, and plates were needed. Hence, I started this project.
 
