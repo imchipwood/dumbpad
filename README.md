@@ -17,10 +17,12 @@ Top two boards are v0.2, bottom two are v0.7. Bottom right is v0.7 with componen
 This repo is separated into three main folders:
 
 - [combo](./combo) houses the main PCB design which includes support for up to two rotary encoders and three status LEDs intended for the Pro Micro.
+- [combo_oled](./combo_oled) was created by [KEEBD](https://keebd.com) and replaces the layer LED/Resistors with OLED display support and converted to KiCad.
 - [combo_teensy](./combo_teensy) is the same as [combo](./combo) but designed for the Teensy2.0.
 - [reversible](./reversible) is an older, single-encoder revision using custom reversible Cherry MX sockets to allow the rotary encoder to be moved to the right side.
+- [hotswap_rgb - v3.x](./hotswap_rgb) dumbpad featuring per-key RGB and Hotswap sockets
 
-Each folder includes the Eagle files as well as exported Gerber files for manufacturing. These folders also include readmes specific to those designs - check them for more info.
+Each folder includes the Eagle or KiCad files as well as exported Gerber files for manufacturing. These folders also include readmes specific to those designs - check them for more info.
 
 ### Features
 
@@ -47,7 +49,7 @@ LED behavior can be changed in the QMK software if you'd like them to do somethi
 
 #### (Optional) Reset Button
 
-[combo](./combo) and [reversible](./reversible) have a 6mm switch socket that is optional to include when building your dumbpad. This socket shorts RST to GND to make it easy to enter the bootloader. This is not included in the [combo_teensy](./combo_teensy) design as the Teensy has a reset button already.
+[combo](./combo), [hotswap_rgb](./hotswap_rgb) and [reversible](./reversible) have a 6mm switch socket that is optional to include when building your dumbpad. This socket shorts RST to GND to make it easy to enter the bootloader. This is not included in the [combo_teensy](./combo_teensy) design as the Teensy has a reset button already.
 
 If you don't want to solder this switch, make sure to include the [RESET](https://docs.qmk.fm/#/quantum_keycodes) keycode somewhere in your keymap. If you don't include this keycode, you can still enter the bootloader by shorting RST to GND while plugging in the USB cable.
 
