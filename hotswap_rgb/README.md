@@ -13,14 +13,14 @@ Version of the original dumbpad that features Kailh Hotswap Sockets and (optiona
 
 #### dumbpad v3.1
 
-![pcbs](dumbpad_v3_1_pcbs.jpg)
-![finished](dumbpad_v3_1_finished.jpg)
+![pcbs](img/dumbpad_v3_1_pcbs.jpg)
+![finished](img/dumbpad_v3_1_finished.jpg)
 
 
 #### Renders
-![front](dumbpad_v3_1_front.png)
+![front](img/dumbpad_v3_1_front.png)
 
-![back](dumbpad_v3_1_back.png)
+![back](img/dumbpad_v3_1_back.png)
 
 
 ### Parts
@@ -48,7 +48,7 @@ Solder the SK6812 LEDs with the missing corners aligned with the corners printed
 
 *NOTE:* the orientation of the LEDs changes between the lines!
 
-![rgb](dumbpad_v3_1_rgb_mounting.jpg)
+![rgb](img/dumbpad_v3_1_rgb_mounting.jpg)
 
 
 ## Acknowledgements
