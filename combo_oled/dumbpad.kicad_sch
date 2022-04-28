@@ -839,35 +839,35 @@
     )
   )
 
-  (junction (at 215.9 167.64) (diameter 0) (color 0 0 0 0))
-  (junction (at 187.96 185.42) (diameter 0) (color 0 0 0 0))
   (junction (at 215.9 91.44) (diameter 0) (color 0 0 0 0))
-  (junction (at 154.94 139.7) (diameter 0) (color 0 0 0 0))
-  (junction (at 66.04 99.06) (diameter 0) (color 0 0 0 0))
-  (junction (at 66.04 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 185.42) (diameter 0) (color 0 0 0 0))
-  (junction (at 58.42 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 66.04 157.48) (diameter 0) (color 0 0 0 0))
-  (junction (at 294.64 48.26) (diameter 0) (color 0 0 0 0))
-  (junction (at 66.04 185.42) (diameter 0) (color 0 0 0 0))
-  (junction (at 33.02 167.64) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 187.96 157.48) (diameter 0) (color 0 0 0 0))
-  (junction (at 93.98 139.7) (diameter 0) (color 0 0 0 0))
-  (junction (at 215.9 139.7) (diameter 0) (color 0 0 0 0))
-  (junction (at 187.96 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 33.02 139.7) (diameter 0) (color 0 0 0 0))
-  (junction (at 93.98 111.76) (diameter 0) (color 0 0 0 0))
-  (junction (at 154.94 111.76) (diameter 0) (color 0 0 0 0))
-  (junction (at 215.9 111.76) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 157.48) (diameter 0) (color 0 0 0 0))
   (junction (at 187.96 99.06) (diameter 0) (color 0 0 0 0))
-  (junction (at 22.86 45.72) (diameter 0) (color 0 0 0 0))
-  (junction (at 154.94 167.64) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 99.06) (diameter 0) (color 0 0 0 0))
   (junction (at 33.02 111.76) (diameter 0) (color 0 0 0 0))
+  (junction (at 154.94 111.76) (diameter 0) (color 0 0 0 0))
+  (junction (at 154.94 167.64) (diameter 0) (color 0 0 0 0))
+  (junction (at 215.9 139.7) (diameter 0) (color 0 0 0 0))
+  (junction (at 215.9 111.76) (diameter 0) (color 0 0 0 0))
+  (junction (at 33.02 139.7) (diameter 0) (color 0 0 0 0))
   (junction (at 93.98 167.64) (diameter 0) (color 0 0 0 0))
+  (junction (at 93.98 111.76) (diameter 0) (color 0 0 0 0))
+  (junction (at 187.96 157.48) (diameter 0) (color 0 0 0 0))
+  (junction (at 294.64 48.26) (diameter 0) (color 0 0 0 0))
+  (junction (at 93.98 139.7) (diameter 0) (color 0 0 0 0))
+  (junction (at 215.9 167.64) (diameter 0) (color 0 0 0 0))
+  (junction (at 154.94 139.7) (diameter 0) (color 0 0 0 0))
+  (junction (at 66.04 129.54) (diameter 0) (color 0 0 0 0))
+  (junction (at 187.96 129.54) (diameter 0) (color 0 0 0 0))
+  (junction (at 33.02 167.64) (diameter 0) (color 0 0 0 0))
   (junction (at 58.42 45.72) (diameter 0) (color 0 0 0 0))
+  (junction (at 127 99.06) (diameter 0) (color 0 0 0 0))
+  (junction (at 127 157.48) (diameter 0) (color 0 0 0 0))
+  (junction (at 187.96 185.42) (diameter 0) (color 0 0 0 0))
+  (junction (at 127 129.54) (diameter 0) (color 0 0 0 0))
+  (junction (at 66.04 185.42) (diameter 0) (color 0 0 0 0))
+  (junction (at 66.04 157.48) (diameter 0) (color 0 0 0 0))
+  (junction (at 66.04 99.06) (diameter 0) (color 0 0 0 0))
+  (junction (at 58.42 55.88) (diameter 0) (color 0 0 0 0))
+  (junction (at 127 185.42) (diameter 0) (color 0 0 0 0))
+  (junction (at 22.86 45.72) (diameter 0) (color 0 0 0 0))
 
   (wire (pts (xy 325.12 58.42) (xy 332.74 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1800,7 +1800,7 @@
     )
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 63.5 33.02 270)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 63.5 33.02 270) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 011031ed-b947-44db-8dcf-0a7ab34d185d)
     (property "Reference" "RE_0_1" (id 0) (at 65.024 33.02 0)
@@ -1820,7 +1820,7 @@
     (pin "C" (uuid 1def5546-2be3-43a8-b7bd-6cd1420b6f0d))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 111.76 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10dfe58d-5924-48ab-933f-c7e3e2ab9dce)
     (property "Reference" "D13" (id 0) (at 223.52 114.3 0)
@@ -1839,7 +1839,7 @@
     (pin "C" (uuid e0168b33-5e47-487e-98c9-d9170445e02f))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 55.88 142.24 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 55.88 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1fdefd11-b50e-418e-89cb-2e74de910916)
     (property "Reference" "S2" (id 0) (at 55.88 136.906 0)
@@ -1860,7 +1860,7 @@
     (pin "S2" (uuid 049b68d0-38cb-49c4-891a-8df01abd1a99))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 111.76 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 20dcad96-6dbc-400d-8175-2b5ced473054)
     (property "Reference" "D9" (id 0) (at 162.56 114.3 0)
@@ -1879,7 +1879,7 @@
     (pin "C" (uuid f4fe7533-9817-47d7-8b1d-eee8ea6e7679))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 170.18 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 23c45564-17c5-45d5-92f4-bef4363c91e7)
     (property "Reference" "S11" (id 0) (at 177.8 164.846 0)
@@ -1900,7 +1900,7 @@
     (pin "S2" (uuid 609376ac-b735-4518-ad7f-50a00c8d90ca))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 55.88 111.76 0)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 55.88 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 23e4faf0-19b7-4644-844d-20af5e3fea7e)
     (property "Reference" "RE_0_1" (id 0) (at 55.88 110.236 0)
@@ -1921,7 +1921,7 @@
     (pin "S2" (uuid 0a1ef996-45c2-454d-a226-dea205449c06))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 104.14 33.02 270)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 104.14 33.02 270) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 23fea8d1-082f-48a6-9839-4597eadc6982)
     (property "Reference" "RE_3_0" (id 0) (at 105.664 33.02 0)
@@ -1941,7 +1941,7 @@
     (pin "C" (uuid 77b7c805-cfc6-410b-af50-f6a0504aa2d3))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 195.58 0)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 195.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3a7e2c3a-ce51-4a74-8385-a8fa3e4af833)
     (property "Reference" "RE_3_4" (id 0) (at 238.76 194.056 0)
@@ -1962,7 +1962,7 @@
     (pin "S2" (uuid fed5f6e4-892d-4733-be4b-8c8f35060eb6))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 170.18 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b17d841-99ed-41b2-816c-832781d351f3)
     (property "Reference" "S7" (id 0) (at 116.84 164.846 0)
@@ -1983,7 +1983,7 @@
     (pin "S2" (uuid ddcbb1ba-c36f-489f-aff8-5038d47b60d1))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 114.3 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ca2f63f-e1c0-4c1e-a5d3-752d59b52c0f)
     (property "Reference" "S9" (id 0) (at 177.8 108.966 0)
@@ -2004,7 +2004,7 @@
     (pin "S2" (uuid f6d79eae-0170-4a94-8f99-f076c0d183d8))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 91.44 0)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 40c9043b-c99b-408b-9c89-7faf58655dc3)
     (property "Reference" "RE_3_0" (id 0) (at 238.76 89.916 0)
@@ -2025,7 +2025,7 @@
     (pin "S2" (uuid cc1ece7d-399c-4b27-8e48-cc7b457f76d2))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 111.76 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4257120b-9e3c-482e-8559-66021a478a27)
     (property "Reference" "D5" (id 0) (at 101.6 114.3 0)
@@ -2044,7 +2044,7 @@
     (pin "C" (uuid 5ec6418f-deb3-4ecb-98d7-2ccdc8be75a5))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 114.3 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 445d635a-8e28-47f8-8e01-bdf8cd97214c)
     (property "Reference" "S5" (id 0) (at 116.84 108.966 0)
@@ -2065,7 +2065,7 @@
     (pin "S2" (uuid 10e76823-acd8-4cc6-b309-a9b9899a60c3))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 198.12 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 198.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 452474bd-581d-4943-9523-3a8c1ff34fcc)
     (property "Reference" "S8" (id 0) (at 116.84 192.786 0)
@@ -2086,7 +2086,7 @@
     (pin "S2" (uuid d52178ab-d03d-417a-8f83-b473cb80c3a7))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 195.58 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 195.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4cba1ba0-ac4f-4286-8d36-6860ba676fb9)
     (property "Reference" "D4" (id 0) (at 40.64 198.12 0)
@@ -2105,7 +2105,7 @@
     (pin "C" (uuid 11a138c9-bd59-4956-9d3c-90c5b43e6930))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 238.76 170.18 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 238.76 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 594cfcd7-d181-45ce-abd6-e14bf05f8de1)
     (property "Reference" "S15" (id 0) (at 238.76 164.846 0)
@@ -2126,7 +2126,7 @@
     (pin "S2" (uuid 17199787-712d-4a1e-b209-65d91ef84c18))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 139.7 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 139.7 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5c08b08d-5044-441c-80ad-8952d73c7266)
     (property "Reference" "D2" (id 0) (at 40.64 142.24 0)
@@ -2145,7 +2145,7 @@
     (pin "C" (uuid 9ecb627b-87d1-4225-9b2c-5232ee3f7f9d))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 195.58 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 195.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5e1c6b29-d7c2-48d6-a513-62725ec03210)
     (property "Reference" "D12" (id 0) (at 162.56 198.12 0)
@@ -2164,7 +2164,7 @@
     (pin "C" (uuid d579fae3-31c8-4731-a49c-ec736e1dbf0e))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:VCC") (at 330.2 33.02 0)
+  (symbol (lib_id "dumbpad-eagle-import:VCC") (at 330.2 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5f5e434d-9b2f-44cd-b19d-9ae7063c4c33)
     (property "Reference" "#SUPPLY02" (id 0) (at 330.2 33.02 0)
@@ -2182,7 +2182,7 @@
     (pin "1" (uuid 353a90d8-6924-4b11-ad39-4da22e5a3c72))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 91.44 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 91.44 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 61494490-3c62-4861-8737-70176410e1ca)
     (property "Reference" "D20" (id 0) (at 223.52 93.98 0)
@@ -2201,7 +2201,7 @@
     (pin "C" (uuid 36e038ba-ab6b-4080-bb2b-d673e99b8844))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:GND") (at 231.14 30.48 90)
+  (symbol (lib_id "dumbpad-eagle-import:GND") (at 231.14 30.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 614a41bf-13fa-4a11-94a3-df55f48beb92)
     (property "Reference" "#GND04" (id 0) (at 231.14 30.48 0)
@@ -2219,7 +2219,7 @@
     (pin "1" (uuid 29871221-5a4f-4316-aab3-652c7cba3ee7))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 238.76 142.24 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 238.76 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 67477daf-7c1d-4a58-81de-16f8cc72bda0)
     (property "Reference" "S14" (id 0) (at 238.76 136.906 0)
@@ -2240,7 +2240,7 @@
     (pin "S2" (uuid a0020c4a-c03c-4352-a586-06dbf4e9f42e))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 142.24 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 116.84 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6851ca43-c4f5-4b14-b193-e50f71ef969b)
     (property "Reference" "S6" (id 0) (at 116.84 136.906 0)
@@ -2261,7 +2261,7 @@
     (pin "S2" (uuid 5935abf9-437f-43c6-96b4-73b1ba7d24ef))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 111.76 0)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 238.76 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6b067bb1-7bca-4102-a30a-fe531244e3a5)
     (property "Reference" "RE_3_1" (id 0) (at 238.76 110.236 0)
@@ -2282,7 +2282,7 @@
     (pin "S2" (uuid 6382359b-1dc2-4650-9b86-fa773fde5651))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 195.58 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 195.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6b982a6b-cf87-4401-96c0-90158ae331ed)
     (property "Reference" "D16" (id 0) (at 223.52 198.12 0)
@@ -2301,7 +2301,7 @@
     (pin "C" (uuid 686f0c9c-f85a-4fe0-857f-566ec2b1495b))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 111.76 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6e49847c-4021-49a1-9e31-f7fca0d859c9)
     (property "Reference" "D1" (id 0) (at 40.64 114.3 0)
@@ -2320,7 +2320,7 @@
     (pin "C" (uuid f3d85941-3d7f-4b0d-9561-ba3348cdf039))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 27.94 33.02 270)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 27.94 33.02 270) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 6f2362a7-201f-402a-9940-18ef4047964d)
     (property "Reference" "RE_3_1" (id 0) (at 29.464 33.02 0)
@@ -2340,7 +2340,7 @@
     (pin "C" (uuid 818868a9-d46c-43db-af52-bf175b05d42c))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 139.7 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 139.7 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 796dd122-8c42-402b-a2b6-ca705cc828cc)
     (property "Reference" "D10" (id 0) (at 162.56 142.24 0)
@@ -2359,7 +2359,7 @@
     (pin "C" (uuid 85f7714e-1f9c-458c-af3e-3fa73c814b18))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:GND") (at 58.42 63.5 0)
+  (symbol (lib_id "dumbpad-eagle-import:GND") (at 58.42 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a900f30-54cf-492e-997a-19c25851bd96)
     (property "Reference" "#GND06" (id 0) (at 58.42 63.5 0)
@@ -2377,7 +2377,7 @@
     (pin "1" (uuid 3d8928de-a1e4-4f67-a7cb-0844bf13bddd))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-PTH-6.0MM") (at 218.44 30.48 180)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-PTH-6.0MM") (at 218.44 30.48 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 80b6839b-5500-4c3d-a264-bcdf922160f1)
     (property "Reference" "S17" (id 0) (at 220.98 26.924 0)
@@ -2412,7 +2412,7 @@
     (pin "1" (uuid 6662b025-9eca-4be5-8af7-988e77234a93))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 142.24 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8c33a4df-f905-47e0-96f4-234fd1ec989d)
     (property "Reference" "S10" (id 0) (at 177.8 136.906 0)
@@ -2433,7 +2433,7 @@
     (pin "S2" (uuid e503df7d-b33e-4c62-b35e-6b9aece1c1ad))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 167.64 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 167.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8c849e97-5ae0-433e-bff9-e53ee1877eaf)
     (property "Reference" "D15" (id 0) (at 223.52 170.18 0)
@@ -2452,7 +2452,7 @@
     (pin "C" (uuid 2a732b32-24b8-4ae1-b7a6-7adb2e58718e))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 167.64 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 167.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9859463d-df36-4a61-94a3-1ae3a6966571)
     (property "Reference" "D7" (id 0) (at 101.6 170.18 0)
@@ -2471,7 +2471,7 @@
     (pin "C" (uuid 8800106e-0622-4f23-bb4a-fd31345d83c1))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 195.58 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 195.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c9166ab-44d1-4ecb-a232-2bd4efafdffe)
     (property "Reference" "D8" (id 0) (at 101.6 198.12 0)
@@ -2490,7 +2490,7 @@
     (pin "C" (uuid c25149e0-04c1-4c96-963e-7b1d334f729d))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:SPARKFUN_PRO_MICRO") (at 312.42 55.88 0)
+  (symbol (lib_id "dumbpad-eagle-import:SPARKFUN_PRO_MICRO") (at 312.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a433b249-6916-477f-a6af-924400d6f0d6)
     (property "Reference" "B1" (id 0) (at 304.8 37.338 0)
@@ -2552,7 +2552,7 @@
     (pin "4" (uuid 75b947a4-8c0d-4ea3-8ab3-a3edbff1f3fe))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 167.64 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 160.02 167.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b23929ca-3466-4685-96ec-748e6e89a1c4)
     (property "Reference" "D11" (id 0) (at 162.56 170.18 0)
@@ -2571,7 +2571,7 @@
     (pin "C" (uuid c41f4b3e-640f-4716-bf83-8e2e758b4c18))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 139.7 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 99.06 139.7 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b3291d66-a00d-4af7-bb6e-4bf5f6cb48c5)
     (property "Reference" "D6" (id 0) (at 101.6 142.24 0)
@@ -2590,7 +2590,7 @@
     (pin "C" (uuid eab1ba37-15df-4b88-b6fb-207814049a54))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 198.12 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 177.8 198.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c04a10e7-88ea-49ba-8ee0-c32412098539)
     (property "Reference" "S12" (id 0) (at 177.8 192.786 0)
@@ -2611,7 +2611,7 @@
     (pin "S2" (uuid 4bf640a5-0628-4830-8335-45cda308e26e))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:GND") (at 327.66 83.82 0)
+  (symbol (lib_id "dumbpad-eagle-import:GND") (at 327.66 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c066f024-0876-4a4a-a2d8-ca8582808077)
     (property "Reference" "#GND07" (id 0) (at 327.66 83.82 0)
@@ -2629,7 +2629,7 @@
     (pin "1" (uuid addc7782-a4dc-4fd7-ac34-8baaf747788c))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 167.64 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 38.1 167.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c3666af3-ba79-4017-81eb-a36aad192255)
     (property "Reference" "D3" (id 0) (at 40.64 170.18 0)
@@ -2648,7 +2648,7 @@
     (pin "C" (uuid 9a66c16a-9c8c-4e5b-9c3f-aac464c553bc))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 63.5 55.88 270)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 63.5 55.88 270) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid cacb6c6b-e615-474d-90ea-20dd10836e58)
     (property "Reference" "RE_0_4" (id 0) (at 65.024 55.88 0)
@@ -2668,7 +2668,7 @@
     (pin "C" (uuid 39df18d6-df4d-401c-886c-a06aeb3dd346))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:GND") (at 294.64 83.82 0)
+  (symbol (lib_id "dumbpad-eagle-import:GND") (at 294.64 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d19be93d-22b8-446f-ba5d-e7191065f342)
     (property "Reference" "#GND03" (id 0) (at 294.64 83.82 0)
@@ -2686,7 +2686,7 @@
     (pin "1" (uuid d27a3735-c98b-402d-a488-e6b793ca8bea))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 55.88 195.58 0)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 55.88 195.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d770afc3-84a8-4648-92f0-27b5df0474a9)
     (property "Reference" "RE_0_4" (id 0) (at 55.88 194.056 0)
@@ -2744,7 +2744,7 @@
     (pin "4" (uuid 7f57d950-4b03-4979-a3fe-556fdb6ec46e))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 27.94 55.88 270)
+  (symbol (lib_id "dumbpad-eagle-import:CHERRY-MX-ENCODER") (at 27.94 55.88 270) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid e53b84ba-3d9d-4a8f-8cbd-e4901dac7544)
     (property "Reference" "RE_3_4" (id 0) (at 29.464 55.88 0)
@@ -2764,7 +2764,7 @@
     (pin "C" (uuid 56e557b0-5291-41a4-b93e-803023c53d4b))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 139.7 180)
+  (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 220.98 139.7 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f162d3bb-fc0f-4726-a0cc-a7b5ec574863)
     (property "Reference" "D14" (id 0) (at 223.52 142.24 0)
@@ -2783,7 +2783,7 @@
     (pin "C" (uuid 1ad56cb6-b42e-422f-99ad-dacc2b9120a5))
   )
 
-  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 55.88 170.18 0)
+  (symbol (lib_id "dumbpad-eagle-import:MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY") (at 55.88 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f64a30d7-3a81-4e1c-9e86-96a03116f0ca)
     (property "Reference" "S3" (id 0) (at 55.88 164.846 0)
@@ -2805,7 +2805,7 @@
   )
 
   (sheet_instances
-    (path "/" (page ""))
+    (path "/" (page "#"))
   )
 
   (symbol_instances

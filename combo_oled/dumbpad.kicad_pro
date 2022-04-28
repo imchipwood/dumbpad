@@ -404,7 +404,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -414,7 +414,7 @@
   "sheets": [
     [
       "dd087231-3033-480c-8cac-4355aa4248d9",
-      "dumbpad_0"
+      ""
     ]
   ],
   "text_variables": {}
