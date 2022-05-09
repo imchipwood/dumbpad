@@ -53,9 +53,11 @@ LED behavior can be changed in the QMK software if you'd like them to do somethi
 
 If you don't want to solder this switch, make sure to include the [RESET](https://docs.qmk.fm/#/quantum_keycodes) keycode somewhere in your keymap. If you don't include this keycode, you can still enter the bootloader by shorting RST to GND while plugging in the USB cable.
 
-## PCB Dimensions
+## PCB Dimensions and Cases
 
-97mm x 78.5mm rectangle, with chamfered corners (chamfered edge is 2.828mm long)
+97mm x 78.5mm rectangle, with chamfered corners (chamfered edge is 2.828mm long).
+
+There are several cases available for printing, some can be found in `./case`. Another nice case was designed by [f00k3r](https://twitter.com/f00k3r) and uploadead to printables: [Dumbpad Hotswap Case](https://www.printables.com/model/200528-dumbpad-hotswap-case).
 
 ### Mounting holes
 
@@ -72,8 +74,7 @@ Mounting hole coordinates:
 
 ## Notes
 
-- No case is available but one is in the works. If not using a case, it is recommended that you place some adhesive rubber feet on the bottom to reduce strain on the PCB.
-  - In particular, clickable rotary encoders take significantly more force to click than a keyboard switch, so place a rubber foot directly under or at least near any encoders
+- In particular, clickable rotary encoders take significantly more force to click than a keyboard switch, so place a rubber foot directly under or at least near any encoders
 
 ## Making the PCB
 
