@@ -17,6 +17,6 @@ Also available on [Thingiverse](https://www.thingiverse.com/thing:4971965)
   - [bot left](bot_left.stl)
   - [bot right](bot_right.stl)
 - No Rotary Encoders/Default
-  - [full plate](no_encoders.stl)
+  - [full plate](full_plate.stl)
 
 *Note: The thinnest edge is the right edge, otherwise it won't fit into the case*
