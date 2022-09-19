@@ -23,7 +23,7 @@ Version of the original dumbpad that features Kailh Hotswap Sockets and (optiona
 ![back](img/dumbpad_v3_1_back.png)
 
 
-### Parts
+### Bill of materials
 
 * 16x Kailh Hotswap Sockets (rev 2)
 * 16x Cherry-style mechanical switches
