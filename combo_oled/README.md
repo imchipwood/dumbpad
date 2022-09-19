@@ -34,7 +34,7 @@ Version of the original dumbpad but with support for an OLED display in place of
 
 ## OLED Firmware
 
-The OLED firmware is different and can be found here [Firmware](https://github.com/keebd/qmk_firmware/tree/keebd/keyboards/dumbpad/combo_oled)
+The OLED firmware is different and can be found here [Firmware](https://docs.keebd.com/firmware/)
 
 ## Making the PCB
 
