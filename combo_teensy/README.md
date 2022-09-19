@@ -1,4 +1,4 @@
-# dumbpad/combo
+# dumbpad/combo_teensy
 
 This folder houses the dumbpad "combo_teensy" design - this layout uses custom "combo" Cherry MX + EC11 rotary encoder sockets that allow a single PCB design to support both single- and dual-encoder layouts. It uses Teensy2.0 microcontroller instead of a Pro Micro
 
@@ -66,10 +66,13 @@ You may also choose not to use any rotary encoders if you like!
 
 ### Bill Of Materials
 
-- Cherry-style mechanical switches
-- EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
-- 1n4148 diodes (thru hole) - one per switch and rotary encoder (if using clickable encoder(s))
-- 1x Teensy2.0 or pin-compatible ATmega32u4-based MCU
+1 x PCB
+16 x MX-style mechanical switches
+17 x 1n4148 diodes (thru hole)
+1 x Teensy2.0 
+1 x or 2 x EC11 rotary encoder with pushbutton (7-pin)
 - (optional) 3x 3mm LEDs
-  - (optional) 3x 3mm resistors (for limiting current in LEDs)
+- (optional) 3x 3mm resistors (for limiting current in LEDs)
 - (optional) 6mm SPST switch for resetting MCU
+
+

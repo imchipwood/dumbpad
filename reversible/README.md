@@ -24,7 +24,7 @@ It is designed to run [QMK firmware](https://github.com/qmk/qmk_firmware) - chec
 #### Eagle PCB render
 ![dumbpad](dumbpad.png)
 
-### Parts
+### Bill of materials
 * 16x Cherry-style mechanical switches
 * 17x 1n4148 diodes (thru hole)
 * 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
