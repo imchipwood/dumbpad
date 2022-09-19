@@ -88,10 +88,10 @@ You may also choose not to use any rotary encoders if you like!
 
 ### Bill Of Materials
 
-- Cherry-style mechanical switches
-- EC11 rotary encoder with pushbutton (7-pin) - one or two depending on your desired configuration
-- 1n4148 diodes (thru hole) - one per switch and rotary encoder (if using clickable encoder(s))
-- 1x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU
-- (optional) 3x 3mm LEDs
-  - (optional) 3x 3mm resistors (for limiting current in LEDs)
-- (optional) 6mm SPST switch for resetting MCU
+- 1 x PCB
+- 16 x MX-style mechanical switches
+- 17 x 1n4148 diodes (thru hole)
+- 1 x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU (Or teensy for the teensy version)
+- 1x or 2x EC11 rotary encoder with pushbutton (7-pin)
+- (optional) 1 x 6mm tactile switch (to reset MCU)
+- (optional) 3x 3mm resistors (for limiting current in LEDs)
