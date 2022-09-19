@@ -1,4 +1,4 @@
-# dumbpad/combo
+# dumbpad/combo_teensy
 
 This folder houses the dumbpad "combo_teensy" design - this layout uses custom "combo" Cherry MX + EC11 rotary encoder sockets that allow a single PCB design to support both single- and dual-encoder layouts. It uses Teensy2.0 microcontroller instead of a Pro Micro
 
