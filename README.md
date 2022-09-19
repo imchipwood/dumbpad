@@ -1,4 +1,6 @@
-# dumbpad
+
+ <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://imgur.com/9RIxP0s.png" alt="dumbpad logo" width="150"></a>
+
 
 dumbpad is a simple macropad with support for up to two rotary encoders, designed to use [QMK](https://qmk.fm/) firmware.
 
@@ -8,13 +10,9 @@ dumbpad is a simple macropad with support for up to two rotary encoders, designe
 
 Top two boards are v0.2, bottom two are v0.7. Bottom right is v0.7 with components soldered to the bottom, moving the rotary encoder to the right side.
 
-![v0.6_dualencoder by chicocode](https://i.imgur.com/OkSRXWT.jpg)
-
-[v0.6_dualencoder](https://www.github.com/imchipwood/dumbpad/tree/v0.6_dualencoder) by chicocode, boards likely manufactured by [JLC PCB](https://www.jlcpcb.com)
-
 ## In this repository
 
-This repo is separated into three main folders:
+This repo is separated into five main folders:
 
 - [combo](./combo) houses the main PCB design which includes support for up to two rotary encoders and three status LEDs intended for the Pro Micro.
 - [combo_oled](./combo_oled) was created by [KEEBD](https://keebd.com) and replaces the layer LED/Resistors with OLED display support and converted to KiCad.
@@ -23,6 +21,32 @@ This repo is separated into three main folders:
 - [hotswap_rgb - v3.x](./hotswap_rgb) dumbpad featuring per-key RGB and Hotswap sockets
 
 Each folder includes the Eagle or KiCad files as well as exported Gerber files for manufacturing. These folders also include readmes specific to those designs - check them for more info.
+
+## Getting Started
+To build your own dumbpad you will need to follow a couple of steps to get started. Described below are the minimal steps you will need to take to to assemble one dumbpad but every board configuration might require different steps. 
+#### 1. Choose version. 
+You can choose from one of the five different versions shown in the step above.
+#### 2. Order your parts. 
+Every board needs at least the following components but check the right folder for your parts list.
+- 1 x PCB
+- 16 x MX-style mechanical switches
+- 17 x 1n4148 diodes (thru hole)
+- 1 x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU (Or teensy for the teensy version)
+- (optional) 1 x EC11 rotary encoder with pushbutton (7-pin)
+- (optional) 1 x 6mm tactile switch (to reset MCU)
+- LEDS and OLED required for different configurations
+
+#### 3. Assemble your dumbpad
+For this step you will need a minimum of a soldering iron and a pair of tweezers
+- Solder the diodes, switches, and Arduino Pro Micro (Or teensy) to the PCB
+
+#### 4. Flash your firmware
+You can use QMK to create and flash firmware to your dumbpad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/friedrich/LAYOUT) and select dumbpad/[your version]. Once you have configured your baord, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
+
+Once you have downloaded a .HEX firmware file we can head over to the [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and flash the firmware. Plug in your dumbpad to your computer and set your QMK toolbox to ATmega32U4 for most Arduino Pro Micros. You will need to press your 6mm tacticle switch twice to enter the bootloader, wait for your computer to reconize the dumbpad and click on flash.
+
+
+
 
 ### Features
 
