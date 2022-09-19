@@ -28,13 +28,13 @@ To build your own dumbpad you will need to follow a couple of steps to get start
 You can choose from one of the five different versions shown in the step above.
 #### 2. Order your parts. 
 Every board needs at least the following components but check the right folder for your parts list.
-- 1 x PCB
-- 16 x MX-style mechanical switches
-- 17 x 1n4148 diodes (thru hole)
-- 1 x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU (Or teensy for the teensy version)
-- (optional) 1 x EC11 rotary encoder with pushbutton (7-pin)
-- (optional) 1 x 6mm tactile switch (to reset MCU)
-- LEDS and OLED required for different configurations
+* 1 x PCB
+* 16 x MX-style mechanical switches
+* 17 x 1n4148 diodes (thru hole)
+* 1 x Arduino Pro Micro or pin-compatible ATmega32u4-based MCU (Or teensy for the teensy version)
+* (optional) 1 x EC11 rotary encoder with pushbutton (7-pin)
+* (optional) 1 x 6mm tactile switch (to reset MCU)
+* LEDS and OLED required for different configurations
 
 #### 3. Assemble your dumbpad
 For this step you will need a minimum of a soldering iron and a pair of tweezers
