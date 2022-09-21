@@ -103,3 +103,5 @@ Mounting hole coordinates:
 ## Making the PCB
 
 Submit one of the gerber zips to your preferred manufacturer (or the Eagle .brd file if supported).
+
+![render of boards](https://i.imgur.com/op5A2IL.png)
