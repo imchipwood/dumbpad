@@ -102,6 +102,6 @@ Mounting hole coordinates:
 
 ## Making the PCB
 
-Submit one of the gerber zips to your preferred manufacturer (or the Eagle .brd file if supported).
+Every parts list includes at least one PCB. You can order a PCb yourself by different manufactures like; [PCB way](https://www.pcbway.com/) or [JLC Pcb](https://jlcpcb.com/) Submit one of the gerber zips from the folder of the type of board you want to make to your preferred manufacturer (or the Eagle .brd file if supported).
 
 ![render of boards](https://i.imgur.com/op5A2IL.png)
