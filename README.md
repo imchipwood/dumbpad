@@ -41,7 +41,7 @@ For this step you will need a minimum of a soldering iron and a pair of tweezers
 - Solder the diodes, switches, and Arduino Pro Micro (Or teensy) to the PCB
 
 #### 4. Flash your firmware
-You can use QMK to create and flash firmware to your dumbpad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/friedrich/LAYOUT) and select dumbpad/[your version]. Once you have configured your baord, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
+You can use QMK to create and flash firmware to your dumbpad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/friedrich/LAYOUT) and select dumbpad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/dumbpad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dumbpad) for compiling & uploading instructions
 
 Once you have downloaded a .HEX firmware file we can head over to the [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and flash the firmware. Plug in your dumbpad to your computer and set your QMK toolbox to ATmega32U4 for most Arduino Pro Micros. You will need to press your 6mm tacticle switch twice to enter the bootloader, wait for your computer to reconize the dumbpad and click on flash.
 
