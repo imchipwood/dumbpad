@@ -5,6 +5,8 @@ Designed by [KEEBD](https://www.keebd.com).
 ## Description
 
 Version of the original dumbpad but with support for an OLED display in place of the LED's and resistors.
+The EC11 rotary encoder-compatible slots have a non-plated through-punch for their mounting point on each side, which may be flagged as erronious by PCB manufacturers but has no effect on functionality.
+
 
 ### Revisions
 
