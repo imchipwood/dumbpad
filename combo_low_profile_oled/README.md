@@ -1,19 +1,19 @@
 # dumbpad - Low Profile OLED (aka v1.3)
 
-Designed by [ReyvanZA]
+Modified by [ReyvanZA]
 
 ## Description
 
 Version of the original dumbpad but with support for an OLED display by Keebd, now with gateron low profile hot swap sockets.
 There are also mounting points for a uController cover, and through holes for wires if using a ProMicro nrf52840 for the battery wires (admittedly not overly practical).
 
-Only 1.3.1 has been tested with the gateron low profile hot-swap sockets, but the design files for 1.3 and 1.3.2 are included for reference. Keycap clearance has not been tested yet.
+Only 1.3.1 has been tested with the gateron low profile hot-swap sockets. The gerber files included (see manufacturing notes at the end)
 
 ### Revisions
 
 - 1.2 Keebd OLED with resistors
 - 1.3.1 Gateron low profile hot-swap sockets (Confirmed working - need low profile keys to test)
-- 1.3.2 (Untested) Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover. Placed resistors on back of PCB so I can use an alignment plat for the switches.
+- 1.3.2 (Untested) Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover. Placed resistors on back of PCB so I can use an alignment plate for the switches to hold them more steadily.
 
 ### References
 
