@@ -13,20 +13,18 @@ Only 1.3.1 has been tested with the gateron low profile hot-swap sockets, but th
 
 - 1.2 Keebd OLED with resistors
 - 1.3.1 Gateron low profile hot-swap sockets (Confirmed working - need low profile keys to test)
-- 1.3.2 Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover.
+- 1.3.2 (Untested) Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover. Placed resistors on back of PCB so I can use an alignment plat for the switches.
 
 ### References
 
 - Gateron low profile hot-swap sockets: https://gist.github.com/niw/22c68c2d7c869b990588b4875a654442
 
-### Challenges/Todo
-
-- Check keycap clearance
-
 #### dumbpad v1.3.1
 
 ![pcbs](img/pcb.jpg)
 ![finished](img/switches.jpg)
+![Keys1](img/dumppad_oled_v1_3_1_keys.jpg)
+![keys2](img/dumppad_oled_v1_3_1_keys_2.jpg)
 
 #### Renders (Latest Revision)
 
