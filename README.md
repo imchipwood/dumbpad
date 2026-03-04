@@ -16,6 +16,7 @@ This repo is separated into five main folders:
 
 - [combo](./combo) houses the main PCB design which includes support for up to two rotary encoders and three status LEDs intended for the Pro Micro.
 - [combo_oled](./combo_oled) was created by [KEEBD](https://keebd.com) and replaces the layer LED/Resistors with OLED display support and converted to KiCad.
+- [combo_oled_low_profile](./combo_low_profile_oled) Revision of [combo_oled](./combo_oled) with low profile hot swap sockets for Gateron v2 switches
 - [combo_teensy](./combo_teensy) is the same as [combo](./combo) but designed for the Teensy2.0.
 - [reversible](./reversible) is an older, single-encoder revision using custom reversible Cherry MX sockets to allow the rotary encoder to be moved to the right side.
 - [hotswap_rgb - v3.x](./hotswap_rgb) dumbpad featuring per-key RGB and Hotswap sockets

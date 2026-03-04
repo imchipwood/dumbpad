@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "dumbpad-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/dumbpad-eagle-import.kicad_sym")(options "")(descr ""))
+)
